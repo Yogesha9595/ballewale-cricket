@@ -1,0 +1,9 @@
+baseURL: "https://ballewale.in/cricket/"
+title: "BalleWale Cricket News"
+theme: "PaperMod"
+
+params:
+  defaultTheme: light
+  homeInfoParams:
+    Title: "BalleWale Cricket News"
+    Content: "Live cricket scores, latest news and insights."

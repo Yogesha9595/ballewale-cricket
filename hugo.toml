@@ -1,0 +1,21 @@
+baseURL = "https://ballewale.in/cricket/"
+title = "BalleWale Cricket News"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+  Title = "BalleWale Cricket News"
+  Content = "Live cricket scores, latest news and insights."
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
