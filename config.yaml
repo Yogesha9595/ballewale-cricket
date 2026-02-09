@@ -1,9 +1,30 @@
-baseURL: "https://ballewale.in/cricket/"
-title: "BalleWale Cricket News"
+baseURL: "https://ballewale.in/"
+title: "BalleWale"
 theme: "PaperMod"
 
 params:
   defaultTheme: light
+
   homeInfoParams:
-    Title: "BalleWale Cricket News"
-    Content: "Live cricket scores, latest news and insights."
+    Title: "BalleWale"
+    Content: "Latest cricket news, match updates, and global cricket stories."
+
+  assets:
+    favicon: "/favicon.svg"
+    favicon16x16: "/favicon.svg"
+    favicon32x32: "/favicon.svg"
+    apple_touch_icon: "/favicon.svg"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: github
+      url: "https://github.com/"

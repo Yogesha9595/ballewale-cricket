@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .bg { fill: #e11d48; }      /* red background */
+    .fg { fill: #ffffff; }      /* white letter */
+
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #ffffff; }    /* white background in dark mode */
+      .fg { fill: #e11d48; }    /* red letter in dark mode */
+    }
+  </style>
+
+  <circle cx="50" cy="50" r="50" class="bg"/>
+  <text x="50" y="63"
+        font-size="60"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        class="fg">b</text>
+</svg>
