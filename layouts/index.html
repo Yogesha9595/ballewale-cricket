@@ -1,91 +1,167 @@
 {{ define "main" }}
 
+<!-- =========================
+   HERO: TOP STORY
+========================= -->
 <section class="hero">
   {{ $top := first 1 (where site.RegularPages "Type" "posts") }}
   {{ range $top }}
-  <div class="top-story">
-    <a href="{{ .RelPermalink }}">
+  <article class="top-story">
+    <a href="{{ .RelPermalink }}" class="top-link">
+
       {{ with .Params.image }}
-      <img src="{{ . }}" alt="{{ $.Title }}">
+      <div class="top-image">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="eager">
+      </div>
       {{ end }}
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description }}</p>
+
+      <div class="top-content">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}
+        <p>{{ . }}</p>
+        {{ end }}
+      </div>
+
     </a>
-  </div>
+  </article>
   {{ end }}
 </section>
 
+<!-- =========================
+   LIVE SCORES
+========================= -->
 <section class="live-score">
   <h2>🏏 Live Scores</h2>
   <div class="score-widget">
     <iframe
       src="https://www.cricwaves.com/cricket/widgets/live-scores-widget.html"
-      scrolling="no">
+      scrolling="no"
+      loading="lazy">
     </iframe>
   </div>
 </section>
 
+<!-- =========================
+   TRENDING
+========================= -->
 <section class="trending">
   <h2>🔥 Trending Now</h2>
   <div class="grid">
-    {{ range first 3 (where site.RegularPages "Type" "posts") }}
+    {{ range first 4 (where site.RegularPages "Type" "posts") }}
     <article class="card">
       <a href="{{ .RelPermalink }}">
+
         {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}">
+        <div class="card-image">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </div>
         {{ end }}
-        <h3>{{ .Title }}</h3>
+
+        <div class="card-content">
+          <h3>{{ .Title }}</h3>
+        </div>
+
       </a>
     </article>
     {{ end }}
   </div>
 </section>
 
+<!-- =========================
+   INDIA
+========================= -->
 <section class="category">
   <h2>🇮🇳 India</h2>
   <div class="grid">
     {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "India")) }}
     <article class="card">
       <a href="{{ .RelPermalink }}">
+
         {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}">
+        <div class="card-image">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </div>
         {{ end }}
-        <h3>{{ .Title }}</h3>
+
+        <div class="card-content">
+          <h3>{{ .Title }}</h3>
+        </div>
+
       </a>
     </article>
     {{ end }}
   </div>
 </section>
 
+<!-- =========================
+   IPL
+========================= -->
 <section class="category">
   <h2>🏏 IPL</h2>
   <div class="grid">
     {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "IPL")) }}
     <article class="card">
       <a href="{{ .RelPermalink }}">
+
         {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}">
+        <div class="card-image">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </div>
         {{ end }}
-        <h3>{{ .Title }}</h3>
+
+        <div class="card-content">
+          <h3>{{ .Title }}</h3>
+        </div>
+
       </a>
     </article>
     {{ end }}
   </div>
 </section>
 
+<!-- =========================
+   WORLD
+========================= -->
 <section class="category">
   <h2>🌍 World Cricket</h2>
   <div class="grid">
     {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "World")) }}
     <article class="card">
       <a href="{{ .RelPermalink }}">
+
         {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}">
+        <div class="card-image">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </div>
         {{ end }}
-        <h3>{{ .Title }}</h3>
+
+        <div class="card-content">
+          <h3>{{ .Title }}</h3>
+        </div>
+
       </a>
     </article>
     {{ end }}
+  </div>
+</section>
+
+<!-- =========================
+   SUPPORT / NEWSLETTER BLOCK
+========================= -->
+<section class="support">
+  <div class="support-box">
+    <h2>❤️ Support BalleWale</h2>
+    <p>
+      Independent cricket journalism powered by automation and passion.
+      If you enjoy our content, consider supporting us.
+    </p>
+
+    <div class="support-actions">
+      <img src="/images/bmc-qr.png" alt="Support BalleWale" class="qr">
+      <p class="support-note">
+        Scan to support via BuyMeACoffee
+      </p>
+    </div>
   </div>
 </section>
 
