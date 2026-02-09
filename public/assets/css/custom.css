@@ -1,0 +1,203 @@
+/* ===============================
+   HERO SECTION
+================================= */
+
+.hero {
+  margin: 20px 0 30px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.top-story h1 {
+  font-size: 2rem;
+  margin: 12px 0 6px;
+  line-height: 1.3;
+}
+
+.top-story p {
+  color: var(--secondary);
+  font-size: 1rem;
+}
+
+/* ===============================
+   LIVE SCORE
+================================= */
+
+.live-score {
+  margin: 20px 0 35px;
+}
+
+.live-score h2 {
+  margin-bottom: 12px;
+}
+
+.score-widget {
+  background: var(--entry);
+  border-radius: 14px;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.score-widget iframe {
+  width: 100%;
+  height: 120px;
+  border: none;
+}
+
+/* ===============================
+   SECTION HEADINGS
+================================= */
+
+.trending h2,
+.category h2 {
+  margin: 30px 0 15px;
+  font-size: 1.4rem;
+}
+
+/* ===============================
+   GRID LAYOUT
+================================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+/* ===============================
+   CARD DESIGN
+================================= */
+
+.card {
+  background: var(--entry);
+  padding: 10px;
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* ===============================
+   ADSENSE SECTION
+================================= */
+
+.ad-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.ad-placeholder {
+  background: var(--entry);
+  padding: 30px;
+  border-radius: 12px;
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+/* ===============================
+   MOBILE OPTIMIZATION
+================================= */
+
+@media (max-width: 768px) {
+  .top-story h1 {
+    font-size: 1.6rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .card img {
+    height: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero img {
+    max-height: 260px;
+  }
+
+  .top-story h1 {
+    font-size: 1.4rem;
+  }
+}
+/* ===============================
+   ARTICLE PAGE
+================================= */
+
+.post-single {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.post-cover img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.post-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.article-ad {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.post-footer {
+  margin-top: 40px;
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+
+.post-footer a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: var(--primary);
+}

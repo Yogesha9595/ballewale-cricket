@@ -1,30 +1,87 @@
 baseURL: "https://ballewale.in/"
 title: "BalleWale"
 theme: "PaperMod"
+languageCode: "en-us"
+enableRobotsTXT: true
+
+# Clean URLs
+permalinks:
+  posts: "/:slug/"
+
+# Taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+
+# Sitemap
+sitemap:
+  changefreq: daily
+  priority: 0.7
+  filename: sitemap.xml
 
 params:
   defaultTheme: light
+  disableThemeToggle: false
 
+  # Homepage hero
   homeInfoParams:
     Title: "BalleWale"
-    Content: "Latest cricket news, match updates, and global cricket stories."
+    Content: "Latest cricket news, live scores, match updates, and global cricket stories."
 
+  # Favicon / brand icon
   assets:
     favicon: "/favicon.svg"
     favicon16x16: "/favicon.svg"
     favicon32x32: "/favicon.svg"
     apple_touch_icon: "/favicon.svg"
 
+  # SEO & UI settings
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
 
+  # Social preview defaults
+  images:
+    - "/favicon.svg"
+
+  # Homepage sections
+  mainSections:
+    - posts
+
+  # Enable categories and tags on posts
+  ShowPostNavLinks: true
+  ShowToc: false
+
+  # Social links
   socialIcons:
     - name: twitter
       url: "https://twitter.com/"
     - name: github
       url: "https://github.com/"
+
+# Menu (top navigation)
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: india
+      name: India
+      url: /categories/india/
+      weight: 2
+    - identifier: ipl
+      name: IPL
+      url: /categories/ipl/
+      weight: 3
+    - identifier: world
+      name: World
+      url: /categories/world/
+      weight: 4
+    - identifier: trending
+      name: Trending
+      url: /tags/trending/
+      weight: 5

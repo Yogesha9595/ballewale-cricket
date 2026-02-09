@@ -1,0 +1,107 @@
+{{ define "main" }}
+
+<!-- HERO / TOP STORY -->
+<section class="hero">
+  {{ $top := first 1 (where site.RegularPages "Type" "posts") }}
+  {{ range $top }}
+  <div class="top-story">
+    <a href="{{ .RelPermalink }}">
+      {{ with .Params.image }}
+      <img src="{{ . }}" alt="{{ $.Title }}" loading="eager">
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description }}</p>
+    </a>
+  </div>
+  {{ end }}
+</section>
+
+<!-- LIVE SCORE -->
+<section class="live-score">
+  <h2>🏏 Live Scores</h2>
+  <div class="score-widget">
+    <iframe
+      src="https://www.cricwaves.com/cricket/widgets/live-scores-widget.html"
+      loading="lazy"
+      title="Live Cricket Scores"
+      scrolling="no">
+    </iframe>
+  </div>
+</section>
+
+<!-- TRENDING -->
+<section class="trending">
+  <h2>🔥 Trending Now</h2>
+  <div class="grid">
+    {{ range first 3 (where site.RegularPages "Type" "posts") }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        {{ end }}
+        <h3>{{ .Title }}</h3>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<!-- INDIA CATEGORY -->
+<section class="category">
+  <h2>🇮🇳 India</h2>
+  <div class="grid">
+    {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "India")) }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        {{ end }}
+        <h3>{{ .Title }}</h3>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<!-- IPL CATEGORY -->
+<section class="category">
+  <h2>🏏 IPL</h2>
+  <div class="grid">
+    {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "IPL")) }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        {{ end }}
+        <h3>{{ .Title }}</h3>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<!-- WORLD CRICKET CATEGORY -->
+<section class="category">
+  <h2>🌍 World Cricket</h2>
+  <div class="grid">
+    {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "World")) }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        {{ end }}
+        <h3>{{ .Title }}</h3>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<!-- ADSENSE SAFE AREA -->
+<section class="ad-section">
+  <div class="ad-placeholder">
+    Advertisement
+  </div>
+</section>
+
+{{ end }}
