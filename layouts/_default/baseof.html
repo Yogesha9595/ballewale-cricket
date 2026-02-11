@@ -2,17 +2,68 @@
 <html lang="en">
 <head>
   {{ partial "head.html" . }}
+
+  <!-- BalleWale custom stylesheet -->
+  {{ $style := resources.Get "css/ballewale.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+  <!-- Analytics + AdSense -->
+  {{ partial "analytics.html" . }}
 </head>
 
-<body class="list">
+<body>
 
+  <!-- ESPN-style header strip -->
+  {{ partial "header-strip.html" . }}
+
+  <!-- Main header -->
   {{ partial "header.html" . }}
 
   <main class="main">
     {{ block "main" . }}{{ end }}
   </main>
 
+  <!-- Footer -->
   {{ partial "footer.html" . }}
+
+  <!-- Live Score Script (Homepage only) -->
+  {{ if .IsHome }}
+  <script>
+  async function loadLiveScore() {
+    const card = document.getElementById("live-score");
+    if (!card) return;
+
+    try {
+      const res = await fetch("https://ballewale-rss-ai.yogesha5959.workers.dev/api/live.json");
+      const data = await res.json();
+
+      document.getElementById("team1-name").textContent = data.team1;
+      document.getElementById("team1-score").textContent = data.score1;
+
+      document.getElementById("team2-name").textContent = data.team2;
+      document.getElementById("team2-score").textContent = data.score2;
+
+      document.getElementById("match-status").textContent = data.status;
+      document.getElementById("match-overs").textContent = data.overs;
+
+      document.getElementById("live-commentary").textContent = data.commentary;
+
+      // Flags
+      document.getElementById("team1-flag").src =
+        "https://flagcdn.com/w40/" + data.flag1 + ".png";
+
+      document.getElementById("team2-flag").src =
+        "https://flagcdn.com/w40/" + data.flag2 + ".png";
+
+    } catch (e) {
+      console.log("Live score not available");
+    }
+  }
+
+  loadLiveScore();
+  setInterval(loadLiveScore, 30000);
+  </script>
+  {{ end }}
 
 </body>
 </html>

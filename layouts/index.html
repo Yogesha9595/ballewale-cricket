@@ -3,145 +3,168 @@
 <!-- =========================
    FULL-WIDTH HERO SCOREBOARD
 ========================= -->
-<section class="hero-score">
+<section class="bw-hero">
+  <div class="bw-hero-inner">
 
-  <div class="hero-overlay">
-    <div class="score-container">
-      <h2>🏏 Live Match Scores</h2>
+    <div class="bw-score-card" id="live-score">
+      <div class="bw-score-inner">
 
-      <div class="score-widget">
-        <iframe
-          src="https://www.cricwaves.com/cricket/widgets/live-scores-widget.html"
-          scrolling="no"
-          loading="lazy">
-        </iframe>
+        <!-- Team 1 -->
+        <div class="team">
+          <img id="team1-flag" class="team-logo" src="" alt="">
+          <span id="team1-name" class="team-name">TEAM A</span>
+          <span id="team1-score" class="team-score">--</span>
+        </div>
+
+        <!-- Match Info -->
+        <div class="match-info">
+          <span id="match-status" class="status">LIVE</span>
+          <span id="match-overs" class="overs">--</span>
+        </div>
+
+        <!-- Team 2 -->
+        <div class="team">
+          <img id="team2-flag" class="team-logo" src="" alt="">
+          <span id="team2-name" class="team-name">TEAM B</span>
+          <span id="team2-score" class="team-score">--</span>
+        </div>
+
+      </div>
+
+      <!-- Live commentary -->
+      <div id="live-commentary" class="bw-commentary">
+        Loading live match update...
       </div>
     </div>
-  </div>
 
+  </div>
 </section>
 
 <!-- =========================
-   TRENDING
+   DISCOVER-STYLE FEATURED STORY
 ========================= -->
-<section class="trending">
-  <h2>🔥 Trending Now</h2>
-  <div class="grid">
-    {{ range first 4 (where site.RegularPages "Type" "posts") }}
-    <article class="card">
+<section class="bw-featured-wrap">
+  <div class="bw-featured-container">
+
+    {{ $posts := where site.RegularPages "Type" "posts" }}
+    {{ $featured := first 1 $posts }}
+
+    {{ range $featured }}
+    <article class="bw-featured">
       <a href="{{ .RelPermalink }}">
-
-        {{ with .Params.image }}
-        <div class="card-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-        </div>
-        {{ end }}
-
-        <div class="card-content">
-          <h3>{{ .Title }}</h3>
+        <div class="bw-featured-image">
+          <img
+            src="{{ .Params.image | default "/images/default.jpg" }}"
+            alt="{{ .Title }}"
+            loading="eager">
         </div>
 
+        <div class="bw-featured-content">
+          {{ with .Params.categories }}
+          <span class="bw-badge">{{ index . 0 }}</span>
+          {{ end }}
+
+          <h1 class="bw-featured-title">
+            {{ .Title }}
+          </h1>
+
+          {{ with .Params.description }}
+          <p class="bw-featured-desc">
+            {{ . }}
+          </p>
+          {{ end }}
+        </div>
       </a>
     </article>
     {{ end }}
+
   </div>
 </section>
 
 <!-- =========================
-   INDIA
+   MAIN CONTENT AREA
 ========================= -->
-<section class="category">
-  <h2>🇮🇳 India</h2>
-  <div class="grid">
-    {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "India")) }}
-    <article class="card">
-      <a href="{{ .RelPermalink }}">
+<section class="bw-content-wrap">
+  <div class="bw-layout">
 
-        {{ with .Params.image }}
-        <div class="card-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-        </div>
-        {{ end }}
+    <!-- LEFT STICKY AD -->
+    <aside class="bw-left-ad">
+      <div class="ad-box">
+        Ad Banner
+      </div>
+    </aside>
 
-        <div class="card-content">
-          <h3>{{ .Title }}</h3>
-        </div>
+    <!-- MAIN NEWS GRID -->
+    <main class="bw-main">
 
-      </a>
-    </article>
-    {{ end }}
-  </div>
-</section>
+      <!-- Latest News -->
+      <section class="bw-section">
+        <h2 class="section-title">Latest News</h2>
 
-<!-- =========================
-   IPL
-========================= -->
-<section class="category">
-  <h2>🏏 IPL</h2>
-  <div class="grid">
-    {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "IPL")) }}
-    <article class="card">
-      <a href="{{ .RelPermalink }}">
+        <div class="bw-post-grid">
+          {{ range first 9 (after 1 $posts) }}
+          <article class="post-card">
+            <a href="{{ .RelPermalink }}">
 
-        {{ with .Params.image }}
-        <div class="card-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-        </div>
-        {{ end }}
+              <div class="card-image">
+                <img
+                  src="{{ .Params.image | default "/images/default.jpg" }}"
+                  alt="{{ .Title }}"
+                  loading="lazy">
+              </div>
 
-        <div class="card-content">
-          <h3>{{ .Title }}</h3>
-        </div>
+              <div class="card-content">
+                {{ with .Params.categories }}
+                <span class="card-category">
+                  {{ index . 0 }}
+                </span>
+                {{ end }}
 
-      </a>
-    </article>
-    {{ end }}
-  </div>
-</section>
+                <h3 class="card-title">
+                  {{ .Title }}
+                </h3>
+              </div>
 
-<!-- =========================
-   WORLD
-========================= -->
-<section class="category">
-  <h2>🌍 World Cricket</h2>
-  <div class="grid">
-    {{ range first 4 (where site.RegularPages "Params.categories" "intersect" (slice "World")) }}
-    <article class="card">
-      <a href="{{ .RelPermalink }}">
-
-        {{ with .Params.image }}
-        <div class="card-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-        </div>
-        {{ end }}
-
-        <div class="card-content">
-          <h3>{{ .Title }}</h3>
+            </a>
+          </article>
+          {{ end }}
         </div>
 
-      </a>
-    </article>
-    {{ end }}
-  </div>
-</section>
+      </section>
 
-<!-- =========================
-   SUPPORT / NEWSLETTER BLOCK
-========================= -->
-<section class="support">
-  <div class="support-box">
-    <h2>❤️ Support BalleWale</h2>
-    <p>
-      Independent cricket journalism powered by automation and passion.
-      If you enjoy our content, consider supporting us.
-    </p>
+    </main>
 
-    <div class="support-actions">
-      <img src="/images/bmc-qr.png" alt="Support BalleWale" class="qr">
-      <p class="support-note">
-        Scan to support via BuyMeACoffee
-      </p>
-    </div>
+    <!-- RIGHT SIDEBAR -->
+    <aside class="bw-sidebar">
+
+      <!-- Categories -->
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="/categories/india/">India</a></li>
+          <li><a href="/categories/ipl/">IPL</a></li>
+          <li><a href="/categories/world/">World</a></li>
+          <li><a href="/categories/t20/">T20</a></li>
+          <li><a href="/categories/test/">Test</a></li>
+        </ul>
+      </div>
+
+      <!-- Sidebar Ad -->
+      <div class="sidebar-ad">
+        Sidebar Ad
+      </div>
+
+      <!-- Support -->
+      <div class="sidebar-box">
+        <h4>Support BalleWale</h4>
+        <img
+          src="/images/bmc-qr.png"
+          alt="Support"
+          style="width:100%; border-radius:8px;">
+      </div>
+
+    </aside>
+
   </div>
 </section>
 

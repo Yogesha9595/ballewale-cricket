@@ -1,43 +1,73 @@
 {{ define "main" }}
 
-<article class="post-single">
+<article class="bw-article">
 
-  <!-- Featured Image -->
+  <!-- =========================
+       LARGE HERO IMAGE (DISCOVER)
+  ========================= -->
   {{ with .Params.image }}
-  <div class="post-cover">
-    <img src="{{ . }}" alt="{{ $.Title }}" loading="eager">
+  <div class="bw-article-cover">
+    <img
+      src="{{ . }}"
+      alt="{{ $.Title }}"
+      loading="eager">
   </div>
   {{ end }}
 
-  <!-- Article Header -->
-  <header class="post-header">
-    <h1 class="post-title">{{ .Title }}</h1>
+  <!-- =========================
+       ARTICLE HEADER
+  ========================= -->
+  <header class="bw-article-header">
 
-    <div class="post-meta">
-      <span>By BalleWale Editorial Team</span>
-      <span>•</span>
-      <span>{{ .Date.Format "Jan 2, 2006" }}</span>
-      <span>•</span>
+    {{ with .Params.categories }}
+    <span class="bw-badge">{{ index . 0 }}</span>
+    {{ end }}
+
+    <h1 class="bw-article-title">
+      {{ .Title }}
+    </h1>
+
+    {{ with .Params.description }}
+    <p class="bw-article-subtitle">
+      {{ . }}
+    </p>
+    {{ end }}
+
+    <div class="bw-article-meta">
+      <span>By BalleWale News Desk</span>
+      <span class="dot">•</span>
+      <time datetime="{{ .Date }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <span class="dot">•</span>
       <span>{{ .ReadingTime }} min read</span>
     </div>
+
   </header>
 
-  <!-- Article Content -->
-  <div class="post-content">
+  <!-- =========================
+       ARTICLE BODY
+  ========================= -->
+  <div class="bw-article-content">
     {{ .Content }}
   </div>
 
-  <!-- AdSense Safe Block -->
-  <div class="article-ad">
+  <!-- =========================
+       INLINE AD (SAFE POSITION)
+  ========================= -->
+  <div class="bw-article-ad">
     <div class="ad-placeholder">
       Advertisement
     </div>
   </div>
 
-  <!-- Categories and Tags -->
-  <footer class="post-footer">
+  <!-- =========================
+       FOOTER TAGS
+  ========================= -->
+  <footer class="bw-article-footer">
+
     {{ with .Params.categories }}
-    <div class="post-categories">
+    <div class="bw-categories">
       <strong>Category:</strong>
       {{ range . }}
       <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
@@ -46,18 +76,43 @@
     {{ end }}
 
     {{ with .Params.tags }}
-    <div class="post-tags">
+    <div class="bw-tags">
       <strong>Tags:</strong>
       {{ range . }}
       <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>
       {{ end }}
     </div>
     {{ end }}
+
   </footer>
 
 </article>
 
-<!-- Structured Data for Google News -->
+<!-- =========================
+     RELATED NEWS
+========================= -->
+<section class="bw-related">
+  <h3>Related News</h3>
+
+  <div class="bw-post-grid">
+    {{ $related := first 3 (where site.RegularPages "Type" "posts") }}
+    {{ range $related }}
+    <article class="post-card">
+      <a href="{{ .RelPermalink }}">
+        <img
+          src="{{ .Params.image | default "/images/default.jpg" }}"
+          alt="{{ .Title }}"
+          loading="lazy">
+        <h3>{{ .Title }}</h3>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<!-- =========================
+     STRUCTURED DATA (NEWSARTICLE)
+========================= -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,7 +123,7 @@
   "dateModified": "{{ .Date }}",
   "author": {
     "@type": "Organization",
-    "name": "BalleWale Editorial Team"
+    "name": "BalleWale News Desk"
   },
   "publisher": {
     "@type": "Organization",

@@ -36,24 +36,120 @@
     }
 
 </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/ballewale.min.ef873e61b5c7f2e8fc7c35804c00eccbb88db2e7ee3cc1689ce467e78e66b2d2.css">
+
+  
+  
+
 </head>
 
-<body class="list">
+<body>
 
-  <header class="site-header">
-  <div class="header-container">
+  
+  <div class="header-strip">
 
-    <a class="logo" href="/">
-      <span class="logo-text">BalleWale</span>
-    </a>
+  
+  <div class="strip-nav">
+    <a href="/categories/india/">India</a>
+    <a href="/categories/ipl/">IPL</a>
+    <a href="/categories/world/">World</a>
+    <a href="/categories/t20/">T20</a>
+    <a href="/categories/test/">Test</a>
+  </div>
 
-    <nav class="main-nav">
-      <a href="/">Home</a>
-      <a href="/categories/india/">India</a>
+  
+  <div class="live-strip" id="live-strip">
+    <div class="live-loading">Loading live scores…</div>
+  </div>
+
+</div>
+
+<script>
+async function loadScoreStrip() {
+  try {
+    const res = await fetch("/api/live.json");
+    const data = await res.json();
+
+    const container = document.getElementById("live-strip");
+    container.innerHTML = "";
+
+    if (!data.matches || data.matches.length === 0) {
+      container.innerHTML = "<div class='live-loading'>No live matches</div>";
+      return;
+    }
+
+    data.matches.forEach(match => {
+      const card = document.createElement("div");
+      card.className = "live-card";
+
+      card.innerHTML = `
+        <div class="teams">
+          <img src="https://flagcdn.com/w20/${match.flag1}.png">
+          <span>${match.team1}</span>
+          <strong>${match.score1}</strong>
+        </div>
+        <div class="status">
+          <span class="live-dot"></span>
+          ${match.status}
+        </div>
+        <div class="teams">
+          <img src="https://flagcdn.com/w20/${match.flag2}.png">
+          <span>${match.team2}</span>
+          <strong>${match.score2}</strong>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+
+  } catch (e) {
+    console.log("Score strip error");
+  }
+}
+
+loadScoreStrip();
+setInterval(loadScoreStrip, 30000);
+</script>
+
+
+  
+  <header class="bw-header">
+  <div class="bw-header-inner">
+
+    
+    <a class="bw-logo" href="/">BalleWale</a>
+
+    
+    <nav class="bw-nav">
+      <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
-      <a href="/categories/world/">World</a>
+      <a href="/categories/t20/">T20</a>
+      <a href="/categories/test/">Test</a>
+      <a href="/posts/">Posts</a>
     </nav>
+
+    
+    <div class="bw-actions">
+
+      <a href="/support/" class="bw-support">
+        ❤️ Support
+      </a>
+
+      <div class="bw-lang">
+        <a href="#">EN</a>
+        <span>|</span>
+        <a href="#">HI</a>
+      </div>
+
+      <button id="theme-toggle" class="bw-theme-toggle">
+        🌙
+      </button>
+
+    </div>
 
   </div>
 </header>
@@ -63,223 +159,371 @@
     
 
 
-<section class="hero">
-  
-  
-  <article class="top-story">
-    <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/" class="top-link">
+<section class="bw-hero">
+  <div class="bw-hero-inner">
+
+    <div class="bw-score-card" id="live-score">
+      <div class="bw-score-inner">
+
+        
+        <div class="team">
+          <img id="team1-flag" class="team-logo" src="" alt="">
+          <span id="team1-name" class="team-name">TEAM A</span>
+          <span id="team1-score" class="team-score">--</span>
+        </div>
+
+        
+        <div class="match-info">
+          <span id="match-status" class="status">LIVE</span>
+          <span id="match-overs" class="overs">--</span>
+        </div>
+
+        
+        <div class="team">
+          <img id="team2-flag" class="team-logo" src="" alt="">
+          <span id="team2-name" class="team-name">TEAM B</span>
+          <span id="team2-score" class="team-score">--</span>
+        </div>
+
+      </div>
 
       
-      <div class="top-image">
-        <img src="https://source.unsplash.com/featured/?cricket,worldcup" alt="BalleWale Cricket News" loading="eager">
+      <div id="live-commentary" class="bw-commentary">
+        Loading live match update...
       </div>
-      
-
-      <div class="top-content">
-        <h1>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</h1>
-        
-        <p>Canada prepares to bowl against a formidable South African pace attack in their World Cup match, seeking to make a mark on the global stage.</p>
-        
-      </div>
-
-    </a>
-  </article>
-  
-</section>
-
-
-<section class="live-score">
-  <h2>🏏 Live Scores</h2>
-  <div class="score-widget">
-    <iframe
-      src="https://www.cricwaves.com/cricket/widgets/live-scores-widget.html"
-      scrolling="no"
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
-
-
-<section class="trending">
-  <h2>🔥 Trending Now</h2>
-  <div class="grid">
-    
-    <article class="card">
-      <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?cricket,worldcup" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</h3>
-        </div>
-
-      </a>
-    </article>
-    
-    <article class="card">
-      <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?cricket,worldcup" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Canada to Face Pace-Heavy South Africa in World Cup Clash</h3>
-        </div>
-
-      </a>
-    </article>
-    
-    <article class="card">
-      <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?cricket,worldcup" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</h3>
-        </div>
-
-      </a>
-    </article>
-    
-    <article class="card">
-      <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?cricket,worldcup" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</h3>
-        </div>
-
-      </a>
-    </article>
-    
-  </div>
-</section>
-
-
-<section class="category">
-  <h2>🇮🇳 India</h2>
-  <div class="grid">
-    
-  </div>
-</section>
-
-
-<section class="category">
-  <h2>🏏 IPL</h2>
-  <div class="grid">
-    
-    <article class="card">
-      <a href="/posts/manchester-united-owner-joins-bidding-war-for-rcb-and-rr/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?ipl,cricket" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Manchester United Owner Joins Bidding War for RCB and RR</h3>
-        </div>
-
-      </a>
-    </article>
-    
-    <article class="card">
-      <a href="/posts/manchester-united-owner-among-bidders-to-acquire-rcb-and-rr/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?ipl,cricket" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Manchester United Owner Among Bidders to Acquire RCB and RR</h3>
-        </div>
-
-      </a>
-    </article>
-    
-    <article class="card">
-      <a href="/posts/manchester-united-owner-among-bidders-for-rcb-and-rr-in-ipl-auction/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?ipl,cricket" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Manchester United Owner Among Bidders for RCB and RR in IPL Auction</h3>
-        </div>
-
-      </a>
-    </article>
-    
-    <article class="card">
-      <a href="/posts/manchester-united-owner-among-bidders-to-buy-rcb-and-rr/">
-
-        
-        <div class="card-image">
-          <img src="https://source.unsplash.com/featured/?ipl,cricket" alt="BalleWale Cricket News" loading="lazy">
-        </div>
-        
-
-        <div class="card-content">
-          <h3>Manchester United Owner Among Bidders to Buy RCB and RR</h3>
-        </div>
-
-      </a>
-    </article>
-    
-  </div>
-</section>
-
-
-<section class="category">
-  <h2>🌍 World Cricket</h2>
-  <div class="grid">
-    
-  </div>
-</section>
-
-
-<section class="support">
-  <div class="support-box">
-    <h2>❤️ Support BalleWale</h2>
-    <p>
-      Independent cricket journalism powered by automation and passion.
-      If you enjoy our content, consider supporting us.
-    </p>
-
-    <div class="support-actions">
-      <img src="/images/bmc-qr.png" alt="Support BalleWale" class="qr">
-      <p class="support-note">
-        Scan to support via BuyMeACoffee
-      </p>
     </div>
+
+  </div>
+</section>
+
+
+<section class="bw-featured-wrap">
+  <div class="bw-featured-container">
+
+    
+    
+
+    
+    <article class="bw-featured">
+      <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/">
+        <div class="bw-featured-image">
+          <img
+            src="https://source.unsplash.com/featured/?cricket,worldcup"
+            alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+            loading="eager">
+        </div>
+
+        <div class="bw-featured-content">
+          
+          <span class="bw-badge">World Cup</span>
+          
+
+          <h1 class="bw-featured-title">
+            Canada to Face South Africa&#39;s Pace Attack in World Cup Clash
+          </h1>
+
+          
+          <p class="bw-featured-desc">
+            Canada prepares to bowl against a formidable South African pace attack in their World Cup match, seeking to make a mark on the global stage.
+          </p>
+          
+        </div>
+      </a>
+    </article>
+    
+
+  </div>
+</section>
+
+
+<section class="bw-content-wrap">
+  <div class="bw-layout">
+
+    
+    <aside class="bw-left-ad">
+      <div class="ad-box">
+        Ad Banner
+      </div>
+    </aside>
+
+    
+    <main class="bw-main">
+
+      
+      <section class="bw-section">
+        <h2 class="section-title">Latest News</h2>
+
+        <div class="bw-post-grid">
+          
+          <article class="post-card">
+            <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?cricket,worldcup"
+                  alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  World Cup
+                </span>
+                
+
+                <h3 class="card-title">
+                  Canada to Face Pace-Heavy South Africa in World Cup Clash
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?cricket,worldcup"
+                  alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  World Cup
+                </span>
+                
+
+                <h3 class="card-title">
+                  Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?cricket,worldcup"
+                  alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  World Cup
+                </span>
+                
+
+                <h3 class="card-title">
+                  Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/canada-set-to-face-pace-heavy-south-africa-in-world-cup-clash/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?cricket,worldcup"
+                  alt="Canada Set to Face Pace-Heavy South Africa in World Cup Clash"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  World Cup
+                </span>
+                
+
+                <h3 class="card-title">
+                  Canada Set to Face Pace-Heavy South Africa in World Cup Clash
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?cricket,worldcup"
+                  alt="Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  World Cup
+                </span>
+                
+
+                <h3 class="card-title">
+                  Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/namibia-bank-on-kirstens-experience-of-indian-conditions-as-they-begin-t20-world/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?cricket,worldcup"
+                  alt="Namibia Bank on Kirsten&#39;s Experience of Indian Conditions as They Begin T20 World Cup Campaign"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  World Cup
+                </span>
+                
+
+                <h3 class="card-title">
+                  Namibia Bank on Kirsten&#39;s Experience of Indian Conditions as They Begin T20 World Cup Campaign
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/muzarabani-ngarava-power-zimbabwe-past-oman-in-thrilling-odi-encounter/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?international,cricket"
+                  alt="Muzarabani, Ngarava Power Zimbabwe Past Oman in Thrilling ODI Encounter"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  International
+                </span>
+                
+
+                <h3 class="card-title">
+                  Muzarabani, Ngarava Power Zimbabwe Past Oman in Thrilling ODI Encounter
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman-in-t20-clash/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?international,cricket"
+                  alt="Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in T20 Clash"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  International
+                </span>
+                
+
+                <h3 class="card-title">
+                  Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in T20 Clash
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+          <article class="post-card">
+            <a href="/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/">
+
+              <div class="card-image">
+                <img
+                  src="https://source.unsplash.com/featured/?international,cricket"
+                  alt="Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman"
+                  loading="lazy">
+              </div>
+
+              <div class="card-content">
+                
+                <span class="card-category">
+                  International
+                </span>
+                
+
+                <h3 class="card-title">
+                  Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman
+                </h3>
+              </div>
+
+            </a>
+          </article>
+          
+        </div>
+
+      </section>
+
+    </main>
+
+    
+    <aside class="bw-sidebar">
+
+      
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="/categories/india/">India</a></li>
+          <li><a href="/categories/ipl/">IPL</a></li>
+          <li><a href="/categories/world/">World</a></li>
+          <li><a href="/categories/t20/">T20</a></li>
+          <li><a href="/categories/test/">Test</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="sidebar-ad">
+        Sidebar Ad
+      </div>
+
+      
+      <div class="sidebar-box">
+        <h4>Support BalleWale</h4>
+        <img
+          src="/images/bmc-qr.png"
+          alt="Support"
+          style="width:100%; border-radius:8px;">
+      </div>
+
+    </aside>
+
   </div>
 </section>
 
 
   </main>
 
+  
   <footer class="site-footer">
   <div class="footer-container">
 
@@ -322,6 +566,45 @@
   </div>
 </footer>
 
+
+  
+  
+  <script>
+  async function loadLiveScore() {
+    const card = document.getElementById("live-score");
+    if (!card) return;
+
+    try {
+      const res = await fetch("https://ballewale-rss-ai.yogesha5959.workers.dev/api/live.json");
+      const data = await res.json();
+
+      document.getElementById("team1-name").textContent = data.team1;
+      document.getElementById("team1-score").textContent = data.score1;
+
+      document.getElementById("team2-name").textContent = data.team2;
+      document.getElementById("team2-score").textContent = data.score2;
+
+      document.getElementById("match-status").textContent = data.status;
+      document.getElementById("match-overs").textContent = data.overs;
+
+      document.getElementById("live-commentary").textContent = data.commentary;
+
+      
+      document.getElementById("team1-flag").src =
+        "https://flagcdn.com/w40/" + data.flag1 + ".png";
+
+      document.getElementById("team2-flag").src =
+        "https://flagcdn.com/w40/" + data.flag2 + ".png";
+
+    } catch (e) {
+      console.log("Live score not available");
+    }
+  }
+
+  loadLiveScore();
+  setInterval(loadLiveScore, 30000);
+  </script>
+  
 
 </body>
 </html>
