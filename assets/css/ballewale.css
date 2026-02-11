@@ -671,3 +671,29 @@ body {
     margin: 10px auto 0;
   }
 }
+/* Article inside layout */
+.bw-main .bw-article {
+  margin: 0;
+  max-width: 100%;
+}
+
+/* Popular posts */
+.popular-post {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #222;
+}
+
+.popular-post img {
+  width: 70px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.popular-post span {
+  font-size: 13px;
+  line-height: 1.3;
+}
