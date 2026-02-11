@@ -31,7 +31,6 @@
 
       </div>
 
-      <!-- Live commentary -->
       <div id="live-commentary" class="bw-commentary">
         Loading live match update...
       </div>
@@ -97,7 +96,6 @@
     <!-- MAIN NEWS GRID -->
     <main class="bw-main">
 
-      <!-- Latest News -->
       <section class="bw-section">
         <h2 class="section-title">Latest News</h2>
 
@@ -110,7 +108,8 @@
                 <img
                   src="{{ .Params.image | default "/images/default.jpg" }}"
                   alt="{{ .Title }}"
-                  loading="lazy">
+                  loading="lazy"
+                  onerror="this.src='/images/default.jpg'">
               </div>
 
               <div class="card-content">
@@ -134,19 +133,52 @@
 
     </main>
 
-    <!-- RIGHT SIDEBAR -->
+    <!-- =========================
+         RIGHT SIDEBAR
+    ========================= -->
     <aside class="bw-sidebar">
 
-      <!-- Categories -->
-      <div class="sidebar-box">
+      <!-- AUTO CATEGORY COUNTS -->
+      <div class="sidebar-box bw-categories-widget">
         <h4>Categories</h4>
-        <ul>
-          <li><a href="/categories/india/">India</a></li>
-          <li><a href="/categories/ipl/">IPL</a></li>
-          <li><a href="/categories/world/">World</a></li>
-          <li><a href="/categories/t20/">T20</a></li>
-          <li><a href="/categories/test/">Test</a></li>
+        <ul class="category-list">
+          {{ range $name, $taxonomy := site.Taxonomies.categories }}
+          <li>
+            <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/">
+              <span>{{ $name }}</span>
+              <strong>{{ len $taxonomy }}</strong>
+            </a>
+          </li>
+          {{ end }}
         </ul>
+      </div>
+
+      <!-- TRENDING TAGS -->
+      <div class="sidebar-box">
+        <h4>Trending Tags</h4>
+        <div class="tag-cloud">
+          {{ range first 12 (sort site.Taxonomies.tags ".Count" "desc") }}
+          <a href="{{ .Page.RelPermalink }}">
+            #{{ .Page.Title }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- POPULAR POSTS -->
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          {{ range first 5 $posts }}
+          <a href="{{ .RelPermalink }}" class="popular-item">
+            <img
+              src="{{ .Params.image | default "/images/default.jpg" }}"
+              alt="{{ .Title }}"
+              loading="lazy">
+            <span>{{ .Title }}</span>
+          </a>
+          {{ end }}
+        </div>
       </div>
 
       <!-- Sidebar Ad -->
@@ -154,14 +186,7 @@
         Sidebar Ad
       </div>
 
-      <!-- Support -->
-      <div class="sidebar-box">
-        <h4>Support BalleWale</h4>
-        <img
-          src="/images/bmc-qr.png"
-          alt="Support"
-          style="width:100%; border-radius:8px;">
-      </div>
+    
 
     </aside>
 
