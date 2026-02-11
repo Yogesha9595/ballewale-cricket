@@ -1,44 +1,24 @@
 {{ define "main" }}
 
 <!-- =========================
-   HERO: TOP STORY
+   FULL-WIDTH HERO SCOREBOARD
 ========================= -->
-<section class="hero">
-  {{ $top := first 1 (where site.RegularPages "Type" "posts") }}
-  {{ range $top }}
-  <article class="top-story">
-    <a href="{{ .RelPermalink }}" class="top-link">
+<section class="hero-score">
 
-      {{ with .Params.image }}
-      <div class="top-image">
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="eager">
+  <div class="hero-overlay">
+    <div class="score-container">
+      <h2>🏏 Live Match Scores</h2>
+
+      <div class="score-widget">
+        <iframe
+          src="https://www.cricwaves.com/cricket/widgets/live-scores-widget.html"
+          scrolling="no"
+          loading="lazy">
+        </iframe>
       </div>
-      {{ end }}
-
-      <div class="top-content">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.description }}
-        <p>{{ . }}</p>
-        {{ end }}
-      </div>
-
-    </a>
-  </article>
-  {{ end }}
-</section>
-
-<!-- =========================
-   LIVE SCORES
-========================= -->
-<section class="live-score">
-  <h2>🏏 Live Scores</h2>
-  <div class="score-widget">
-    <iframe
-      src="https://www.cricwaves.com/cricket/widgets/live-scores-widget.html"
-      scrolling="no"
-      loading="lazy">
-    </iframe>
+    </div>
   </div>
+
 </section>
 
 <!-- =========================

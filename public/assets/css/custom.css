@@ -585,3 +585,147 @@
     display: none;
   }
 }
+/* ===============================
+   FULL WIDTH HERO SCOREBOARD
+================================= */
+
+.hero-score {
+  width: 100%;
+  min-height: 320px;
+  background: url("/images/hero-stadium.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  width: 100%;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+}
+
+.score-container {
+  width: 100%;
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.score-container h2 {
+  margin-bottom: 12px;
+}
+
+.score-widget iframe {
+  width: 100%;
+  height: 130px;
+  border: none;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .hero-score {
+    min-height: 260px;
+  }
+
+  .score-container {
+    padding: 14px;
+  }
+
+  .score-widget iframe {
+    height: 150px;
+  }
+}
+/* ===============================
+   FULL WIDTH HEADER
+================================= */
+
+.site-header {
+  width: 100%;
+  background: #0b5ed7;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Brand */
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+/* Nav */
+.main-nav {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.main-nav a:hover {
+  opacity: 1;
+}
+
+.support-link {
+  font-weight: 600;
+}
+
+/* Right actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.lang-switch a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header-inner {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .main-nav {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 6px;
+  }
+}
