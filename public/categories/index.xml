@@ -6,6 +6,56 @@
     <description>Recent content in Categories on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 09 Feb 2026 14:50:31 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>World Cup</title>
+      <link>//localhost:1313/categories/world-cup/</link>
+      <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
+      <guid>//localhost:1313/categories/world-cup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>International</title>
+      <link>//localhost:1313/categories/international/</link>
+      <pubDate>Mon, 09 Feb 2026 13:10:31 +0000</pubDate>
+      <guid>//localhost:1313/categories/international/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPL</title>
+      <link>//localhost:1313/categories/ipl/</link>
+      <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
+      <guid>//localhost:1313/categories/ipl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Domestic</title>
+      <link>//localhost:1313/categories/domestic/</link>
+      <pubDate>Mon, 09 Feb 2026 12:30:41 +0000</pubDate>
+      <guid>//localhost:1313/categories/domestic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>T20</title>
+      <link>//localhost:1313/categories/t20/</link>
+      <pubDate>Mon, 09 Feb 2026 09:10:34 +0000</pubDate>
+      <guid>//localhost:1313/categories/t20/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ODI</title>
+      <link>//localhost:1313/categories/odi/</link>
+      <pubDate>Mon, 09 Feb 2026 05:55:33 +0000</pubDate>
+      <guid>//localhost:1313/categories/odi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>//localhost:1313/categories/test/</link>
+      <pubDate>Sat, 07 Feb 2026 09:04:52 +0000</pubDate>
+      <guid>//localhost:1313/categories/test/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

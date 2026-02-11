@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ODI Win on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/odi-win/</link>
+    <description>Recent content in ODI Win on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Feb 2026 02:10:35 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/odi-win/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kamindu Mendis, Kusal Mendis, Spinners Lead Sri Lanka to Victory in ODI</title>
+      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi/</link>
+      <pubDate>Mon, 09 Feb 2026 02:10:35 +0000</pubDate>
+      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi/</guid>
+      <description>Kamindu Mendis and Kusal Mendis shine as Sri Lanka secures a crucial ODI win, backed by an impressive bowling performance from the spinners.</description>
+    </item>
+  </channel>
+</rss>

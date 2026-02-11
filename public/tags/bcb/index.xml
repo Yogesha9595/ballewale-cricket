@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BCB on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/bcb/</link>
+    <description>Recent content in BCB on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Feb 2026 13:30:46 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bcb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BCB President, PCB, ICC in Lahore for Talks Over India Match Boycott</title>
+      <link>//localhost:1313/posts/bcb-president-pcb-icc-in-lahore-for-talks-over-india-match-boycott/</link>
+      <pubDate>Sun, 08 Feb 2026 13:30:46 +0000</pubDate>
+      <guid>//localhost:1313/posts/bcb-president-pcb-icc-in-lahore-for-talks-over-india-match-boycott/</guid>
+      <description>BCB President, PCB officials, and ICC representatives meet in Lahore to discuss the ongoing India match boycott ahead of the World Cup.</description>
+    </item>
+    <item>
+      <title>BCB President, PCB, ICC Hold Crucial Talks in Lahore Over India Match Boycott</title>
+      <link>//localhost:1313/posts/bcb-president-pcb-icc-hold-crucial-talks-in-lahore-over-india-match-boycott/</link>
+      <pubDate>Sun, 08 Feb 2026 13:10:38 +0000</pubDate>
+      <guid>//localhost:1313/posts/bcb-president-pcb-icc-hold-crucial-talks-in-lahore-over-india-match-boycott/</guid>
+      <description>BCB President, PCB, and ICC convene in Lahore to discuss the potential boycott of India matches amid ongoing tensions.</description>
+    </item>
+    <item>
+      <title>BCB President, PCB, ICC Meet in Lahore to Discuss India Match Boycott</title>
+      <link>//localhost:1313/posts/bcb-president-pcb-icc-meet-in-lahore-to-discuss-india-match-boycott/</link>
+      <pubDate>Sun, 08 Feb 2026 13:00:45 +0000</pubDate>
+      <guid>//localhost:1313/posts/bcb-president-pcb-icc-meet-in-lahore-to-discuss-india-match-boycott/</guid>
+      <description>BCB, PCB, and ICC officials convene in Lahore to address the ongoing India match boycott issue ahead of the upcoming World Cup.</description>
+    </item>
+  </channel>
+</rss>

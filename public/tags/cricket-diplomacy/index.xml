@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cricket Diplomacy on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/cricket-diplomacy/</link>
+    <description>Recent content in Cricket Diplomacy on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Feb 2026 13:10:38 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cricket-diplomacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BCB President, PCB, ICC Hold Crucial Talks in Lahore Over India Match Boycott</title>
+      <link>//localhost:1313/posts/bcb-president-pcb-icc-hold-crucial-talks-in-lahore-over-india-match-boycott/</link>
+      <pubDate>Sun, 08 Feb 2026 13:10:38 +0000</pubDate>
+      <guid>//localhost:1313/posts/bcb-president-pcb-icc-hold-crucial-talks-in-lahore-over-india-match-boycott/</guid>
+      <description>BCB President, PCB, and ICC convene in Lahore to discuss the potential boycott of India matches amid ongoing tensions.</description>
+    </item>
+  </channel>
+</rss>

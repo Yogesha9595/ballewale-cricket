@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cricket World Cup on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/cricket-world-cup/</link>
+    <description>Recent content in Cricket World Cup on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Feb 2026 18:35:31 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cricket-world-cup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Washington Sundar to Join Indian Squad in Delhi Ahead of Namibia Clash</title>
+      <link>//localhost:1313/posts/washington-sundar-to-join-indian-squad-in-delhi-ahead-of-namibia-clash/</link>
+      <pubDate>Sat, 07 Feb 2026 18:35:31 +0000</pubDate>
+      <guid>//localhost:1313/posts/washington-sundar-to-join-indian-squad-in-delhi-ahead-of-namibia-clash/</guid>
+      <description>Washington Sundar is set to reunite with the Indian team in Delhi before their upcoming match against Namibia.</description>
+    </item>
+  </channel>
+</rss>

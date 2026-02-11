@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Munsey on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/munsey/</link>
+    <description>Recent content in Munsey on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Feb 2026 09:10:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/munsey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Munsey and Leask Spoil Italy&#39;s T20 World Cup Debut</title>
+      <link>//localhost:1313/posts/munsey-and-leask-spoil-italys-t20-world-cup-debut/</link>
+      <pubDate>Mon, 09 Feb 2026 09:10:34 +0000</pubDate>
+      <guid>//localhost:1313/posts/munsey-and-leask-spoil-italys-t20-world-cup-debut/</guid>
+      <description>Scotland&amp;#39;s Munsey and Leask shine in T20 World Cup opener, defeating Italy in their first match at the tournament.</description>
+    </item>
+  </channel>
+</rss>

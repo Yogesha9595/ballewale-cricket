@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Centuries on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/centuries/</link>
+    <description>Recent content in Centuries on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Feb 2026 09:04:52 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/centuries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Patterson&#39;s Milestone-Game Hundred Builds Commanding Lead</title>
+      <link>//localhost:1313/posts/pattersons-milestone-game-hundred-builds-commanding-lead/</link>
+      <pubDate>Sat, 07 Feb 2026 09:04:52 +0000</pubDate>
+      <guid>//localhost:1313/posts/pattersons-milestone-game-hundred-builds-commanding-lead/</guid>
+      <description>Patterson&amp;#39;s century leads his team to a strong position in the Test match, showcasing his exceptional batting skills and resilience.</description>
+    </item>
+  </channel>
+</rss>

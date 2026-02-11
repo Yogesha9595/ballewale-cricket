@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>International on BalleWale Cricket News</title>
+    <link>//localhost:1313/tags/international/</link>
+    <description>Recent content in International on BalleWale Cricket News</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Feb 2026 05:50:33 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/international/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Italy Opt to Bowl First Against Scotland in Crucial T20 Encounter</title>
+      <link>//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-t20-encounter/</link>
+      <pubDate>Mon, 09 Feb 2026 05:50:33 +0000</pubDate>
+      <guid>//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-t20-encounter/</guid>
+      <description>Italy wins the toss and elects to bowl first against Scotland in a pivotal T20 match. Brad Wheal makes his debut for Scotland.</description>
+    </item>
+  </channel>
+</rss>
