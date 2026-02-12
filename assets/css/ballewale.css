@@ -741,3 +741,6 @@ body {
   max-width: 1280px;
   margin: auto;
 }
+.header-right {
+  display: none;
+}
