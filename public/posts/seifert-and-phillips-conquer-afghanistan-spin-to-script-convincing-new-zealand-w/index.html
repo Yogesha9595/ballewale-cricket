@@ -37,51 +37,116 @@
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.33bdb41eb3db4c6a720fcd5c9438d2a005af83be5a40988ff5e194ffd946ba35.css">
+  <link rel="stylesheet" href="/css/ballewale.min.081b92c3c4984f826ad973d73ab6a5628e3eb2c5afb03f8e2c99478b34d4dfd1.css">
 
   
   
 
 </head>
 
-<body class="list">
+<body>
 
   
   <div class="header-strip">
-  <a href="/categories/india/">India</a>
-  <a href="/categories/ipl/">IPL</a>
-  <a href="/categories/world/">World</a>
-  <a href="/categories/t20/">T20</a>
-  <a href="/categories/test/">Test</a>
+
+  
+  <div class="strip-nav">
+    <a href="/categories/india/">India</a>
+    <a href="/categories/ipl/">IPL</a>
+    <a href="/categories/world/">World</a>
+    <a href="/categories/t20/">T20</a>
+    <a href="/categories/test/">Test</a>
+  </div>
+
+  
+  <div class="live-strip" id="live-strip">
+    <div class="live-loading">Loading live scores…</div>
+  </div>
+
 </div>
+
+<script>
+async function loadScoreStrip() {
+  try {
+    const res = await fetch("/api/live.json");
+    const data = await res.json();
+
+    const container = document.getElementById("live-strip");
+    container.innerHTML = "";
+
+    if (!data.matches || data.matches.length === 0) {
+      container.innerHTML = "<div class='live-loading'>No live matches</div>";
+      return;
+    }
+
+    data.matches.forEach(match => {
+      const card = document.createElement("div");
+      card.className = "live-card";
+
+      card.innerHTML = `
+        <div class="teams">
+          <img src="https://flagcdn.com/w20/${match.flag1}.png">
+          <span>${match.team1}</span>
+          <strong>${match.score1}</strong>
+        </div>
+        <div class="status">
+          <span class="live-dot"></span>
+          ${match.status}
+        </div>
+        <div class="teams">
+          <img src="https://flagcdn.com/w20/${match.flag2}.png">
+          <span>${match.team2}</span>
+          <strong>${match.score2}</strong>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+
+  } catch (e) {
+    console.log("Score strip error");
+  }
+}
+
+loadScoreStrip();
+setInterval(loadScoreStrip, 30000);
+</script>
 
 
   
-  <header class="site-header">
-  <div class="header-inner">
+  <header class="bw-header">
+  <div class="bw-header-inner">
 
     
-    <a class="logo-text" href="/">BalleWale</a>
+    <a class="bw-logo" href="/">BalleWale</a>
 
     
-    <nav class="main-nav">
+    <nav class="bw-nav">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
       <a href="/posts/">Posts</a>
-      <a href="/support/" class="support-link">❤️ Support</a>
     </nav>
 
     
-    <div class="header-actions">
-      <div class="lang-switch">
+    <div class="bw-actions">
+
+      <a href="/support/" class="bw-support">
+        ❤️ Support
+      </a>
+
+      <div class="bw-lang">
         <a href="#">EN</a>
         <span>|</span>
         <a href="#">HI</a>
       </div>
-      <button id="theme-toggle" class="theme-toggle">🌙</button>
+
+      <button id="theme-toggle" class="bw-theme-toggle">
+        🌙
+      </button>
+
     </div>
 
   </div>
@@ -91,30 +156,49 @@
   <main class="main">
     
 
-<article class="post-single">
+<article class="bw-article">
 
   
   
-  <div class="post-cover">
-    <img src="https://source.unsplash.com/featured/?cricket,worldcup" alt="Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win" loading="eager">
+  <div class="bw-article-cover">
+    <img
+      src="https://source.unsplash.com/featured/?cricket,worldcup"
+      alt="Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win"
+      loading="eager">
   </div>
   
 
   
-  <header class="post-header">
-    <h1 class="post-title">Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win</h1>
+  <header class="bw-article-header">
 
-    <div class="post-meta">
-      <span>By BalleWale Editorial Team</span>
-      <span>•</span>
-      <span>Feb 8, 2026</span>
-      <span>•</span>
+    
+    <span class="bw-badge">World Cup</span>
+    
+
+    <h1 class="bw-article-title">
+      Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win
+    </h1>
+
+    
+    <p class="bw-article-subtitle">
+      New Zealand&#39;s Seifert and Phillips excel against Afghanistan&#39;s spin attack, leading their team to a decisive victory in the World Cup clash.
+    </p>
+    
+
+    <div class="bw-article-meta">
+      <span>By BalleWale News Desk</span>
+      <span class="dot">•</span>
+      <time datetime="2026-02-08 09:15:29.665 &#43;0000 UTC">
+        February 8, 2026
+      </time>
+      <span class="dot">•</span>
       <span>2 min read</span>
     </div>
+
   </header>
 
   
-  <div class="post-content">
+  <div class="bw-article-content">
     <p>In a thrilling encounter at the ICC Cricket World Cup, New Zealand showcased their batting prowess as they secured a convincing victory over Afghanistan. The match, held at the iconic venue in Chennai, saw the Black Caps chase down a competitive target with relative ease, thanks largely to the stellar performances of wicketkeeper-batsman Tim Seifert and all-rounder Glenn Phillips. Their ability to counter Afghanistan&rsquo;s renowned spin attack proved pivotal in New Zealand&rsquo;s comprehensive win.</p>
 <p>Afghanistan, having won the toss, opted to bat first and posted a total of 260 runs. Despite a rocky start, the Afghan innings was anchored by a resilient 90 from Hashmatullah Shahidi, who displayed remarkable composure against a disciplined New Zealand bowling attack. However, the rest of the batting lineup struggled to build partnerships, with only a handful of players managing to reach double figures. New Zealand&rsquo;s bowlers, led by Trent Boult and Matt Henry, were effective in stifling the Afghan scoring rate, taking crucial wickets at regular intervals.</p>
 <p>Chasing 261 runs, New Zealand&rsquo;s innings began with a steady opening partnership. However, it was the middle-order duo of Seifert and Phillips who truly turned the tide in their favor. Seifert, who has been in fine form throughout the tournament, played a series of exquisite strokes against the spinners, scoring a brisk 85 runs off just 78 balls. Phillips, equally aggressive, contributed a quickfire 75 runs, utilizing his innovative shot-making to dismantle Afghanistan&rsquo;s bowling strategy. Their partnership not only steadied the innings but also set the foundation for a successful chase, as they put on 150 runs for the fourth wicket.</p>
@@ -123,16 +207,17 @@
   </div>
 
   
-  <div class="article-ad">
+  <div class="bw-article-ad">
     <div class="ad-placeholder">
       Advertisement
     </div>
   </div>
 
   
-  <footer class="post-footer">
+  <footer class="bw-article-footer">
+
     
-    <div class="post-categories">
+    <div class="bw-categories">
       <strong>Category:</strong>
       
       <a href="/categories/world-cup/">World Cup</a>
@@ -141,7 +226,7 @@
     
 
     
-    <div class="post-tags">
+    <div class="bw-tags">
       <strong>Tags:</strong>
       
       <a href="/tags/new-zealand/">#New Zealand</a>
@@ -158,9 +243,50 @@
       
     </div>
     
+
   </footer>
 
 </article>
+
+
+<section class="bw-related">
+  <h3>Related News</h3>
+
+  <div class="bw-post-grid">
+    
+    
+    <article class="post-card">
+      <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/">
+        <img
+          src="https://source.unsplash.com/featured/?cricket,worldcup"
+          alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+          loading="lazy">
+        <h3>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</h3>
+      </a>
+    </article>
+    
+    <article class="post-card">
+      <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/">
+        <img
+          src="https://source.unsplash.com/featured/?cricket,worldcup"
+          alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+          loading="lazy">
+        <h3>Canada to Face Pace-Heavy South Africa in World Cup Clash</h3>
+      </a>
+    </article>
+    
+    <article class="post-card">
+      <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/">
+        <img
+          src="https://source.unsplash.com/featured/?cricket,worldcup"
+          alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+          loading="lazy">
+        <h3>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</h3>
+      </a>
+    </article>
+    
+  </div>
+</section>
 
 
 <script type="application/ld+json">
@@ -173,7 +299,7 @@
   "dateModified": "2026-02-08 09:15:29.665 \u002b0000 UTC",
   "author": {
     "@type": "Organization",
-    "name": "BalleWale Editorial Team"
+    "name": "BalleWale News Desk"
   },
   "publisher": {
     "@type": "Organization",
@@ -191,48 +317,75 @@
   </main>
 
   
-  <footer class="site-footer">
-  <div class="footer-container">
+  <footer class="bw-footer">
+  <div class="bw-footer-inner">
 
     
-    <div class="footer-brand">
-      <h3>BalleWale</h3>
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">BalleWale</div>
       <p>
-        Your daily dose of cricket news, match insights, and live updates
-        from across the cricketing world.
+        Real-time cricket scores, breaking news, match analysis,
+        and insights from across the cricketing world.
       </p>
+
+      <div class="footer-social">
+        <a href="#">X</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
     </div>
 
     
-    <div class="footer-links">
-      <a href="/about/">About</a>
-      <a href="/contact/">Contact</a>
-      <a href="/privacy-policy/">Privacy Policy</a>
-      <a href="/terms/">Terms</a>
-      <a href="/sitemap.xml">Sitemap</a>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="/categories/india/">India</a></li>
+        <li><a href="/categories/ipl/">IPL</a></li>
+        <li><a href="/categories/world/">World</a></li>
+        <li><a href="/categories/t20/">T20</a></li>
+        <li><a href="/categories/test/">Test</a></li>
+      </ul>
     </div>
 
     
-    <div class="footer-support">
-      <p>Support independent cricket journalism</p>
-      <img src="/buymeacoffee-qr.png" alt="Support BalleWale" width="120">
-      <p class="support-email">
-        Contact: <a href="mailto:support@ballewale.in">support@ballewale.in</a>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-col footer-support">
+      <h4>Support Independent Journalism</h4>
+      <p>
+        If you enjoy BalleWale, consider supporting us.
       </p>
+      <img src="/images/bmc-qr.png" alt="Support BalleWale">
     </div>
 
   </div>
 
   
-  <div class="footer-bottom">
-    <p>
-      © 2026 BalleWale. All rights reserved.
-      <br>
-      Built for cricket fans around the world.
-    </p>
+  <div class="bw-footer-bottom">
+    <div class="footer-bottom-inner">
+      <span>© 2026 BalleWale. All rights reserved.</span>
+      <span class="footer-bottom-links">
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </span>
+    </div>
   </div>
 </footer>
 
+
+  
+  
 
 </body>
 </html>

@@ -417,47 +417,54 @@ body {
 /* =====================================================
    RESPONSIVE
 ===================================================== */
+/* ==============================
+   MOBILE FIXES
+============================== */
 @media (max-width: 1100px) {
   .bw-layout {
-  display: grid;
-  grid-template-columns: 180px minmax(0, 980px) 320px;
-  gap: 30px;
+    grid-template-columns: 1fr;
+    max-width: 760px;
+  }
 
-  max-width: 1480px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-
-.bw-left-ad,
-.bw-sidebar {
-  position: sticky;
-  top: 110px;
-}
-
-.ad-box,
-.sidebar-ad {
-  background: #e9ecef;
-  border-radius: 14px;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  color: #555;
-}
-
+  .bw-left-ad,
+  .bw-sidebar {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-  .bw-featured-title {
-    font-size: 24px;
+
+  body {
+    overflow-x: hidden;
   }
 
-  .bw-article-title {
-    font-size: 26px;
+  .bw-hero {
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+  }
+
+  .bw-hero-inner {
+    padding: 0 14px;
+  }
+
+  .bw-featured-container {
+    padding: 0 14px;
+  }
+
+  .bw-content-wrap {
+    padding: 20px 0;
+  }
+
+  .bw-post-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .post-card img {
+    height: 180px;
   }
 }
+
 /* ===============================
    CATEGORY WIDGET
 =============================== */
