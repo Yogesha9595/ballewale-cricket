@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+     crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="/css/ballewale.min.c17cabbcc8bf14b8e90556d20fbe37f4d1f8093ed2b2b837cbf3cc93ab083d4a.css">
+
+  
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JFQM5NJQRJ');
+</script>
+
+
+<script async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+  crossorigin="anonymous">
+</script>
+
+  
+</head>
+
+<body>
+
+  
+  <div class="header-strip">
+
+  
+  <div class="strip-nav">
+    <a href="/categories/india/">India</a>
+    <a href="/categories/ipl/">IPL</a>
+    <a href="/categories/world/">World</a>
+    <a href="/categories/t20/">T20</a>
+    <a href="/categories/test/">Test</a>
+  </div>
+
+  
+  <div class="live-strip" id="live-strip">
+    <div class="live-loading">Loading live scores…</div>
+  </div>
+
+</div>
+
+<script>
+async function loadScoreStrip() {
+  try {
+    const res = await fetch("/api/live.json");
+    const data = await res.json();
+
+    const container = document.getElementById("live-strip");
+    container.innerHTML = "";
+
+    if (!data.matches || data.matches.length === 0) {
+      container.innerHTML = "<div class='live-loading'>No live matches</div>";
+      return;
+    }
+
+    data.matches.forEach(match => {
+      const card = document.createElement("div");
+      card.className = "live-card";
+
+      card.innerHTML = `
+        <div class="teams">
+          <img src="https://flagcdn.com/w20/${match.flag1}.png">
+          <span>${match.team1}</span>
+          <strong>${match.score1}</strong>
+        </div>
+        <div class="status">
+          <span class="live-dot"></span>
+          ${match.status}
+        </div>
+        <div class="teams">
+          <img src="https://flagcdn.com/w20/${match.flag2}.png">
+          <span>${match.team2}</span>
+          <strong>${match.score2}</strong>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+
+  } catch (e) {
+    console.log("Score strip error");
+  }
+}
+
+loadScoreStrip();
+setInterval(loadScoreStrip, 30000);
+</script>
+
+
+  
+  <header class="bw-header">
+  <div class="bw-header-inner">
+
+    
+    <a class="bw-logo" href="/">BalleWale</a>
+
+    
+    <nav class="bw-nav">
+      <a href="/">Live Scores</a>
+      <a href="/categories/ipl/">IPL</a>
+      <a href="/categories/world-cup/">World Cup</a>
+      <a href="/categories/t20/">T20</a>
+      <a href="/categories/test/">Test</a>
+      <a href="/posts/">Posts</a>
+    </nav>
+
+    
+    <div class="bw-actions">
+
+      <a href="/support/" class="bw-support">
+        ❤️ Support
+      </a>
+
+      <div class="bw-lang">
+        <a href="#">EN</a>
+        <span>|</span>
+        <a href="#">HI</a>
+      </div>
+
+      <button id="theme-toggle" class="bw-theme-toggle">
+        🌙
+      </button>
+
+    </div>
+
+  </div>
+</header>
+
+
+  <main class="main">
+    
+
+<article class="bw-article">
+
+  
+  
+
+  
+  <header class="bw-article-header">
+
+    
+
+    <h1 class="bw-article-title">
+      Privacy Policy
+    </h1>
+
+    
+
+    <div class="bw-article-meta">
+      <span>By BalleWale News Desk</span>
+      <span class="dot">•</span>
+      <time datetime="2026-02-12 00:00:00 &#43;0000 UTC">
+        February 12, 2026
+      </time>
+      <span class="dot">•</span>
+      <span>1 min read</span>
+    </div>
+
+  </header>
+
+  
+  <div class="bw-article-content">
+    <hr>
+<h2 id="privacy-policy-for-ballewale">Privacy Policy for BalleWale</h2>
+<p>At BalleWale, accessible from ballewale.in, one of our main priorities is the privacy of our visitors.</p>
+<h3 id="information-we-collect">Information We Collect</h3>
+<p>We may collect:</p>
+<ul>
+<li>Name and email if you contact us</li>
+<li>Usage data like pages visited</li>
+<li>Device and browser information</li>
+</ul>
+<h3 id="google-analytics">Google Analytics</h3>
+<p>We use Google Analytics to understand how visitors use the website.
+It collects anonymous usage data such as page views, time on site, and device type.</p>
+<h3 id="google-adsense">Google AdSense</h3>
+<p>We use Google AdSense to display advertisements.</p>
+<p>Google may use cookies to show personalized ads.
+Users can manage ad settings here:</p>
+<p><a href="https://adssettings.google.com/">https://adssettings.google.com/</a></p>
+<h3 id="cookies">Cookies</h3>
+<p>We use cookies to:</p>
+<ul>
+<li>Improve user experience</li>
+<li>Analyze traffic</li>
+<li>Serve ads</li>
+</ul>
+<h3 id="third-party-privacy-policies">Third-Party Privacy Policies</h3>
+<p>Our Privacy Policy does not apply to third-party websites or advertisers.</p>
+<h3 id="childrens-information">Children’s Information</h3>
+<p>We do not knowingly collect personal data from children under 13.</p>
+<h3 id="consent">Consent</h3>
+<p>By using our website, you consent to this Privacy Policy.</p>
+<p><strong>Last updated:</strong> February 2026</p>
+
+  </div>
+
+  
+  <div class="bw-article-ad">
+    <div class="ad-placeholder">
+      Advertisement
+    </div>
+  </div>
+
+  
+  <footer class="bw-article-footer">
+
+    
+
+    
+
+  </footer>
+
+</article>
+
+
+<section class="bw-related">
+  <h3>Related News</h3>
+
+  <div class="bw-post-grid">
+    
+    
+    <article class="post-card">
+      <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/">
+        <img
+          src="https://source.unsplash.com/featured/?cricket,worldcup"
+          alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+          loading="lazy">
+        <h3>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</h3>
+      </a>
+    </article>
+    
+    <article class="post-card">
+      <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/">
+        <img
+          src="https://source.unsplash.com/featured/?cricket,worldcup"
+          alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+          loading="lazy">
+        <h3>Canada to Face Pace-Heavy South Africa in World Cup Clash</h3>
+      </a>
+    </article>
+    
+    <article class="post-card">
+      <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/">
+        <img
+          src="https://source.unsplash.com/featured/?cricket,worldcup"
+          alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+          loading="lazy">
+        <h3>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</h3>
+      </a>
+    </article>
+    
+  </div>
+</section>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Privacy Policy",
+  "image": [""],
+  "datePublished": "2026-02-12 00:00:00 \u002b0000 UTC",
+  "dateModified": "2026-02-12 00:00:00 \u002b0000 UTC",
+  "author": {
+    "@type": "Organization",
+    "name": "BalleWale News Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BalleWale",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ballewale.in/favicon.svg"
+    }
+  },
+  "description": ""
+}
+</script>
+
+
+  </main>
+
+  
+  <footer class="bw-footer">
+  <div class="bw-footer-inner">
+
+    
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">BalleWale</div>
+      <p>
+        Real-time cricket scores, breaking news, match analysis,
+        and insights from across the cricketing world.
+      </p>
+
+      <div class="footer-social">
+        <a href="#">X</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+
+    
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="/categories/india/">India</a></li>
+        <li><a href="/categories/ipl/">IPL</a></li>
+        <li><a href="/categories/world/">World</a></li>
+        <li><a href="/categories/t20/">T20</a></li>
+        <li><a href="/categories/test/">Test</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-col footer-support">
+      <h4>Support Independent Journalism</h4>
+      <p>
+        If you enjoy BalleWale, consider supporting us.
+      </p>
+      <img src="/images/bmc-qr.png" alt="Support BalleWale">
+    </div>
+
+  </div>
+
+  
+  <div class="bw-footer-bottom">
+    <div class="footer-bottom-inner">
+      <span>© 2026 BalleWale. All rights reserved.</span>
+      <span class="footer-bottom-links">
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+
+</body>
+</html>

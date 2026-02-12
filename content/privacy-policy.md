@@ -1,20 +1,55 @@
 ---
-title: "Privacy Policy"
----
 
-At **BalleWale**, we respect your privacy and are committed to protecting it.
+title: "Privacy Policy"
+date: 2026-02-12
+draft: false
+url: "/privacy/"
+----------------
+
+## Privacy Policy for BalleWale
+
+At BalleWale, accessible from ballewale.in, one of our main priorities is the privacy of our visitors.
 
 ### Information We Collect
-- Non-personal information such as browser type, device, and pages visited
-- Cookies used for analytics and advertising purposes
 
-### How We Use Information
-- To improve site performance and content quality
-- To analyze traffic and user behavior
-- To serve relevant advertisements (such as Google AdSense)
+We may collect:
 
-We do not sell, trade, or rent users’ personal identification information.
+* Name and email if you contact us
+* Usage data like pages visited
+* Device and browser information
 
-Third-party services, including Google, may use cookies to serve ads based on user visits to this and other websites.
+### Google Analytics
 
-By using BalleWale, you consent to this privacy policy.
+We use Google Analytics to understand how visitors use the website.
+It collects anonymous usage data such as page views, time on site, and device type.
+
+### Google AdSense
+
+We use Google AdSense to display advertisements.
+
+Google may use cookies to show personalized ads.
+Users can manage ad settings here:
+
+https://adssettings.google.com/
+
+### Cookies
+
+We use cookies to:
+
+* Improve user experience
+* Analyze traffic
+* Serve ads
+
+### Third-Party Privacy Policies
+
+Our Privacy Policy does not apply to third-party websites or advertisers.
+
+### Children’s Information
+
+We do not knowingly collect personal data from children under 13.
+
+### Consent
+
+By using our website, you consent to this Privacy Policy.
+
+**Last updated:** February 2026

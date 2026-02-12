@@ -6,8 +6,27 @@
     <description>Recent content on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 14:50:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/privacy/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;privacy-policy-for-ballewale&#34;&gt;Privacy Policy for BalleWale&lt;/h2&gt;
+&lt;p&gt;At BalleWale, accessible from ballewale.in, one of our main priorities is the privacy of our visitors.&lt;/p&gt;
+&lt;h3 id=&#34;information-we-collect&#34;&gt;Information We Collect&lt;/h3&gt;
+&lt;p&gt;We may collect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Name and email if you contact us&lt;/li&gt;
+&lt;li&gt;Usage data like pages visited&lt;/li&gt;
+&lt;li&gt;Device and browser information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h3&gt;
+&lt;p&gt;We use Google Analytics to understand how visitors use the website.
+It collects anonymous usage data such as page views, time on site, and device type.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</title>
       <link>//localhost:1313/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/</link>
@@ -1307,26 +1326,6 @@
 &lt;p&gt;For all communication, please reach us at:&lt;/p&gt;
 &lt;p&gt;📧 &lt;strong&gt;&lt;a href=&#34;mailto:support@ballewale.in&#34;&gt;support@ballewale.in&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We strive to respond to genuine requests as promptly as possible.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Privacy Policy</title>
-      <link>//localhost:1313/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/privacy-policy/</guid>
-      <description>&lt;p&gt;At &lt;strong&gt;BalleWale&lt;/strong&gt;, we respect your privacy and are committed to protecting it.&lt;/p&gt;
-&lt;h3 id=&#34;information-we-collect&#34;&gt;Information We Collect&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Non-personal information such as browser type, device, and pages visited&lt;/li&gt;
-&lt;li&gt;Cookies used for analytics and advertising purposes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;how-we-use-information&#34;&gt;How We Use Information&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;To improve site performance and content quality&lt;/li&gt;
-&lt;li&gt;To analyze traffic and user behavior&lt;/li&gt;
-&lt;li&gt;To serve relevant advertisements (such as Google AdSense)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We do not sell, trade, or rent users’ personal identification information.&lt;/p&gt;
-&lt;p&gt;Third-party services, including Google, may use cookies to serve ads based on user visits to this and other websites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Terms &amp; Disclaimer</title>
