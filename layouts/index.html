@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ $posts := where site.RegularPages "Type" "posts" }}
+
 <!-- =========================
    FULL-WIDTH HERO SCOREBOARD
 ========================= -->
@@ -40,12 +42,18 @@
 </section>
 
 <!-- =========================
+     FULL-WIDTH TOP BANNER
+========================= -->
+<section class="bw-top-banner">
+  <img src="/images/top-banner.jpg" alt="Cricket Banner">
+</section>
+
+<!-- =========================
    DISCOVER-STYLE FEATURED STORY
 ========================= -->
 <section class="bw-featured-wrap">
   <div class="bw-featured-container">
 
-    {{ $posts := where site.RegularPages "Type" "posts" }}
     {{ $featured := first 1 $posts }}
 
     {{ range $featured }}
@@ -185,8 +193,6 @@
       <div class="sidebar-ad">
         Sidebar Ad
       </div>
-
-    
 
     </aside>
 
