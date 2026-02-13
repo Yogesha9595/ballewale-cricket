@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <head>
   <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Afghanistan | BalleWale Cricket News</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/tags/afghanistan/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/afghanistan/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="//localhost:1313/tags/afghanistan/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.querySelector("html").dataset.theme = 'light';
-    }
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</script>
+  
+  <title>Afghanistan | BalleWale</title>
+  <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
+
+  
+  <link rel="canonical" href="/tags/afghanistan/">
+
+  
+  <link rel="icon" href="/favicon.ico">
+
+  
+  <meta name="theme-color" content="#0a7d3b">
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Afghanistan">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="/tags/afghanistan/">
+  <meta property="og:site_name" content="BalleWale">
+
+  
+  <meta property="og:image" content="/images/default.jpg">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Afghanistan">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+    crossorigin="anonymous">
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFQM5NJQRJ', {
+      anonymize_ip: true,
+      transport_type: 'beacon'
+    });
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BalleWale",
+    "url": "https://ballewale.in"
+  }
+  </script>
+
+</head>
+
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.081b92c3c4984f826ad973d73ab6a5628e3eb2c5afb03f8e2c99478b34d4dfd1.css">
-
-  
-  
-
+  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
 </head>
 
 <body>
@@ -119,100 +156,289 @@ setInterval(loadScoreStrip, 30000);
   <div class="bw-header-inner">
 
     
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
     
-    <div class="bw-actions">
-
-      <a href="/support/" class="bw-support">
-        ❤️ Support
-      </a>
-
-      <div class="bw-lang">
-        <a href="#">EN</a>
-        <span>|</span>
-        <a href="#">HI</a>
-      </div>
-
-      <button id="theme-toggle" class="bw-theme-toggle">
-        🌙
-      </button>
-
-    </div>
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
 
   </div>
 </header>
+
+
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>
 
 
   <main class="main">
-     
-<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/tags/">Tags</a></div>
-  <h1>
-    Afghanistan
-  </h1>
-</header>
+    
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a thrilling encounter at the ICC Cricket World Cup, New Zealand showcased their batting prowess as they secured a convincing victory over Afghanistan. The match, held at the iconic venue in Chennai, saw the Black Caps chase down a competitive target with relative ease, thanks largely to the stellar performances of wicketkeeper-batsman Tim Seifert and all-rounder Glenn Phillips. Their ability to counter Afghanistan’s renowned spin attack proved pivotal in New Zealand’s comprehensive win.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 09:15:29.665 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win" href="//localhost:1313/posts/seifert-and-phillips-conquer-afghanistan-spin-to-script-convincing-new-zealand-w/"></a>
-</article>
+<section class="bw-content-wrap">
+  <div class="bw-layout">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Afghanistan Pack Their XI with Spinners, Ask New Zealand to Field
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a strategic move reflecting their strengths, Afghanistan has opted to field a spin-heavy playing XI against New Zealand in their World Cup encounter. The decision to ask the Kiwis to bat first after winning the toss signals Afghanistan’s confidence in their slow bowlers, who have been pivotal in their recent performances. This match, taking place at the iconic venue, is crucial for both teams as they aim to secure valuable points in the tournament.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 05:45:30.399 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Afghanistan Pack Their XI with Spinners, Ask New Zealand to Field" href="//localhost:1313/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/"></a>
-</article>
+    
+    <aside class="bw-left-ad">
+      <div class="ad-box">Ad Banner</div>
+    </aside>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Afghanistan Opt for Spin-heavy Line-up Against New Zealand in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a strategic move ahead of their World Cup encounter, Afghanistan has opted to field a spin-heavy XI against New Zealand, asking the Kiwis to bat first after winning the toss. This decision underscores Afghanistan’s confidence in their spin bowling arsenal, which has been a cornerstone of their game plan throughout the tournament. The match, held at the iconic Arun Jaitley Stadium in Delhi, promises to be a test of skill and strategy as both teams vie for crucial points in the group stage.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 05:40:29.112 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Afghanistan Opt for Spin-heavy Line-up Against New Zealand in World Cup Clash" href="//localhost:1313/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/"></a>
-</article>
+    
+    <main class="bw-main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Injury-hit New Zealand Eye Revenge as Afghanistan Look to Run It Back
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>As the ICC Cricket World Cup 2023 progresses, New Zealand finds itself in a challenging position as they prepare to face Afghanistan in a pivotal match. With a series of injuries affecting their squad, the Black Caps are eager to avenge their previous defeat to Afghanistan in the 2015 World Cup. This encounter not only holds significant implications for their campaign but also serves as a test of resilience for a team that has been a consistent performer on the world stage.
-...</p>
+      
+      <nav class="bw-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <span>Afghanistan</span>
+      </nav>
+
+      <h1 class="section-title">Afghanistan</h1>
+
+      <div class="bw-post-grid">
+        
+        <article class="post-card">
+          <a href="/posts/seifert-and-phillips-conquer-afghanistan-spin-to-script-convincing-new-zealand-w/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Afghanistan Pack Their XI with Spinners, Ask New Zealand to Field"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Afghanistan Pack Their XI with Spinners, Ask New Zealand to Field
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Afghanistan Opt for Spin-heavy Line-up Against New Zealand in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Afghanistan Opt for Spin-heavy Line-up Against New Zealand in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/injury-hit-new-zealand-eye-revenge-as-afghanistan-look-to-run-it-back/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Injury-hit New Zealand Eye Revenge as Afghanistan Look to Run It Back"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Injury-hit New Zealand Eye Revenge as Afghanistan Look to Run It Back
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+      </div>
+
+    </main>
+
+    
+    <aside class="bw-sidebar">
+
+      
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul class="category-list">
+          
+          <li>
+            <a href="/categories/domestic/">
+              <span>domestic</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/international/">
+              <span>international</span>
+              <strong>50</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/ipl/">
+              <span>ipl</span>
+              <strong>6</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/odi/">
+              <span>odi</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/t20/">
+              <span>t20</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/test/">
+              <span>test</span>
+              <strong>1</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/world-cup/">
+              <span>world cup</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          
+          <a href="/privacy/" class="popular-item">
+            <img
+              src="/images/default.jpg"
+              alt="Privacy Policy"
+              loading="lazy">
+            <span>Privacy Policy</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+        </div>
+      </div>
+
+    </aside>
+
   </div>
-  <footer class="entry-footer"><span title='2026-02-07 12:30:34.463 +0000 UTC'>February 7, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Injury-hit New Zealand Eye Revenge as Afghanistan Look to Run It Back" href="//localhost:1313/posts/injury-hit-new-zealand-eye-revenge-as-afghanistan-look-to-run-it-back/"></a>
-</article>
+</section>
+
+
   </main>
 
   

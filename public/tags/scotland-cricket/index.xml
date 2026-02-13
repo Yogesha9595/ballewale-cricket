@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Scotland Cricket on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/scotland-cricket/</link>
+    <link>/tags/scotland-cricket/</link>
     <description>Recent content in Scotland Cricket on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 07:00:32 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/scotland-cricket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/scotland-cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Italy Choose to Bowl First Against Scotland in Crucial T20 Encounter</title>
-      <link>//localhost:1313/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-t20-encounter/</link>
+      <link>/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-t20-encounter/</link>
       <pubDate>Mon, 09 Feb 2026 07:00:32 +0000</pubDate>
-      <guid>//localhost:1313/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-t20-encounter/</guid>
+      <guid>/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-t20-encounter/</guid>
       <description>Italy opts to bowl first in T20 match against Scotland, who have included Brad Wheal in their lineup. Key decisions ahead of the match.</description>
     </item>
   </channel>

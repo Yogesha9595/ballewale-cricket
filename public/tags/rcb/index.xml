@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RCB on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/rcb/</link>
+    <link>/tags/rcb/</link>
     <description>Recent content in RCB on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 12:50:30 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/rcb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/rcb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manchester United Owner Joins Bidding War for RCB and RR</title>
-      <link>//localhost:1313/posts/manchester-united-owner-joins-bidding-war-for-rcb-and-rr/</link>
+      <link>/posts/manchester-united-owner-joins-bidding-war-for-rcb-and-rr/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
-      <guid>//localhost:1313/posts/manchester-united-owner-joins-bidding-war-for-rcb-and-rr/</guid>
+      <guid>/posts/manchester-united-owner-joins-bidding-war-for-rcb-and-rr/</guid>
       <description>Manchester United owner enters the fray to acquire RCB and RR, signaling potential changes in IPL ownership dynamics.</description>
     </item>
     <item>
       <title>Manchester United Owner Among Bidders to Acquire RCB and RR</title>
-      <link>//localhost:1313/posts/manchester-united-owner-among-bidders-to-acquire-rcb-and-rr/</link>
+      <link>/posts/manchester-united-owner-among-bidders-to-acquire-rcb-and-rr/</link>
       <pubDate>Mon, 09 Feb 2026 12:30:34 +0000</pubDate>
-      <guid>//localhost:1313/posts/manchester-united-owner-among-bidders-to-acquire-rcb-and-rr/</guid>
+      <guid>/posts/manchester-united-owner-among-bidders-to-acquire-rcb-and-rr/</guid>
       <description>Manchester United owner enters the bidding race for IPL franchises RCB and RR, signaling potential changes in the league&amp;#39;s ownership landscape.</description>
     </item>
     <item>
       <title>Manchester United Owner Among Bidders for RCB and RR in IPL Auction</title>
-      <link>//localhost:1313/posts/manchester-united-owner-among-bidders-for-rcb-and-rr-in-ipl-auction/</link>
+      <link>/posts/manchester-united-owner-among-bidders-for-rcb-and-rr-in-ipl-auction/</link>
       <pubDate>Mon, 09 Feb 2026 12:25:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/manchester-united-owner-among-bidders-for-rcb-and-rr-in-ipl-auction/</guid>
+      <guid>/posts/manchester-united-owner-among-bidders-for-rcb-and-rr-in-ipl-auction/</guid>
       <description>Manchester United owner joins the bidding race for IPL franchises RCB and RR, signaling a new era in Indian cricket.</description>
     </item>
     <item>
       <title>Manchester United Owner Among Bidders to Buy RCB and RR</title>
-      <link>//localhost:1313/posts/manchester-united-owner-among-bidders-to-buy-rcb-and-rr/</link>
+      <link>/posts/manchester-united-owner-among-bidders-to-buy-rcb-and-rr/</link>
       <pubDate>Mon, 09 Feb 2026 12:15:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/manchester-united-owner-among-bidders-to-buy-rcb-and-rr/</guid>
+      <guid>/posts/manchester-united-owner-among-bidders-to-buy-rcb-and-rr/</guid>
       <description>Manchester United owner, Avram Glazer, is reportedly among the bidders for Indian Premier League franchises RCB and RR as ownership changes loom.</description>
     </item>
     <item>
       <title>Manchester United Owner Among Bidders to Buy RCB</title>
-      <link>//localhost:1313/posts/manchester-united-owner-among-bidders-to-buy-rcb/</link>
+      <link>/posts/manchester-united-owner-among-bidders-to-buy-rcb/</link>
       <pubDate>Mon, 09 Feb 2026 11:45:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/manchester-united-owner-among-bidders-to-buy-rcb/</guid>
+      <guid>/posts/manchester-united-owner-among-bidders-to-buy-rcb/</guid>
       <description>Manchester United&amp;#39;s owner is reportedly among the bidders interested in acquiring Royal Challengers Bangalore (RCB) in the IPL.</description>
     </item>
     <item>
       <title>Manchester United Owner Joins Bidding War for Royal Challengers Bangalore</title>
-      <link>//localhost:1313/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</link>
+      <link>/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</link>
       <pubDate>Mon, 09 Feb 2026 11:40:34 +0000</pubDate>
-      <guid>//localhost:1313/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</guid>
+      <guid>/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</guid>
       <description>Manchester United owner enters the bidding process for RCB, highlighting the growing interest in IPL franchises.</description>
     </item>
   </channel>

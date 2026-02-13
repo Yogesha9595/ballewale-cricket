@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <head>
   <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Zimbabwe | BalleWale Cricket News</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/tags/zimbabwe/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/zimbabwe/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="//localhost:1313/tags/zimbabwe/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.querySelector("html").dataset.theme = 'light';
-    }
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</script>
+  
+  <title>Zimbabwe | BalleWale</title>
+  <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
+
+  
+  <link rel="canonical" href="/tags/zimbabwe/">
+
+  
+  <link rel="icon" href="/favicon.ico">
+
+  
+  <meta name="theme-color" content="#0a7d3b">
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Zimbabwe">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="/tags/zimbabwe/">
+  <meta property="og:site_name" content="BalleWale">
+
+  
+  <meta property="og:image" content="/images/default.jpg">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zimbabwe">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+    crossorigin="anonymous">
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFQM5NJQRJ', {
+      anonymize_ip: true,
+      transport_type: 'beacon'
+    });
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BalleWale",
+    "url": "https://ballewale.in"
+  }
+  </script>
+
+</head>
+
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.081b92c3c4984f826ad973d73ab6a5628e3eb2c5afb03f8e2c99478b34d4dfd1.css">
-
-  
-  
-
+  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
 </head>
 
 <body>
@@ -119,101 +156,289 @@ setInterval(loadScoreStrip, 30000);
   <div class="bw-header-inner">
 
     
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
     
-    <div class="bw-actions">
-
-      <a href="/support/" class="bw-support">
-        ❤️ Support
-      </a>
-
-      <div class="bw-lang">
-        <a href="#">EN</a>
-        <span>|</span>
-        <a href="#">HI</a>
-      </div>
-
-      <button id="theme-toggle" class="bw-theme-toggle">
-        🌙
-      </button>
-
-    </div>
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
 
   </div>
 </header>
+
+
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>
 
 
   <main class="main">
-     
-<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/tags/">Tags</a></div>
-  <h1>
-    Zimbabwe
-  </h1>
-</header>
+    
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Muzarabani Returns as Zimbabwe Opt to Bowl Against Oman in World Cup Qualifier
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a crucial World Cup Qualifier match held at the Al Amerat Cricket Ground, Zimbabwe won the toss and opted to bowl first against Oman. The decision came as a strategic move to leverage the morning conditions, which are often conducive to seam bowling. Zimbabwe’s captain, Craig Ervine, expressed confidence in his bowling unit, particularly with the return of fast bowler Tendai Muzarabani, who has been sidelined due to injury for several months.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 09:30:39.534 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Muzarabani Returns as Zimbabwe Opt to Bowl Against Oman in World Cup Qualifier" href="//localhost:1313/posts/muzarabani-returns-as-zimbabwe-opt-to-bowl-against-oman-in-world-cup-qualifier/"></a>
-</article>
+<section class="bw-content-wrap">
+  <div class="bw-layout">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>As the ICC World Cup Qualifiers commence, Zimbabwe is set to face Oman in a crucial match that could significantly impact their journey towards the 2023 ICC Cricket World Cup. The match, scheduled to take place at the iconic Harare Sports Club, is expected to draw considerable attention from fans and analysts alike, as both teams look to establish their credentials in the tournament.
-Zimbabwe, having a rich cricketing history, enters this tournament with a blend of experienced players and promising young talent. The team, captained by Craig Ervine, has been preparing rigorously in the lead-up to the qualifiers, focusing on both their batting and bowling units. With key players like Sikandar Raza and Blessing Muzarabani in form, Zimbabwe will be looking to leverage their home advantage to secure a win against Oman. The team’s recent performances in various formats have shown glimpses of their potential, and this match presents an opportunity to translate that into a strong showing on the international stage.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 13:30:41.862 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers" href="//localhost:1313/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/"></a>
-</article>
+    
+    <aside class="bw-left-ad">
+      <div class="ad-box">Ad Banner</div>
+    </aside>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Oman&#39;s Jatinder Singh Counts on Warm-Up Game &#39;Psychological Edge&#39; Against Zimbabwe
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>As the cricketing world gears up for the ICC Cricket World Cup 2023, Oman’s Jatinder Singh has expressed optimism regarding his team’s upcoming warm-up match against Zimbabwe. Scheduled to take place in the lead-up to the tournament, Singh believes that the fixture will not only serve as a vital preparation tool but also provide his side with a crucial psychological edge. With the World Cup being a platform where every match counts, teams are keen to enter the tournament with confidence and momentum.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 12:55:39.484 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Oman&#39;s Jatinder Singh Counts on Warm-Up Game &#39;Psychological Edge&#39; Against Zimbabwe" href="//localhost:1313/posts/omans-jatinder-singh-counts-on-warm-up-game-psychological-edge-against-zimbabwe/"></a>
-</article>
+    
+    <main class="bw-main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>As the ICC Cricket World Cup Qualifiers kick off, Zimbabwe is set to face Oman in a crucial match that could shape their journey towards the prestigious tournament. Scheduled to take place at the iconic Harare Sports Club, the match is pivotal for both teams, as they aim to secure a spot in the 2023 ICC Cricket World Cup. With Zimbabwe’s rich cricketing history and Oman’s rising profile in international cricket, this encounter promises to be an exciting contest.
-...</p>
+      
+      <nav class="bw-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <span>Zimbabwe</span>
+      </nav>
+
+      <h1 class="section-title">Zimbabwe</h1>
+
+      <div class="bw-post-grid">
+        
+        <article class="post-card">
+          <a href="/posts/muzarabani-returns-as-zimbabwe-opt-to-bowl-against-oman-in-world-cup-qualifier/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Muzarabani Returns as Zimbabwe Opt to Bowl Against Oman in World Cup Qualifier"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Muzarabani Returns as Zimbabwe Opt to Bowl Against Oman in World Cup Qualifier
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/omans-jatinder-singh-counts-on-warm-up-game-psychological-edge-against-zimbabwe/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Oman&#39;s Jatinder Singh Counts on Warm-Up Game &#39;Psychological Edge&#39; Against Zimbabwe"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Oman&#39;s Jatinder Singh Counts on Warm-Up Game &#39;Psychological Edge&#39; Against Zimbabwe
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+      </div>
+
+    </main>
+
+    
+    <aside class="bw-sidebar">
+
+      
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul class="category-list">
+          
+          <li>
+            <a href="/categories/domestic/">
+              <span>domestic</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/international/">
+              <span>international</span>
+              <strong>50</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/ipl/">
+              <span>ipl</span>
+              <strong>6</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/odi/">
+              <span>odi</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/t20/">
+              <span>t20</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/test/">
+              <span>test</span>
+              <strong>1</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/world-cup/">
+              <span>world cup</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          
+          <a href="/privacy/" class="popular-item">
+            <img
+              src="/images/default.jpg"
+              alt="Privacy Policy"
+              loading="lazy">
+            <span>Privacy Policy</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+        </div>
+      </div>
+
+    </aside>
+
   </div>
-  <footer class="entry-footer"><span title='2026-02-08 12:15:38.928 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers" href="//localhost:1313/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/"></a>
-</article>
+</section>
+
+
   </main>
 
   

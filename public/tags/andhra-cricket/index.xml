@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Andhra Cricket on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/andhra-cricket/</link>
+    <link>/tags/andhra-cricket/</link>
     <description>Recent content in Andhra Cricket on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 12:00:29 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/andhra-cricket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/andhra-cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gharami&#39;s Unbeaten Ton Keeps Bengal Afloat Against Andhra</title>
-      <link>//localhost:1313/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</link>
+      <link>/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</link>
       <pubDate>Sat, 07 Feb 2026 12:00:29 +0000</pubDate>
-      <guid>//localhost:1313/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</guid>
+      <guid>/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</guid>
       <description>Bengal&amp;#39;s Gharami scores a crucial unbeaten century to secure a draw against Andhra in the Ranji Trophy match.</description>
     </item>
   </channel>

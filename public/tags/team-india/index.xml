@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Team India on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/team-india/</link>
+    <link>/tags/team-india/</link>
     <description>Recent content in Team India on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 19:10:33 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/team-india/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/team-india/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Washington Sundar to Link Up with Indian Squad in Delhi Ahead of World Cup</title>
-      <link>//localhost:1313/posts/washington-sundar-to-link-up-with-indian-squad-in-delhi-ahead-of-world-cup/</link>
+      <link>/posts/washington-sundar-to-link-up-with-indian-squad-in-delhi-ahead-of-world-cup/</link>
       <pubDate>Sat, 07 Feb 2026 19:10:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/washington-sundar-to-link-up-with-indian-squad-in-delhi-ahead-of-world-cup/</guid>
+      <guid>/posts/washington-sundar-to-link-up-with-indian-squad-in-delhi-ahead-of-world-cup/</guid>
       <description>Washington Sundar joins the Indian squad in Delhi as preparations intensify for the upcoming World Cup.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hetmyer on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/hetmyer/</link>
+    <link>/tags/hetmyer/</link>
     <description>Recent content in Hetmyer on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 15:00:33 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/hetmyer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/hetmyer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hetmyer Heroics and Shepherd Hat-Trick Propel West Indies to Victory Over Scotland</title>
-      <link>//localhost:1313/posts/hetmyer-heroics-and-shepherd-hat-trick-propel-west-indies-to-victory-over-scotla/</link>
+      <link>/posts/hetmyer-heroics-and-shepherd-hat-trick-propel-west-indies-to-victory-over-scotla/</link>
       <pubDate>Sat, 07 Feb 2026 15:00:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/hetmyer-heroics-and-shepherd-hat-trick-propel-west-indies-to-victory-over-scotla/</guid>
+      <guid>/posts/hetmyer-heroics-and-shepherd-hat-trick-propel-west-indies-to-victory-over-scotla/</guid>
       <description>Shimron Hetmyer shines with the bat while Romario Shepherd takes a hat-trick as West Indies secure a dominant win against Scotland.</description>
     </item>
     <item>
       <title>Hetmyer Heroics, Shepherd Hat-Trick Highlight West Indies&#39; Opening Day Win Over Scotland</title>
-      <link>//localhost:1313/posts/hetmyer-heroics-shepherd-hat-trick-highlight-west-indies-opening-day-win-over-sc/</link>
+      <link>/posts/hetmyer-heroics-shepherd-hat-trick-highlight-west-indies-opening-day-win-over-sc/</link>
       <pubDate>Sat, 07 Feb 2026 14:30:27 +0000</pubDate>
-      <guid>//localhost:1313/posts/hetmyer-heroics-shepherd-hat-trick-highlight-west-indies-opening-day-win-over-sc/</guid>
+      <guid>/posts/hetmyer-heroics-shepherd-hat-trick-highlight-west-indies-opening-day-win-over-sc/</guid>
       <description>West Indies secured a convincing victory over Scotland, thanks to Shimron Hetmyer&amp;#39;s explosive batting and Romario Shepherd&amp;#39;s hat-trick.</description>
     </item>
   </channel>

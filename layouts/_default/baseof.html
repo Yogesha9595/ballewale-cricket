@@ -6,15 +6,11 @@
   <!-- BalleWale custom stylesheet -->
   {{ $style := resources.Get "css/ballewale.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-  <!-- Analytics + AdSense -->
-  {{ partial "analytics.html" . }}
-  {{ partial "adsense.html" . }}
 </head>
 
 <body>
 
-  <!-- ESPN-style header strip -->
+  <!-- Top live score strip -->
   {{ partial "header-strip.html" . }}
 
   <!-- Main header -->
@@ -27,7 +23,10 @@
   <!-- Footer -->
   {{ partial "footer.html" . }}
 
-  <!-- Live Score Script (Homepage only) -->
+  <!-- =========================
+       LIVE SCORE SCRIPT
+       (Multi-match compatible)
+  ========================= -->
   {{ if .IsHome }}
   <script>
   async function loadLiveScore() {
@@ -35,33 +34,38 @@
     if (!card) return;
 
     try {
-      const res = await fetch("https://ballewale-rss-ai.yogesha5959.workers.dev/api/live.json");
+      const res = await fetch("/api/live.json");
       const data = await res.json();
 
-      document.getElementById("team1-name").textContent = data.team1;
-      document.getElementById("team1-score").textContent = data.score1;
+      if (!data.matches || !data.matches.length) return;
 
-      document.getElementById("team2-name").textContent = data.team2;
-      document.getElementById("team2-score").textContent = data.score2;
+      const match = data.matches[0];
 
-      document.getElementById("match-status").textContent = data.status;
-      document.getElementById("match-overs").textContent = data.overs;
+      document.getElementById("team1-name").textContent = match.team1;
+      document.getElementById("team1-score").textContent = match.score1;
 
-      document.getElementById("live-commentary").textContent = data.commentary;
+      document.getElementById("team2-name").textContent = match.team2;
+      document.getElementById("team2-score").textContent = match.score2;
+
+      document.getElementById("match-status").textContent = match.status;
+      document.getElementById("match-overs").textContent = match.overs;
 
       // Flags
       document.getElementById("team1-flag").src =
-        "https://flagcdn.com/w40/" + data.flag1 + ".png";
+        "https://flagcdn.com/w40/" + match.flag1 + ".png";
 
       document.getElementById("team2-flag").src =
-        "https://flagcdn.com/w40/" + data.flag2 + ".png";
+        "https://flagcdn.com/w40/" + match.flag2 + ".png";
 
     } catch (e) {
       console.log("Live score not available");
     }
   }
 
+  // Initial load
   loadLiveScore();
+
+  // Refresh every 30 seconds
   setInterval(loadLiveScore, 30000);
   </script>
   {{ end }}

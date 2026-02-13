@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ODI Victory on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/odi-victory/</link>
+    <link>/tags/odi-victory/</link>
     <description>Recent content in ODI Victory on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 00:55:33 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/odi-victory/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/odi-victory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kamindu Mendis, Kusal Mendis, Spinners Secure Sri Lanka&#39;s Victory in ODI</title>
-      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</link>
+      <link>/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</link>
       <pubDate>Mon, 09 Feb 2026 00:55:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</guid>
+      <guid>/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</guid>
       <description>Sri Lanka clinches a crucial ODI win with stellar performances from Kamindu Mendis, Kusal Mendis, and the spin attack.</description>
     </item>
     <item>
       <title>Kamindu Mendis, Kusal Mendis, Spinners Lead Sri Lanka to Victory in ODI Clash</title>
-      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</link>
+      <link>/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</link>
       <pubDate>Sun, 08 Feb 2026 23:15:32 +0000</pubDate>
-      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</guid>
+      <guid>/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</guid>
       <description>Kamindu Mendis and Kusal Mendis shine as Sri Lanka secures a convincing win, supported by a stellar performance from the spinners.</description>
     </item>
   </channel>

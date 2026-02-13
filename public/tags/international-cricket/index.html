@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <head>
   <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>International Cricket | BalleWale Cricket News</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/tags/international-cricket/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/international-cricket/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="//localhost:1313/tags/international-cricket/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.querySelector("html").dataset.theme = 'light';
-    }
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</script>
+  
+  <title>International Cricket | BalleWale</title>
+  <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
+
+  
+  <link rel="canonical" href="/tags/international-cricket/">
+
+  
+  <link rel="icon" href="/favicon.ico">
+
+  
+  <meta name="theme-color" content="#0a7d3b">
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="International Cricket">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="/tags/international-cricket/">
+  <meta property="og:site_name" content="BalleWale">
+
+  
+  <meta property="og:image" content="/images/default.jpg">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="International Cricket">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+    crossorigin="anonymous">
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFQM5NJQRJ', {
+      anonymize_ip: true,
+      transport_type: 'beacon'
+    });
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BalleWale",
+    "url": "https://ballewale.in"
+  }
+  </script>
+
+</head>
+
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.081b92c3c4984f826ad973d73ab6a5628e3eb2c5afb03f8e2c99478b34d4dfd1.css">
-
-  
-  
-
+  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
 </head>
 
 <body>
@@ -119,187 +156,1433 @@ setInterval(loadScoreStrip, 30000);
   <div class="bw-header-inner">
 
     
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
     
-    <div class="bw-actions">
-
-      <a href="/support/" class="bw-support">
-        ❤️ Support
-      </a>
-
-      <div class="bw-lang">
-        <a href="#">EN</a>
-        <span>|</span>
-        <a href="#">HI</a>
-      </div>
-
-      <button id="theme-toggle" class="bw-theme-toggle">
-        🌙
-      </button>
-
-    </div>
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
 
   </div>
 </header>
+
+
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>
 
 
   <main class="main">
-     
-<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/tags/">Tags</a></div>
-  <h1>
-    International Cricket
-  </h1>
-</header>
+    
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Canada to Face South Africa&#39;s Pace Attack in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated encounter at the 2023 ICC Cricket World Cup, Canada is set to bowl against a formidable South African side known for its pace-heavy attack. The match, scheduled for [insert date], will take place at [insert venue], where both teams will be looking to make a significant impact in the tournament. Canada, making its World Cup debut, faces a challenging task against a South African squad that boasts some of the fastest bowlers in the game today.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 14:50:31.972 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Canada to Face South Africa&#39;s Pace Attack in World Cup Clash" href="//localhost:1313/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/"></a>
-</article>
+<section class="bw-content-wrap">
+  <div class="bw-layout">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Canada to Face Pace-Heavy South Africa in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated encounter at the 2023 ICC Cricket World Cup, Canada is set to face South Africa, a team renowned for its formidable pace attack. As the tournament progresses, Canada, a relatively new entrant on the world stage, aims to showcase its skills against one of the tournament favorites. The match is scheduled to take place at the iconic Wankhede Stadium in Mumbai, a venue known for its lively pitch conditions that often favor fast bowlers.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 14:15:32.385 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Canada to Face Pace-Heavy South Africa in World Cup Clash" href="//localhost:1313/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/"></a>
-</article>
+    
+    <aside class="bw-left-ad">
+      <div class="ad-box">Ad Banner</div>
+    </aside>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated World Cup 2023 encounter, Canada is set to face South Africa, a team renowned for its formidable pace attack. The match, taking place at the iconic Eden Gardens in Kolkata, promises to be a test of skill and strategy for the Canadian side, which is making its mark on the world stage. South Africa, a cricketing powerhouse, boasts a lineup that features some of the fastest bowlers in the game, presenting a unique challenge for the Canadian batsmen.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 14:05:31.77 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash" href="//localhost:1313/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/"></a>
-</article>
+    
+    <main class="bw-main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated World Cup match, Canada is set to face off against South Africa, known for their formidable pace attack. The encounter, scheduled for later today, will test Canada’s mettle as they aim to make a significant impact on the global stage. South Africa, with a rich cricketing history and a squad filled with talented fast bowlers, poses a significant challenge for the Canadian team, who are looking to secure their first points in the tournament.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 14:00:32.49 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash" href="//localhost:1313/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/"></a>
-</article>
+      
+      <nav class="bw-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <span>International Cricket</span>
+      </nav>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated World Cup match, Canada is set to take on South Africa in what promises to be a challenging encounter for the Canadian side. Scheduled to take place at the iconic venue in Delhi, this clash will see Canada, a team that has made significant strides in international cricket, face a South African squad renowned for its formidable pace attack. The match is crucial for both teams as they aim to secure valuable points in the tournament.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 13:35:28.842 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash" href="//localhost:1313/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/"></a>
-</article>
+      <h1 class="section-title">International Cricket</h1>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Muzarabani, Ngarava Power Zimbabwe Past Oman in Thrilling ODI Encounter
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a compelling One Day International (ODI) match on Wednesday, Zimbabwe showcased their cricketing prowess with a commanding victory over Oman, led by the exceptional performances of Blessing Muzarabani and Richard Ngarava. The match, held at the Harare Sports Club, saw Zimbabwe chase down a target of 250 runs with relative ease, securing their win by a margin of 75 runs.
-Zimbabwe’s innings began with a steady yet cautious approach, as they lost their first wicket at 30 runs. However, the middle-order batsmen steadied the ship, with captain Craig Ervine contributing a solid 65 runs. The standout performance came from the explosive Ryan Burl, who scored a blistering 85 runs off just 70 balls, propelling Zimbabwe to a total of 249 runs before being bowled out in the 49th over. Oman’s bowlers, while disciplined, struggled to contain the Zimbabwean batsmen, with Bilal Khan claiming three wickets but conceding 54 runs in the process.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 13:10:31.115 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Muzarabani, Ngarava Power Zimbabwe Past Oman in Thrilling ODI Encounter" href="//localhost:1313/posts/muzarabani-ngarava-power-zimbabwe-past-oman-in-thrilling-odi-encounter/"></a>
-</article>
+      <div class="bw-post-grid">
+        
+        <article class="post-card">
+          <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in T20 Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a thrilling T20 encounter held at the Al Amerat Cricket Ground, Zimbabwe emerged victorious over Oman by a significant margin, thanks to the exceptional performances of fast bowlers Blessing Muzarabani and Richard Ngarava. The match, part of a bilateral series, showcased Zimbabwe’s bowling prowess and their ability to capitalize on early breakthroughs.
-Zimbabwe won the toss and opted to bowl first, a decision that proved to be advantageous as Muzarabani and Ngarava wreaked havoc on the Omani batting lineup. Muzarabani, with his height and pace, consistently troubled the batsmen, claiming three crucial wickets for just 24 runs in his four overs. Ngarava complemented his efforts with an impressive spell of his own, taking two wickets while conceding only 18 runs. The duo’s combined efforts restricted Oman to a modest total of 112 runs, setting a challenging target for the hosts.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 13:05:31.55 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in T20 Clash" href="//localhost:1313/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman-in-t20-clash/"></a>
-</article>
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a compelling display of bowling prowess, Zimbabwe secured a convincing victory over Oman in their recent international clash. The match, held at the Al Amerat Cricket Ground, saw Zimbabwe’s bowlers dominate, with Blessing Muzarabani and Richard Ngarava leading the charge to restrict Oman to a modest total. This performance not only marked a significant win for Zimbabwe but also highlighted the growing strength of their bowling attack on the international stage.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 13:00:30.855 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman" href="//localhost:1313/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/"></a>
-</article>
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in ODI Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a commanding display of cricket, Zimbabwe secured a comprehensive victory over Oman in their One Day International (ODI) match held at the Harare Sports Club on Wednesday. The match showcased the prowess of Zimbabwe’s bowling attack, led by Blessing Muzarabani and Richard Ngarava, who effectively dismantled the Omani batting lineup, restricting them to a modest total.
-Zimbabwe won the toss and opted to bowl first, a decision that proved to be advantageous. Muzarabani, with his height and pace, was particularly effective, claiming three wickets for just 25 runs in his allotted overs. His ability to generate bounce and seam movement troubled the Omani batsmen throughout their innings. Ngarava complemented Muzarabani’s efforts, picking up two crucial wickets and maintaining a tight line that further stifled the opposition’s scoring opportunities. The Omani team struggled to build partnerships, with their highest scorer managing only 30 runs, ultimately being bowled out for a mere 145 runs in 38 overs.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 12:55:32.508 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in ODI Clash" href="//localhost:1313/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman-in-odi-clash/"></a>
-</article>
+              <h3 class="card-title">
+                Canada to Face South Africa&#39;s Pace Attack in World Cup Clash
+              </h3>
+            </div>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">India-Pakistan: Hope Builds That February 15 Fixture Will Go Ahead
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>As the cricketing world gears up for the highly anticipated fixture between India and Pakistan on February 15, 2024, hope is building that the match will proceed as scheduled. Both teams are preparing for what is expected to be a thrilling encounter, a fixture that has historically drawn massive viewership and fervent fan engagement. The match, part of the ongoing international calendar, is crucial not only for the teams involved but also for the fans who eagerly await this fierce rivalry.
-...</p>
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Canada to Face Pace-Heavy South Africa in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/muzarabani-ngarava-power-zimbabwe-past-oman-in-thrilling-odi-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Muzarabani, Ngarava Power Zimbabwe Past Oman in Thrilling ODI Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Muzarabani, Ngarava Power Zimbabwe Past Oman in Thrilling ODI Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman-in-t20-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in T20 Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in T20 Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman-in-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman in ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/india-pakistan-hope-builds-that-february-15-fixture-will-go-ahead/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="India-Pakistan: Hope Builds That February 15 Fixture Will Go Ahead"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                India-Pakistan: Hope Builds That February 15 Fixture Will Go Ahead
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Spirited USA Seek Pakistan Scalp After Opening Day Heartbreak"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Spirited USA Seek Pakistan Scalp After Opening Day Heartbreak
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/namibia-begin-campaign-in-crucial-game-against-netherlands/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Namibia Begin Campaign in Crucial Game Against Netherlands"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Namibia Begin Campaign in Crucial Game Against Netherlands
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/new-zealand-brace-for-unfamiliar-opponents-uae-in-upcoming-odi-series/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="New Zealand Brace for Unfamiliar Opponents UAE in Upcoming ODI Series"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                New Zealand Brace for Unfamiliar Opponents UAE in Upcoming ODI Series
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup-2023/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="New Zealand Prepare for Unfamiliar Challenge Against UAE in World Cup 2023"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                New Zealand Prepare for Unfamiliar Challenge Against UAE in World Cup 2023
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="New Zealand Prepare for Unfamiliar Challenge Against UAE in World Cup"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                New Zealand Prepare for Unfamiliar Challenge Against UAE in World Cup
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/new-zealand-prepare-for-unfamiliar-opponents-uae-in-upcoming-odi-series/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="New Zealand Prepare for Unfamiliar Opponents UAE in Upcoming ODI Series"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                New Zealand Prepare for Unfamiliar Opponents UAE in Upcoming ODI Series
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-t20-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?t20,cricket"
+                alt="Italy Choose to Bowl First Against Scotland in Crucial T20 Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                T20
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Choose to Bowl First Against Scotland in Crucial T20 Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-as-scotland-include-brad-wheal-in-squad/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First as Scotland Include Brad Wheal in Squad"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First as Scotland Include Brad Wheal in Squad
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-captain-wayne-madsen-injures-shoulder-in-t20-world-cup-opener/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Italy Captain Wayne Madsen Injures Shoulder in T20 World Cup Opener"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Captain Wayne Madsen Injures Shoulder in T20 World Cup Opener
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-as-scotland-introduces-brad-wheal-in-squad/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First as Scotland Introduces Brad Wheal in Squad"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First as Scotland Introduces Brad Wheal in Squad
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-match/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Choose to Bowl First Against Scotland in Crucial Match"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Choose to Bowl First Against Scotland in Crucial Match
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/kamindu-mendis-and-kusal-mendis-shine-as-spinners-propel-sri-lanka-to-victory/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Kamindu Mendis and Kusal Mendis Shine as Spinners Propel Sri Lanka to Victory"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Kamindu Mendis and Kusal Mendis Shine as Spinners Propel Sri Lanka to Victory
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/kamindu-mendis-kusal-mendis-and-spinners-propel-sri-lanka-to-victory/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Kamindu Mendis, Kusal Mendis, and Spinners Propel Sri Lanka to Victory"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Kamindu Mendis, Kusal Mendis, and Spinners Propel Sri Lanka to Victory
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/kamindu-mendis-and-kusal-mendis-shine-as-sri-lanka-secures-victory/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Kamindu Mendis and Kusal Mendis Shine as Sri Lanka Secures Victory"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Kamindu Mendis and Kusal Mendis Shine as Sri Lanka Secures Victory
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/raza-associate-nations-have-caught-up-with-the-t20-format/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Raza: &#39;Associate Nations Have Caught Up with the T20 Format&#39;"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Raza: &#39;Associate Nations Have Caught Up with the T20 Format&#39;
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/world-cup-debutants-italy-look-to-make-more-history-in-kolkata/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="World Cup Debutants Italy Look to Make More History in Kolkata"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                World Cup Debutants Italy Look to Make More History in Kolkata
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-t20-series/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Zimbabwe Look to Hit the Ground Running Against Oman in T20 Series"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Zimbabwe Look to Hit the Ground Running Against Oman in T20 Series
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/canada-look-for-early-splash-against-favourites-south-africa-in-world-cup-showdo/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Canada Look for Early Splash Against Favourites South Africa in World Cup Showdown"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Canada Look for Early Splash Against Favourites South Africa in World Cup Showdown
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/not-100-sure-what-to-expect-south-africa-come-up-against-canadas-unknowns/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="&#39;Not 100% sure what to expect&#39; - South Africa come up against Canada&#39;s unknowns"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                &#39;Not 100% sure what to expect&#39; - South Africa come up against Canada&#39;s unknowns
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/not-100-sure-what-to-expect-south-africa-face-canadas-unknowns-in-world-cup-clas/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="&#39;Not 100% sure what to expect&#39; - South Africa face Canada&#39;s unknowns in World Cup clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                &#39;Not 100% sure what to expect&#39; - South Africa face Canada&#39;s unknowns in World Cup clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/not-100-sure-what-to-expect-south-africa-face-canadas-unpredictable-challenge/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="&#39;Not 100% sure what to expect&#39; - South Africa face Canada&#39;s unpredictable challenge"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                &#39;Not 100% sure what to expect&#39; - South Africa face Canada&#39;s unpredictable challenge
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/not-100-sure-what-to-expect-south-africa-face-challenge-against-canadas-unknowns/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="&#39;Not 100% sure what to expect&#39; - South Africa face challenge against Canada&#39;s unknowns"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                &#39;Not 100% sure what to expect&#39; - South Africa face challenge against Canada&#39;s unknowns
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First as Nepal Introduces Sher Malla for Debut Match"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First as Nepal Introduces Sher Malla for Debut Match
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/washington-sundar-to-join-indian-squad-in-delhi-ahead-of-namibia-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Washington Sundar to Join Indian Squad in Delhi Ahead of Namibia Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Washington Sundar to Join Indian Squad in Delhi Ahead of Namibia Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/suryakumars-84-helps-india-overcome-usa-scare-in-t20-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?t20,cricket"
+                alt="Suryakumar&#39;s 84* Helps India Overcome USA Scare in T20 Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                T20
+              </span>
+              
+
+              <h3 class="card-title">
+                Suryakumar&#39;s 84* Helps India Overcome USA Scare in T20 Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/vulnerable-sri-lanka-present-ireland-opportunity-for-an-upset-in-world-cup-2023/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Vulnerable Sri Lanka Present Ireland Opportunity for an Upset in World Cup 2023"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Vulnerable Sri Lanka Present Ireland Opportunity for an Upset in World Cup 2023
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/hetmyer-heroics-and-shepherds-hat-trick-lead-west-indies-to-victory-over-scotlan/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Hetmyer Heroics and Shepherd&#39;s Hat-Trick Lead West Indies to Victory Over Scotland"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Hetmyer Heroics and Shepherd&#39;s Hat-Trick Lead West Indies to Victory Over Scotland
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/rashid-playing-international-cricket-in-afghanistan-more-than-a-dream/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Rashid: Playing International Cricket in Afghanistan &#39;More Than a Dream&#39;"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Rashid: Playing International Cricket in Afghanistan &#39;More Than a Dream&#39;
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/brook-draws-a-line-under-wellington-after-horrendous-month-in-spotlight/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Brook Draws a Line Under Wellington After &#39;Horrendous&#39; Month in Spotlight"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Brook Draws a Line Under Wellington After &#39;Horrendous&#39; Month in Spotlight
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-against-west-indies-in-crucial-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?odi,cricket"
+                alt="Scotland Opt to Field Against West Indies in Crucial ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                ODI
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field Against West Indies in Crucial ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-first-against-west-indies-in-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Scotland Opt to Field First Against West Indies in ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field First Against West Indies in ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-first-against-west-indies-in-crucial-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?odi,cricket"
+                alt="Scotland Opt to Field First Against West Indies in Crucial ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                ODI
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field First Against West Indies in Crucial ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/faheem-ashraf-drags-unconvincing-pakistan-over-the-line-after-big-scare/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Faheem Ashraf Drags Unconvincing Pakistan Over the Line After Big Scare"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Faheem Ashraf Drags Unconvincing Pakistan Over the Line After Big Scare
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/mahli-beardman-suffers-recurrence-of-a-stress-fracture-in-his-back/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Mahli Beardman Suffers Recurrence of a Stress Fracture in His Back"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Mahli Beardman Suffers Recurrence of a Stress Fracture in His Back
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+      </div>
+
+    </main>
+
+    
+    <aside class="bw-sidebar">
+
+      
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul class="category-list">
+          
+          <li>
+            <a href="/categories/domestic/">
+              <span>domestic</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/international/">
+              <span>international</span>
+              <strong>50</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/ipl/">
+              <span>ipl</span>
+              <strong>6</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/odi/">
+              <span>odi</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/t20/">
+              <span>t20</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/test/">
+              <span>test</span>
+              <strong>1</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/world-cup/">
+              <span>world cup</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          
+          <a href="/privacy/" class="popular-item">
+            <img
+              src="/images/default.jpg"
+              alt="Privacy Policy"
+              loading="lazy">
+            <span>Privacy Policy</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+        </div>
+      </div>
+
+    </aside>
+
   </div>
-  <footer class="entry-footer"><span title='2026-02-09 12:45:34.409 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to India-Pakistan: Hope Builds That February 15 Fixture Will Go Ahead" href="//localhost:1313/posts/india-pakistan-hope-builds-that-february-15-fixture-will-go-ahead/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="next" href="//localhost:1313/tags/international-cricket/page/2/">Next&nbsp;&nbsp;»
-    </a>
-  </nav>
-</footer>
+</section>
+
+
   </main>
 
   

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fielding Errors on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/fielding-errors/</link>
+    <link>/tags/fielding-errors/</link>
     <description>Recent content in Fielding Errors on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 21:25:32 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/fielding-errors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/fielding-errors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ireland Fielding Errors Prove Costly in World Cup Match</title>
-      <link>//localhost:1313/posts/ireland-fielding-errors-prove-costly-in-world-cup-match/</link>
+      <link>/posts/ireland-fielding-errors-prove-costly-in-world-cup-match/</link>
       <pubDate>Sun, 08 Feb 2026 21:25:32 +0000</pubDate>
-      <guid>//localhost:1313/posts/ireland-fielding-errors-prove-costly-in-world-cup-match/</guid>
+      <guid>/posts/ireland-fielding-errors-prove-costly-in-world-cup-match/</guid>
       <description>Ireland&amp;#39;s costly fielding errors lead to a disappointing loss in their World Cup match, impacting their chances in the tournament.</description>
     </item>
   </channel>

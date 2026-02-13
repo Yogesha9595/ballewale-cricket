@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <head>
   <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Scotland | BalleWale Cricket News</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/tags/scotland/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/scotland/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="//localhost:1313/tags/scotland/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.querySelector("html").dataset.theme = 'light';
-    }
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</script>
+  
+  <title>Scotland | BalleWale</title>
+  <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
+
+  
+  <link rel="canonical" href="/tags/scotland/">
+
+  
+  <link rel="icon" href="/favicon.ico">
+
+  
+  <meta name="theme-color" content="#0a7d3b">
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Scotland">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="/tags/scotland/">
+  <meta property="og:site_name" content="BalleWale">
+
+  
+  <meta property="og:image" content="/images/default.jpg">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Scotland">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+    crossorigin="anonymous">
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFQM5NJQRJ', {
+      anonymize_ip: true,
+      transport_type: 'beacon'
+    });
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BalleWale",
+    "url": "https://ballewale.in"
+  }
+  </script>
+
+</head>
+
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.081b92c3c4984f826ad973d73ab6a5628e3eb2c5afb03f8e2c99478b34d4dfd1.css">
-
-  
-  
-
+  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
 </head>
 
 <body>
@@ -119,190 +156,705 @@ setInterval(loadScoreStrip, 30000);
   <div class="bw-header-inner">
 
     
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
     
-    <div class="bw-actions">
-
-      <a href="/support/" class="bw-support">
-        ❤️ Support
-      </a>
-
-      <div class="bw-lang">
-        <a href="#">EN</a>
-        <span>|</span>
-        <a href="#">HI</a>
-      </div>
-
-      <button id="theme-toggle" class="bw-theme-toggle">
-        🌙
-      </button>
-
-    </div>
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
 
   </div>
 </header>
+
+
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>
 
 
   <main class="main">
-     
-<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/tags/">Tags</a></div>
-  <h1>
-    Scotland
-  </h1>
-</header>
+    
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Munsey and Leask Spoil Italy&#39;s T20 World Cup Debut
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a historic T20 World Cup debut for Italy, Scotland’s openers, George Munsey and Michael Leask, delivered standout performances to secure a commanding victory. The match, held at the picturesque venue of the T20 World Cup, showcased both teams’ aspirations but ultimately highlighted Scotland’s experience and skill on the global stage.
-Italy, participating in their first-ever T20 World Cup, was met with high expectations and excitement from fans and players alike. However, the challenge of facing a seasoned side like Scotland proved to be a daunting task. After winning the toss, Scotland opted to bat first, setting a competitive total of 190 runs. Munsey played a pivotal role, scoring a blistering 75 runs off just 48 balls, while Leask contributed significantly with a well-crafted 54 runs. Their partnership laid the foundation for a challenging target that Italy would struggle to chase.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 09:10:34.149 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Munsey and Leask Spoil Italy&#39;s T20 World Cup Debut" href="//localhost:1313/posts/munsey-and-leask-spoil-italys-t20-world-cup-debut/"></a>
-</article>
+<section class="bw-content-wrap">
+  <div class="bw-layout">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First Against Scotland in ICC T20 World Cup Qualifier
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a crucial encounter of the ICC T20 World Cup Qualifier, Italy won the toss and opted to bowl first against Scotland. The match, held at the picturesque venue of the Malahide Cricket Club in Dublin, is pivotal for both teams as they aim to secure a place in the upcoming T20 World Cup. Italy, looking to make their mark on the international stage, has shown promising form in the tournament so far, while Scotland, a seasoned competitor, seeks to assert their dominance.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:50:39.502 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First Against Scotland in ICC T20 World Cup Qualifier" href="//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-icc-t20-world-cup-qualifier/"></a>
-</article>
+    
+    <aside class="bw-left-ad">
+      <div class="ad-box">Ad Banner</div>
+    </aside>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First Against Scotland in Crucial ICC Qualifier
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a crucial ICC World Cup Qualifier match held at the picturesque venue in Scotland, Italy won the toss and opted to bowl first against the home side. This decision reflects Italy’s strategy to exploit the early morning conditions, which are expected to assist seam bowlers. The match is pivotal for both teams as they aim to secure a spot in the upcoming World Cup, intensifying the competition on the international stage.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:35:32.236 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First Against Scotland in Crucial ICC Qualifier" href="//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-icc-qualifier/"></a>
-</article>
+    
+    <main class="bw-main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First as Scotland Introduces Brad Wheal in Squad
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a crucial match of the international cricket calendar, Italy has won the toss and opted to bowl first against Scotland. This decision comes as both teams look to make a significant impact in the ongoing series. The match, taking place at a well-prepared venue, is expected to showcase some thrilling cricket as both sides vie for supremacy on the field.
-Scotland has made a notable change to their squad by including fast bowler Brad Wheal, who has been in impressive form in recent domestic competitions. His inclusion is anticipated to bolster the Scottish bowling attack, providing them with an extra edge in the early overs. Wheal’s ability to swing the ball and maintain pressure on the batting side will be crucial, especially in the initial stages of the innings. His performance will be closely monitored as fans and analysts alike are eager to see how he adapts to the international stage.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:30:32.223 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First as Scotland Introduces Brad Wheal in Squad" href="//localhost:1313/posts/italy-opt-to-bowl-first-as-scotland-introduces-brad-wheal-in-squad/"></a>
-</article>
+      
+      <nav class="bw-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <span>Scotland</span>
+      </nav>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Choose to Bowl First Against Scotland in ODI Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated ODI match, Italy won the toss and opted to bowl first against Scotland at the picturesque ground in Edinburgh. The decision to field first reflects Italy’s strategy to exploit the early morning conditions, which may assist their bowlers in gaining swing and seam movement. This match is a significant fixture for both teams as they continue to build their profiles in the international cricketing arena.
-Scotland, on the other hand, has made a notable inclusion in their squad with the selection of Brad Wheal, who is set to make his debut. Wheal, a promising fast bowler, has been in impressive form in domestic cricket and his inclusion is expected to bolster Scotland’s bowling attack. The Scottish side will be looking to capitalize on their home advantage and set a challenging target for the Italian team.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:25:33.241 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Choose to Bowl First Against Scotland in ODI Clash" href="//localhost:1313/posts/italy-choose-to-bowl-first-against-scotland-in-odi-clash/"></a>
-</article>
+      <h1 class="section-title">Scotland</h1>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First Against Scotland in Crucial T20 Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated T20 international match, Italy won the toss and opted to bowl first against Scotland at the picturesque venue in Bologna. This decision reflects Italy’s strategy to leverage the conditions, which may favor bowlers early in the game. The match is crucial for both teams as they look to enhance their standings in the international T20 rankings.
-Scotland, on the other hand, has made a notable inclusion in their squad by bringing in fast bowler Brad Wheal. Wheal, who has been in impressive form, is expected to bolster the Scottish bowling attack. His ability to generate pace and movement could prove vital in challenging the Italian batting lineup. Scotland’s captain expressed confidence in the team’s composition, highlighting the importance of starting strong in the powerplay overs.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:20:33.029 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First Against Scotland in Crucial T20 Clash" href="//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-t20-clash/"></a>
-</article>
+      <div class="bw-post-grid">
+        
+        <article class="post-card">
+          <a href="/posts/munsey-and-leask-spoil-italys-t20-world-cup-debut/">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First Against Scotland in International T20 Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated T20 international match, Italy has won the toss and opted to bowl first against Scotland at the picturesque venue in Edinburgh. This decision reflects Italy’s strategy to leverage the conditions early in the game, particularly with the overcast skies that could assist seam bowlers. The match is part of a series aimed at enhancing both teams’ preparations for upcoming tournaments.
-Scotland, on the other hand, has made a significant inclusion in their squad, bringing in fast bowler Brad Wheal. Wheal, known for his pace and ability to swing the ball, is expected to play a crucial role in the early overs of the innings. His inclusion adds depth to an already formidable bowling attack that includes seasoned players. The Scottish side will be looking to set a competitive total and capitalize on home advantage.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:05:34.197 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First Against Scotland in International T20 Clash" href="//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-international-t20-clash/"></a>
-</article>
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?t20,cricket"
+                alt="Munsey and Leask Spoil Italy&#39;s T20 World Cup Debut"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Choose to Bowl First Against Scotland in Crucial Match
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a significant clash in the European cricket circuit, Italy won the toss and opted to bowl first against Scotland in a match that has drawn considerable attention from cricket enthusiasts. The decision to chase runs rather than set a target reflects Italy’s confidence in their bowling attack, which has shown promise in recent outings. This match is particularly crucial as both teams aim to solidify their standings in the international arena, with Scotland looking to leverage their experience against a spirited Italian side.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 06:00:39.333 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Choose to Bowl First Against Scotland in Crucial Match" href="//localhost:1313/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-match/"></a>
-</article>
+            <div class="card-content">
+              
+              <span class="card-category">
+                T20
+              </span>
+              
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First Against Scotland in Crucial ODI Match
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a pivotal One Day International (ODI) match, Italy won the toss and elected to bowl first against Scotland at the picturesque venue of the Cricket Club of India. This decision reflects Italy’s strategy to leverage the early conditions, which are expected to assist bowlers with some swing and seam movement. The match is crucial for both teams as they aim to secure valuable points in the ongoing ODI series.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-09 05:55:33.267 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First Against Scotland in Crucial ODI Match" href="//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-match/"></a>
-</article>
+              <h3 class="card-title">
+                Munsey and Leask Spoil Italy&#39;s T20 World Cup Debut
+              </h3>
+            </div>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Italy Opt to Bowl First Against Scotland in Crucial T20 Encounter
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a significant T20 clash at the picturesque venue of the Cricket Club of Italy in Milan, Italy has won the toss and opted to bowl first against Scotland. This match is part of a series aimed at enhancing both teams’ preparations for upcoming international fixtures. The decision to field first reflects Italy’s confidence in their bowling attack, which has shown promising form in recent matches.
-Scotland, on the other hand, has made a notable inclusion in their squad by playing Brad Wheal, the talented fast bowler who has been making waves in domestic cricket. Wheal’s selection is seen as a strategic move to bolster Scotland’s pace options, especially on a pitch that is expected to offer assistance to seamers early on. The Scottish side will be looking to set a competitive total, relying on their experienced batsmen to capitalize on any early scoring opportunities.
-...</p>
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-icc-t20-world-cup-qualifier/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in ICC T20 World Cup Qualifier"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in ICC T20 World Cup Qualifier
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-icc-qualifier/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in Crucial ICC Qualifier"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in Crucial ICC Qualifier
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-as-scotland-introduces-brad-wheal-in-squad/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First as Scotland Introduces Brad Wheal in Squad"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First as Scotland Introduces Brad Wheal in Squad
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-choose-to-bowl-first-against-scotland-in-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Choose to Bowl First Against Scotland in ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Choose to Bowl First Against Scotland in ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-t20-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in Crucial T20 Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in Crucial T20 Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-international-t20-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in International T20 Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in International T20 Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-choose-to-bowl-first-against-scotland-in-crucial-match/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Choose to Bowl First Against Scotland in Crucial Match"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Choose to Bowl First Against Scotland in Crucial Match
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-match/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?odi,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in Crucial ODI Match"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                ODI
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in Crucial ODI Match
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-t20-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?t20,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in Crucial T20 Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                T20
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in Crucial T20 Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?odi,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in Crucial ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                ODI
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in Crucial ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-as-scotland-include-brad-wheal-in-lineup/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Italy Opt to Bowl First as Scotland Include Brad Wheal in Lineup"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First as Scotland Include Brad Wheal in Lineup
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/italy-opt-to-bowl-first-against-scotland-in-t20-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?t20,cricket"
+                alt="Italy Opt to Bowl First Against Scotland in T20 Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                T20
+              </span>
+              
+
+              <h3 class="card-title">
+                Italy Opt to Bowl First Against Scotland in T20 Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/hetmyer-heroics-and-shepherd-hat-trick-propel-west-indies-to-victory-over-scotla/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Hetmyer Heroics and Shepherd Hat-Trick Propel West Indies to Victory Over Scotland"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Hetmyer Heroics and Shepherd Hat-Trick Propel West Indies to Victory Over Scotland
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/hetmyer-heroics-shepherd-hat-trick-highlight-west-indies-opening-day-win-over-sc/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Hetmyer Heroics, Shepherd Hat-Trick Highlight West Indies&#39; Opening Day Win Over Scotland"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Hetmyer Heroics, Shepherd Hat-Trick Highlight West Indies&#39; Opening Day Win Over Scotland
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/hetmyer-heroics-and-shepherds-hat-trick-lead-west-indies-to-victory-over-scotlan/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Hetmyer Heroics and Shepherd&#39;s Hat-Trick Lead West Indies to Victory Over Scotland"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Hetmyer Heroics and Shepherd&#39;s Hat-Trick Lead West Indies to Victory Over Scotland
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-against-west-indies-in-crucial-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?odi,cricket"
+                alt="Scotland Opt to Field Against West Indies in Crucial ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                ODI
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field Against West Indies in Crucial ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-first-against-west-indies-in-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="Scotland Opt to Field First Against West Indies in ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field First Against West Indies in ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-first-against-west-indies-in-crucial-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?odi,cricket"
+                alt="Scotland Opt to Field First Against West Indies in Crucial ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                ODI
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field First Against West Indies in Crucial ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/scotland-opt-to-field-first-against-west-indies-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="Scotland Opt to Field First Against West Indies in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                Scotland Opt to Field First Against West Indies in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+      </div>
+
+    </main>
+
+    
+    <aside class="bw-sidebar">
+
+      
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul class="category-list">
+          
+          <li>
+            <a href="/categories/domestic/">
+              <span>domestic</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/international/">
+              <span>international</span>
+              <strong>50</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/ipl/">
+              <span>ipl</span>
+              <strong>6</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/odi/">
+              <span>odi</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/t20/">
+              <span>t20</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/test/">
+              <span>test</span>
+              <strong>1</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/world-cup/">
+              <span>world cup</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          
+          <a href="/privacy/" class="popular-item">
+            <img
+              src="/images/default.jpg"
+              alt="Privacy Policy"
+              loading="lazy">
+            <span>Privacy Policy</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+        </div>
+      </div>
+
+    </aside>
+
   </div>
-  <footer class="entry-footer"><span title='2026-02-09 05:50:33.127 +0000 UTC'>February 9, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Italy Opt to Bowl First Against Scotland in Crucial T20 Encounter" href="//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-t20-encounter/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="next" href="//localhost:1313/tags/scotland/page/2/">Next&nbsp;&nbsp;»
-    </a>
-  </nav>
-</footer>
+</section>
+
+
   </main>
 
   

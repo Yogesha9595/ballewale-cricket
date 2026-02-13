@@ -1,32 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.155.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
-     crossorigin="anonymous"></script>
+	<meta name="generator" content="Hugo 0.155.2">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <title>BalleWale Cricket News | BalleWale</title>
+  <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
+
+  
+  <link rel="canonical" href="/">
+
+  
+  <link rel="icon" href="/favicon.ico">
+
+  
+  <meta name="theme-color" content="#0a7d3b">
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="BalleWale Cricket News">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="/">
+  <meta property="og:site_name" content="BalleWale">
+
+  
+  <meta property="og:image" content="/images/default.jpg">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BalleWale Cricket News">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+    crossorigin="anonymous">
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFQM5NJQRJ', {
+      anonymize_ip: true,
+      transport_type: 'beacon'
+    });
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BalleWale",
+    "url": "https://ballewale.in"
+  }
+  </script>
+
+</head>
+
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.b599ab378c61a914f5b5c9f0a3e75ecdf64ccda530b7c1eb3423c9e2c0b8e0bd.css">
-
-  
-  
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JFQM5NJQRJ');
-</script>
-
-
-<script async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
-  crossorigin="anonymous">
-</script>
-
-  
+  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
 </head>
 
 <body>
@@ -103,21 +157,40 @@ setInterval(loadScoreStrip, 30000);
   <div class="bw-header-inner">
 
     
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
     
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
+
   </div>
 </header>
+
+
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>
 
 
   <main class="main">
@@ -553,12 +626,12 @@ setInterval(loadScoreStrip, 30000);
             #World Cup 2023
           </a>
           
-          <a href="/tags/scotland/">
-            #Scotland
-          </a>
-          
           <a href="/tags/odi/">
             #ODI
+          </a>
+          
+          <a href="/tags/scotland/">
+            #Scotland
           </a>
           
           <a href="/tags/world-cup/">
@@ -717,33 +790,38 @@ setInterval(loadScoreStrip, 30000);
     if (!card) return;
 
     try {
-      const res = await fetch("https://ballewale-rss-ai.yogesha5959.workers.dev/api/live.json");
+      const res = await fetch("/api/live.json");
       const data = await res.json();
 
-      document.getElementById("team1-name").textContent = data.team1;
-      document.getElementById("team1-score").textContent = data.score1;
+      if (!data.matches || !data.matches.length) return;
 
-      document.getElementById("team2-name").textContent = data.team2;
-      document.getElementById("team2-score").textContent = data.score2;
+      const match = data.matches[0];
 
-      document.getElementById("match-status").textContent = data.status;
-      document.getElementById("match-overs").textContent = data.overs;
+      document.getElementById("team1-name").textContent = match.team1;
+      document.getElementById("team1-score").textContent = match.score1;
 
-      document.getElementById("live-commentary").textContent = data.commentary;
+      document.getElementById("team2-name").textContent = match.team2;
+      document.getElementById("team2-score").textContent = match.score2;
+
+      document.getElementById("match-status").textContent = match.status;
+      document.getElementById("match-overs").textContent = match.overs;
 
       
       document.getElementById("team1-flag").src =
-        "https://flagcdn.com/w40/" + data.flag1 + ".png";
+        "https://flagcdn.com/w40/" + match.flag1 + ".png";
 
       document.getElementById("team2-flag").src =
-        "https://flagcdn.com/w40/" + data.flag2 + ".png";
+        "https://flagcdn.com/w40/" + match.flag2 + ".png";
 
     } catch (e) {
       console.log("Live score not available");
     }
   }
 
+  
   loadLiveScore();
+
+  
   setInterval(loadLiveScore, 30000);
   </script>
   

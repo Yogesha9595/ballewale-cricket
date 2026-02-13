@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Seven Wickets on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/seven-wickets/</link>
+    <link>/tags/seven-wickets/</link>
     <description>Recent content in Seven Wickets on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 13:00:28 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/seven-wickets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/seven-wickets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nabi Takes Seven; Gharami&#39;s Unbeaten Ton Keeps Bengal Afloat</title>
-      <link>//localhost:1313/posts/nabi-takes-seven-gharamis-unbeaten-ton-keeps-bengal-afloat/</link>
+      <link>/posts/nabi-takes-seven-gharamis-unbeaten-ton-keeps-bengal-afloat/</link>
       <pubDate>Sat, 07 Feb 2026 13:00:28 +0000</pubDate>
-      <guid>//localhost:1313/posts/nabi-takes-seven-gharamis-unbeaten-ton-keeps-bengal-afloat/</guid>
+      <guid>/posts/nabi-takes-seven-gharamis-unbeaten-ton-keeps-bengal-afloat/</guid>
       <description>Mohammad Nabi&amp;#39;s seven-wicket haul and Sudip Gharami&amp;#39;s century helped Bengal fight back in their latest domestic match.</description>
     </item>
   </channel>

@@ -1,0 +1,94 @@
+{{ define "main" }}
+
+<section class="bw-content-wrap">
+  <div class="bw-layout">
+
+    <!-- LEFT AD -->
+    <aside class="bw-left-ad">
+      <div class="ad-box">Ad Banner</div>
+    </aside>
+
+    <!-- MAIN LIST -->
+    <main class="bw-main">
+
+      <!-- Breadcrumb -->
+      <nav class="bw-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <span>{{ .Title }}</span>
+      </nav>
+
+      <h1 class="section-title">{{ .Title }}</h1>
+
+      <div class="bw-post-grid">
+        {{ range .Pages }}
+        <article class="post-card">
+          <a href="{{ .RelPermalink }}">
+
+            <div class="card-image">
+              <img
+                src="{{ .Params.image | default "/images/default.jpg" }}"
+                alt="{{ .Title }}"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              {{ with .Params.categories }}
+              <span class="card-category">
+                {{ index . 0 }}
+              </span>
+              {{ end }}
+
+              <h3 class="card-title">
+                {{ .Title }}
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        {{ end }}
+      </div>
+
+    </main>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="bw-sidebar">
+
+      <!-- Categories -->
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul class="category-list">
+          {{ range $name, $taxonomy := site.Taxonomies.categories }}
+          <li>
+            <a href="/categories/{{ $name | urlize }}/">
+              <span>{{ $name }}</span>
+              <strong>{{ len $taxonomy }}</strong>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <!-- Popular posts -->
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          {{ range first 5 site.RegularPages }}
+          <a href="{{ .RelPermalink }}" class="popular-item">
+            <img
+              src="{{ .Params.image | default "/images/default.jpg" }}"
+              alt="{{ .Title }}"
+              loading="lazy">
+            <span>{{ .Title }}</span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+
+    </aside>
+
+  </div>
+</section>
+
+{{ end }}

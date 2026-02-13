@@ -1,0 +1,17 @@
+<div class="sidebar-box">
+  <h4>Trending Now</hh4>
+
+  {{ $recent := first 5 (where site.RegularPages "Type" "posts") }}
+
+  <div class="popular-posts">
+    {{ range $recent }}
+    <a href="{{ .RelPermalink }}" class="popular-item">
+      <img
+        src="{{ .Params.image | default "/images/default.jpg" }}"
+        alt="{{ .Title }}"
+        loading="lazy">
+      <span>{{ .Title }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>

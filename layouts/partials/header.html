@@ -2,36 +2,37 @@
   <div class="bw-header-inner">
 
     <!-- Brand -->
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     <!-- Main Navigation -->
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
-    <!-- Right Actions 
-    <div class="bw-actions">
+    <!-- Mobile Menu Button -->
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
 
-      <a href="/support/" class="bw-support">
-        ❤️ Support
-      </a>
-
-      <div class="bw-lang">
-        <a href="#">EN</a>
-        <span>|</span>
-        <a href="#">HI</a>
-      </div>
-
-      <button id="theme-toggle" class="bw-theme-toggle">
-        🌙
-      </button>
-
-    </div>
--->
   </div>
 </header>
+
+<!-- Sticky Mobile Score Ticker -->
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+<!-- Mobile Menu Script -->
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>

@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <head>
   <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>England | BalleWale Cricket News</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/tags/england/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/england/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="//localhost:1313/tags/england/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.querySelector("html").dataset.theme = 'light';
-    }
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</script>
+  
+  <title>England | BalleWale</title>
+  <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
+
+  
+  <link rel="canonical" href="/tags/england/">
+
+  
+  <link rel="icon" href="/favicon.ico">
+
+  
+  <meta name="theme-color" content="#0a7d3b">
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="England">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="/tags/england/">
+  <meta property="og:site_name" content="BalleWale">
+
+  
+  <meta property="og:image" content="/images/default.jpg">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="England">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954376162691867"
+    crossorigin="anonymous">
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFQM5NJQRJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFQM5NJQRJ', {
+      anonymize_ip: true,
+      transport_type: 'beacon'
+    });
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BalleWale",
+    "url": "https://ballewale.in"
+  }
+  </script>
+
+</head>
+
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.081b92c3c4984f826ad973d73ab6a5628e3eb2c5afb03f8e2c99478b34d4dfd1.css">
-
-  
-  
-
+  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
 </head>
 
 <body>
@@ -119,144 +156,367 @@ setInterval(loadScoreStrip, 30000);
   <div class="bw-header-inner">
 
     
-    <a class="bw-logo" href="/">BalleWale</a>
+    <a class="bw-logo" href="/" aria-label="BalleWale Home">
+      BalleWale
+    </a>
 
     
-    <nav class="bw-nav">
+    <nav class="bw-nav" aria-label="Main navigation">
       <a href="/">Live Scores</a>
       <a href="/categories/ipl/">IPL</a>
       <a href="/categories/world-cup/">World Cup</a>
       <a href="/categories/t20/">T20</a>
       <a href="/categories/test/">Test</a>
-      <a href="/posts/">Posts</a>
+      <a href="/posts/">News</a>
     </nav>
 
     
-    <div class="bw-actions">
-
-      <a href="/support/" class="bw-support">
-        ❤️ Support
-      </a>
-
-      <div class="bw-lang">
-        <a href="#">EN</a>
-        <span>|</span>
-        <a href="#">HI</a>
-      </div>
-
-      <button id="theme-toggle" class="bw-theme-toggle">
-        🌙
-      </button>
-
-    </div>
+    <button class="bw-menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
 
   </div>
 </header>
+
+
+<div class="mobile-score-ticker" id="mobile-score">
+  Loading live scores...
+</div>
+
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector(".bw-nav");
+  nav.classList.toggle("open");
+}
+</script>
 
 
   <main class="main">
-     
-<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/tags/">Tags</a></div>
-  <h1>
-    England
-  </h1>
-</header>
+    
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Survive Nepal Scare to Clinch Last-Ball Thriller
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a gripping encounter at the World Cup, England narrowly defeated Nepal in a last-ball thriller that kept fans on the edge of their seats. The match, held at the iconic stadium in Ahmedabad, showcased the unpredictability of cricket, with Nepal pushing the reigning champions to their limits. England, who entered the tournament as one of the favorites, faced a determined Nepalese side that displayed remarkable skill and tenacity throughout the match.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 14:05:37.446 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Survive Nepal Scare to Clinch Last-Ball Thriller" href="//localhost:1313/posts/england-survive-nepal-scare-to-clinch-last-ball-thriller/"></a>
-</article>
+<section class="bw-content-wrap">
+  <div class="bw-layout">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Bat First as Nepal Introduces Sher Malla for Debut Match
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In an eagerly anticipated international fixture, England won the toss and elected to bat first against Nepal, who have made headlines by handing a debut to promising young cricketer Sher Malla. The match, taking place at the picturesque Tribhuvan University International Cricket Ground in Kirtipur, marks a significant moment for Nepalese cricket as they continue to develop their talent on the global stage.
-England’s decision to bat first reflects their strategy to set a challenging total, leveraging their experienced batting lineup. With a mix of seasoned players and emerging talent, the English squad aims to build momentum early in the innings. The team has been in fine form recently, showcasing their batting depth and aggressive style of play. Captain Jos Buttler expressed confidence in the batting order, emphasizing the importance of a strong start to put pressure on the Nepalese bowlers.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 10:15:28.94 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Bat First as Nepal Introduces Sher Malla for Debut Match" href="//localhost:1313/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/"></a>
-</article>
+    
+    <aside class="bw-left-ad">
+      <div class="ad-box">Ad Banner</div>
+    </aside>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Bat First as Nepal Introduces Sher Malla on Debut
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated One Day International (ODI) match, England won the toss and opted to bat first against Nepal, who have handed a debut to promising young cricketer Sher Malla. This match marks a significant milestone for Nepal, as they continue to develop their cricketing prowess on the international stage.
-England, coming off a strong performance in their previous series, will be looking to set a solid total on the board. The team boasts a formidable batting lineup, with several players in excellent form. Captain Jos Buttler expressed confidence in his side’s ability to adapt to the conditions and put up a competitive score. The pitch is expected to offer some assistance to the batsmen, making it crucial for England to capitalize early in their innings.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 10:10:28.481 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Bat First as Nepal Introduces Sher Malla on Debut" href="//localhost:1313/posts/england-bat-first-as-nepal-introduces-sher-malla-on-debut/"></a>
-</article>
+    
+    <main class="bw-main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Bat First; Nepal Hands Debut to Sher Malla in World Cup Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated World Cup match, England won the toss and opted to bat first against Nepal at the iconic venue in [insert location]. This decision reflects England’s strategy to set a challenging target, leveraging their formidable batting lineup, which includes a mix of experienced players and emerging talents. The match marks a significant occasion for Nepal as they hand a debut to Sher Malla, a player who has shown promise in domestic cricket and is expected to add depth to the team.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 10:05:28.691 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Bat First; Nepal Hands Debut to Sher Malla in World Cup Clash" href="//localhost:1313/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-world-cup-clash/"></a>
-</article>
+      
+      <nav class="bw-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <span>England</span>
+      </nav>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated international fixture, England won the toss and elected to bat first against Nepal, who have handed a debut to promising young cricketer Sher Malla. The match, taking place at the Tribhuvan University International Cricket Ground in Kirtipur, marks a significant moment for Nepalese cricket as they continue to develop their talent on the global stage.
-England, coming off a strong performance in their previous series, aimed to set a challenging target for the hosts. The decision to bat first was influenced by the conditions, which appeared to favor batting early on. England’s top order, featuring some of the most formidable batsmen in the world, was expected to capitalize on the pitch’s initial offering. Meanwhile, the Nepalese team, buoyed by the inclusion of Malla, looked to make a statement against their more experienced opponents.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 10:00:29.626 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter" href="//localhost:1313/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/"></a>
-</article>
+      <h1 class="section-title">England</h1>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Bat First as Nepal Gives Debut to Sher Malla in ODI Clash
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated One Day International (ODI) match, England won the toss and elected to bat first against Nepal, who have handed a debut to promising young cricketer Sher Malla. The match, taking place at the Tribhuvan University International Cricket Ground in Kathmandu, marks a significant moment for Nepalese cricket as they continue to develop their talent on the international stage.
-England, coming off a strong performance in their previous series, will be looking to set a competitive total. The team boasts a formidable batting lineup, featuring several players with extensive experience in international cricket. Captain Jos Buttler expressed confidence in his team’s ability to adapt to the conditions, which may favor spin, given the pitch’s history. The English batsmen will aim to build a solid foundation and put pressure on the Nepalese bowlers early in the innings.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-08 09:40:27.978 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Bat First as Nepal Gives Debut to Sher Malla in ODI Clash" href="//localhost:1313/posts/england-bat-first-as-nepal-gives-debut-to-sher-malla-in-odi-clash/"></a>
-</article>
+      <div class="bw-post-grid">
+        
+        <article class="post-card">
+          <a href="/posts/england-survive-nepal-scare-to-clinch-last-ball-thriller/">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a highly anticipated international fixture, England won the toss and elected to bat first against Nepal, marking a significant moment for the host nation as they handed a debut cap to promising young cricketer Sher Malla. The match, held at the iconic Tribhuvan University International Cricket Ground, promises to be a thrilling contest as both teams aim to showcase their skills on the global stage.
-England, coming off a strong performance in their previous series, looked to set a formidable target. The team, led by their captain, has been in fine form, with their batting lineup featuring some of the world’s leading players. As the players took to the field, the focus was on building a solid foundation to put pressure on the Nepalese bowlers. The conditions appeared favorable for batting, with a well-prepared pitch and clear skies.
-...</p>
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="England Survive Nepal Scare to Clinch Last-Ball Thriller"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                England Survive Nepal Scare to Clinch Last-Ball Thriller
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First as Nepal Introduces Sher Malla for Debut Match"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First as Nepal Introduces Sher Malla for Debut Match
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-as-nepal-introduces-sher-malla-on-debut/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First as Nepal Introduces Sher Malla on Debut"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First as Nepal Introduces Sher Malla on Debut
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-world-cup-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?cricket,worldcup"
+                alt="England Bat First; Nepal Hands Debut to Sher Malla in World Cup Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                World Cup
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First; Nepal Hands Debut to Sher Malla in World Cup Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-as-nepal-gives-debut-to-sher-malla-in-odi-clash/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First as Nepal Gives Debut to Sher Malla in ODI Clash"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First as Nepal Gives Debut to Sher Malla in ODI Clash
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+        <article class="post-card">
+          <a href="/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/">
+
+            <div class="card-image">
+              <img
+                src="https://source.unsplash.com/featured/?international,cricket"
+                alt="England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter"
+                loading="lazy"
+                onerror="this.src='/images/default.jpg'">
+            </div>
+
+            <div class="card-content">
+              
+              <span class="card-category">
+                International
+              </span>
+              
+
+              <h3 class="card-title">
+                England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter
+              </h3>
+            </div>
+
+          </a>
+        </article>
+        
+      </div>
+
+    </main>
+
+    
+    <aside class="bw-sidebar">
+
+      
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul class="category-list">
+          
+          <li>
+            <a href="/categories/domestic/">
+              <span>domestic</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/international/">
+              <span>international</span>
+              <strong>50</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/ipl/">
+              <span>ipl</span>
+              <strong>6</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/odi/">
+              <span>odi</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/t20/">
+              <span>t20</span>
+              <strong>8</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/test/">
+              <span>test</span>
+              <strong>1</strong>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/categories/world-cup/">
+              <span>world cup</span>
+              <strong>44</strong>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      
+      <div class="sidebar-box">
+        <h4>Popular News</h4>
+        <div class="popular-posts">
+          
+          <a href="/privacy/" class="popular-item">
+            <img
+              src="/images/default.jpg"
+              alt="Privacy Policy"
+              loading="lazy">
+            <span>Privacy Policy</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada to Face Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada to Face Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash"
+              loading="lazy">
+            <span>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</span>
+          </a>
+          
+          <a href="/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/" class="popular-item">
+            <img
+              src="https://source.unsplash.com/featured/?cricket,worldcup"
+              alt="Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash"
+              loading="lazy">
+            <span>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</span>
+          </a>
+          
+        </div>
+      </div>
+
+    </aside>
+
   </div>
-  <footer class="entry-footer"><span title='2026-02-08 09:35:28.376 +0000 UTC'>February 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter" href="//localhost:1313/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/"></a>
-</article>
+</section>
+
+
   </main>
 
   

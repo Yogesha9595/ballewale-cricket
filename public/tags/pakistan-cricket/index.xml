@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pakistan Cricket on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/pakistan-cricket/</link>
+    <link>/tags/pakistan-cricket/</link>
     <description>Recent content in Pakistan Cricket on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 11:50:35 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/pakistan-cricket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/pakistan-cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spirited USA Seek Pakistan Scalp After Opening Day Heartbreak</title>
-      <link>//localhost:1313/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</link>
+      <link>/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</link>
       <pubDate>Mon, 09 Feb 2026 11:50:35 +0000</pubDate>
-      <guid>//localhost:1313/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</guid>
+      <guid>/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</guid>
       <description>The USA cricket team aims for redemption against Pakistan following a tough opening day in the World Cup.</description>
     </item>
     <item>
       <title>Faheem Ashraf Drags Unconvincing Pakistan Over the Line After Big Scare</title>
-      <link>//localhost:1313/posts/faheem-ashraf-drags-unconvincing-pakistan-over-the-line-after-big-scare/</link>
+      <link>/posts/faheem-ashraf-drags-unconvincing-pakistan-over-the-line-after-big-scare/</link>
       <pubDate>Sat, 07 Feb 2026 10:00:34 +0000</pubDate>
-      <guid>//localhost:1313/posts/faheem-ashraf-drags-unconvincing-pakistan-over-the-line-after-big-scare/</guid>
+      <guid>/posts/faheem-ashraf-drags-unconvincing-pakistan-over-the-line-after-big-scare/</guid>
       <description>Faheem Ashraf&amp;#39;s heroics lead Pakistan to a narrow victory, overcoming challenges in a tense encounter.</description>
     </item>
   </channel>
