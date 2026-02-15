@@ -6,8 +6,29 @@
     <description>Recent content in Tags on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 14:50:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 10:15:10 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cricket</title>
+      <link>/tags/cricket/</link>
+      <pubDate>Sun, 15 Feb 2026 10:15:10 +0000</pubDate>
+      <guid>/tags/cricket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cricket News</title>
+      <link>/tags/cricket-news/</link>
+      <pubDate>Sun, 15 Feb 2026 10:15:10 +0000</pubDate>
+      <guid>/tags/cricket-news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>World Cup</title>
+      <link>/tags/world-cup/</link>
+      <pubDate>Sun, 15 Feb 2026 10:14:55 +0000</pubDate>
+      <guid>/tags/world-cup/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Canada Cricket</title>
       <link>/tags/canada-cricket/</link>
@@ -41,13 +62,6 @@
       <link>/tags/world-cup-2023/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
       <guid>/tags/world-cup-2023/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cricket News</title>
-      <link>/tags/cricket-news/</link>
-      <pubDate>Mon, 09 Feb 2026 13:55:30 +0000</pubDate>
-      <guid>/tags/cricket-news/</guid>
       <description></description>
     </item>
     <item>
@@ -153,13 +167,6 @@
       <link>/tags/rr/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
       <guid>/tags/rr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cricket</title>
-      <link>/tags/cricket/</link>
-      <pubDate>Mon, 09 Feb 2026 12:45:34 +0000</pubDate>
-      <guid>/tags/cricket/</guid>
       <description></description>
     </item>
     <item>
@@ -384,13 +391,6 @@
       <link>/tags/pace-bowling/</link>
       <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
       <guid>/tags/pace-bowling/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>World Cup</title>
-      <link>/tags/world-cup/</link>
-      <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
-      <guid>/tags/world-cup/</guid>
       <description></description>
     </item>
     <item>

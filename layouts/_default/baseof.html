@@ -25,7 +25,7 @@
 
   <!-- =========================
        LIVE SCORE SCRIPT
-       (Safe + production ready)
+       (Production-safe version)
   ========================= -->
   {{ if .IsHome }}
   <script>
@@ -37,14 +37,15 @@
     const matchStatus = document.getElementById("match-status");
     const matchOvers = document.getElementById("match-overs");
     const commentary = document.getElementById("live-commentary");
-    const flag1 = document.getElementById("team1-flag");
-    const flag2 = document.getElementById("team2-flag");
 
-    // If homepage scoreboard not present, exit
+    // Exit if scoreboard not on page
     if (!team1Name || !team2Name) return;
 
     try {
-      const res = await fetch("/api/live.json", { cache: "no-store" });
+      const res = await fetch(
+        "https://ballewale-rss-ai.yogesha9595.workers.dev/api/live.json",
+        { cache: "no-store" }
+      );
       const data = await res.json();
 
       if (!data.matches || data.matches.length === 0) {
@@ -54,30 +55,32 @@
         return;
       }
 
-      const match = data.matches[0];
+      // Prefer India or Pakistan match if present
+      let match = data.matches[0];
+      const preferred = data.matches.find(m =>
+        (m.team1 && m.team1.toLowerCase().includes("india")) ||
+        (m.team2 && m.team2.toLowerCase().includes("india")) ||
+        (m.team1 && m.team1.toLowerCase().includes("pakistan")) ||
+        (m.team2 && m.team2.toLowerCase().includes("pakistan"))
+      );
+      if (preferred) match = preferred;
 
-      if (team1Name) team1Name.textContent = match.team1 || "TEAM A";
-      if (team1Score) team1Score.textContent = match.score1 || "-";
+      team1Name.textContent = match.team1 || "TEAM A";
+      team1Score.textContent = match.score1 || "-";
 
-      if (team2Name) team2Name.textContent = match.team2 || "TEAM B";
-      if (team2Score) team2Score.textContent = match.score2 || "-";
+      team2Name.textContent = match.team2 || "TEAM B";
+      team2Score.textContent = match.score2 || "-";
 
-      if (matchStatus) matchStatus.textContent = match.status || "LIVE";
-      if (matchOvers) matchOvers.textContent = match.overs || "";
-
-      if (commentary && match.commentary) {
-        commentary.textContent = match.commentary;
+      if (matchStatus) {
+        matchStatus.textContent = match.status || "LIVE";
       }
 
-      // Flags
-      if (flag1 && match.flag1) {
-        flag1.src = "https://flagcdn.com/w40/" + match.flag1 + ".png";
-        flag1.alt = match.team1;
+      if (matchOvers) {
+        matchOvers.textContent = match.overs || "";
       }
 
-      if (flag2 && match.flag2) {
-        flag2.src = "https://flagcdn.com/w40/" + match.flag2 + ".png";
-        flag2.alt = match.team2;
+      if (commentary) {
+        commentary.textContent = match.status || "Live match in progress";
       }
 
     } catch (e) {
@@ -90,7 +93,7 @@
   // Initial load
   loadLiveScore();
 
-  // Refresh every 15 seconds for real-time feel
+  // Refresh every 15 seconds
   setInterval(loadLiveScore, 15000);
   </script>
   {{ end }}
