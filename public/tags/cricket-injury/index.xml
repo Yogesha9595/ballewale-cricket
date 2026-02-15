@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cricket Injury on BalleWale Cricket News</title>
-    <link>/tags/cricket-injury/</link>
+    <link>//localhost:1313/tags/cricket-injury/</link>
     <description>Recent content in Cricket Injury on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 06:50:33 +0000</lastBuildDate>
-    <atom:link href="/tags/cricket-injury/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/cricket-injury/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Italy Captain Wayne Madsen Injures Shoulder in T20 World Cup Opener</title>
-      <link>/posts/italy-captain-wayne-madsen-injures-shoulder-in-t20-world-cup-opener/</link>
+      <link>//localhost:1313/posts/italy-captain-wayne-madsen-injures-shoulder-in-t20-world-cup-opener/</link>
       <pubDate>Mon, 09 Feb 2026 06:50:33 +0000</pubDate>
-      <guid>/posts/italy-captain-wayne-madsen-injures-shoulder-in-t20-world-cup-opener/</guid>
+      <guid>//localhost:1313/posts/italy-captain-wayne-madsen-injures-shoulder-in-t20-world-cup-opener/</guid>
       <description>Italy&amp;#39;s Wayne Madsen suffers a shoulder injury during the T20 World Cup opener, raising concerns for the team&amp;#39;s campaign.</description>
     </item>
     <item>
       <title>Mahli Beardman Suffers Recurrence of a Stress Fracture in His Back</title>
-      <link>/posts/mahli-beardman-suffers-recurrence-of-a-stress-fracture-in-his-back/</link>
+      <link>//localhost:1313/posts/mahli-beardman-suffers-recurrence-of-a-stress-fracture-in-his-back/</link>
       <pubDate>Sat, 07 Feb 2026 09:30:27 +0000</pubDate>
-      <guid>/posts/mahli-beardman-suffers-recurrence-of-a-stress-fracture-in-his-back/</guid>
+      <guid>//localhost:1313/posts/mahli-beardman-suffers-recurrence-of-a-stress-fracture-in-his-back/</guid>
       <description>Mahli Beardman faces another setback as he suffers a stress fracture in his back, sidelining him from upcoming matches.</description>
     </item>
   </channel>

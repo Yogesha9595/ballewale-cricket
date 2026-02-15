@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spinners on BalleWale Cricket News</title>
-    <link>/tags/spinners/</link>
+    <link>//localhost:1313/tags/spinners/</link>
     <description>Recent content in Spinners on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 01:50:35 +0000</lastBuildDate>
-    <atom:link href="/tags/spinners/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/spinners/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kamindu Mendis and Kusal Mendis Shine as Spinners Propel Sri Lanka to Victory</title>
-      <link>/posts/kamindu-mendis-and-kusal-mendis-shine-as-spinners-propel-sri-lanka-to-victory/</link>
+      <link>//localhost:1313/posts/kamindu-mendis-and-kusal-mendis-shine-as-spinners-propel-sri-lanka-to-victory/</link>
       <pubDate>Mon, 09 Feb 2026 01:50:35 +0000</pubDate>
-      <guid>/posts/kamindu-mendis-and-kusal-mendis-shine-as-spinners-propel-sri-lanka-to-victory/</guid>
+      <guid>//localhost:1313/posts/kamindu-mendis-and-kusal-mendis-shine-as-spinners-propel-sri-lanka-to-victory/</guid>
       <description>Kamindu Mendis and Kusal Mendis starred in Sri Lanka&amp;#39;s win, with spinners playing a crucial role in the match&amp;#39;s outcome.</description>
     </item>
     <item>
       <title>Afghanistan Pack Their XI with Spinners, Ask New Zealand to Field</title>
-      <link>/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</link>
+      <link>//localhost:1313/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</link>
       <pubDate>Sun, 08 Feb 2026 05:45:30 +0000</pubDate>
-      <guid>/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</guid>
+      <guid>//localhost:1313/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</guid>
       <description>Afghanistan opts for a spin-heavy lineup against New Zealand in their World Cup clash, emphasizing their strategic approach in the tournament.</description>
     </item>
   </channel>

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ODI on BalleWale Cricket News</title>
-    <link>/categories/odi/</link>
+    <link>//localhost:1313/categories/odi/</link>
     <description>Recent content in ODI on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 05:55:33 +0000</lastBuildDate>
-    <atom:link href="/categories/odi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/odi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Italy Opt to Bowl First Against Scotland in Crucial ODI Match</title>
-      <link>/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-match/</link>
+      <link>//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-match/</link>
       <pubDate>Mon, 09 Feb 2026 05:55:33 +0000</pubDate>
-      <guid>/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-match/</guid>
+      <guid>//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-match/</guid>
       <description>Italy chooses to field first as Scotland includes Brad Wheal in their lineup for the ODI clash. Key match insights and player updates.</description>
     </item>
     <item>
       <title>Italy Opt to Bowl First Against Scotland in Crucial ODI Clash</title>
-      <link>/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-clash/</link>
+      <link>//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-clash/</link>
       <pubDate>Mon, 09 Feb 2026 05:45:33 +0000</pubDate>
-      <guid>/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-clash/</guid>
+      <guid>//localhost:1313/posts/italy-opt-to-bowl-first-against-scotland-in-crucial-odi-clash/</guid>
       <description>Italy chooses to bowl first as Scotland includes Brad Wheal in their lineup for the ODI match. A crucial encounter for both teams.</description>
     </item>
     <item>
       <title>Kamindu Mendis, Kusal Mendis, Spinners Lead Sri Lanka to Victory in ODI</title>
-      <link>/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi/</link>
+      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi/</link>
       <pubDate>Mon, 09 Feb 2026 02:10:35 +0000</pubDate>
-      <guid>/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi/</guid>
+      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi/</guid>
       <description>Kamindu Mendis and Kusal Mendis shine as Sri Lanka secures a crucial ODI win, backed by an impressive bowling performance from the spinners.</description>
     </item>
     <item>
       <title>Kamindu Mendis, Kusal Mendis, Spinners Secure Sri Lanka&#39;s Victory in ODI</title>
-      <link>/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</link>
+      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</link>
       <pubDate>Mon, 09 Feb 2026 00:55:33 +0000</pubDate>
-      <guid>/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</guid>
+      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-secure-sri-lankas-victory-in-odi/</guid>
       <description>Sri Lanka clinches a crucial ODI win with stellar performances from Kamindu Mendis, Kusal Mendis, and the spin attack.</description>
     </item>
     <item>
       <title>Kamindu Mendis, Kusal Mendis, Spinners Lead Sri Lanka to Victory in ODI Clash</title>
-      <link>/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</link>
+      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</link>
       <pubDate>Sun, 08 Feb 2026 23:15:32 +0000</pubDate>
-      <guid>/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</guid>
+      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-spinners-lead-sri-lanka-to-victory-in-odi-clash/</guid>
       <description>Kamindu Mendis and Kusal Mendis shine as Sri Lanka secures a convincing win, supported by a stellar performance from the spinners.</description>
     </item>
     <item>
       <title>Kamindu Mendis, Kusal Mendis, and Spinners Lead Sri Lanka to Victory</title>
-      <link>/posts/kamindu-mendis-kusal-mendis-and-spinners-lead-sri-lanka-to-victory/</link>
+      <link>//localhost:1313/posts/kamindu-mendis-kusal-mendis-and-spinners-lead-sri-lanka-to-victory/</link>
       <pubDate>Sun, 08 Feb 2026 19:05:32 +0000</pubDate>
-      <guid>/posts/kamindu-mendis-kusal-mendis-and-spinners-lead-sri-lanka-to-victory/</guid>
+      <guid>//localhost:1313/posts/kamindu-mendis-kusal-mendis-and-spinners-lead-sri-lanka-to-victory/</guid>
       <description>Sri Lanka&amp;#39;s Kamindu Mendis and Kusal Mendis shine as spinners dominate to secure a crucial win in the latest ODI match.</description>
     </item>
     <item>
       <title>Scotland Opt to Field Against West Indies in Crucial ODI Clash</title>
-      <link>/posts/scotland-opt-to-field-against-west-indies-in-crucial-odi-clash/</link>
+      <link>//localhost:1313/posts/scotland-opt-to-field-against-west-indies-in-crucial-odi-clash/</link>
       <pubDate>Sat, 07 Feb 2026 11:30:32 +0000</pubDate>
-      <guid>/posts/scotland-opt-to-field-against-west-indies-in-crucial-odi-clash/</guid>
+      <guid>//localhost:1313/posts/scotland-opt-to-field-against-west-indies-in-crucial-odi-clash/</guid>
       <description>Scotland has won the toss and elected to field against West Indies in their latest ODI match, aiming for a strong performance.</description>
     </item>
     <item>
       <title>Scotland Opt to Field First Against West Indies in Crucial ODI Clash</title>
-      <link>/posts/scotland-opt-to-field-first-against-west-indies-in-crucial-odi-clash/</link>
+      <link>//localhost:1313/posts/scotland-opt-to-field-first-against-west-indies-in-crucial-odi-clash/</link>
       <pubDate>Sat, 07 Feb 2026 10:30:28 +0000</pubDate>
-      <guid>/posts/scotland-opt-to-field-first-against-west-indies-in-crucial-odi-clash/</guid>
+      <guid>//localhost:1313/posts/scotland-opt-to-field-first-against-west-indies-in-crucial-odi-clash/</guid>
       <description>Scotland has won the toss and elected to field first against West Indies in their latest ODI match. Key insights and match details included.</description>
     </item>
   </channel>

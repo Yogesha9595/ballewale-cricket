@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jammu and Kashmir on BalleWale Cricket News</title>
-    <link>/tags/jammu-and-kashmir/</link>
+    <link>//localhost:1313/tags/jammu-and-kashmir/</link>
     <description>Recent content in Jammu and Kashmir on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 10:30:35 +0000</lastBuildDate>
-    <atom:link href="/tags/jammu-and-kashmir/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/jammu-and-kashmir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nabi&#39;s 12-Wicket Haul Leads J&amp;K to Historic Ranji Semi-Final</title>
-      <link>/posts/nabis-12-wicket-haul-leads-jk-to-historic-ranji-semi-final/</link>
+      <link>//localhost:1313/posts/nabis-12-wicket-haul-leads-jk-to-historic-ranji-semi-final/</link>
       <pubDate>Mon, 09 Feb 2026 10:30:35 +0000</pubDate>
-      <guid>/posts/nabis-12-wicket-haul-leads-jk-to-historic-ranji-semi-final/</guid>
+      <guid>//localhost:1313/posts/nabis-12-wicket-haul-leads-jk-to-historic-ranji-semi-final/</guid>
       <description>Mohammad Nabi&amp;#39;s remarkable 12-wicket performance propels Jammu and Kashmir to their first Ranji Trophy semi-final, defeating Madhya Pradesh.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Siraj on BalleWale Cricket News</title>
-    <link>/tags/siraj/</link>
+    <link>//localhost:1313/tags/siraj/</link>
     <description>Recent content in Siraj on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 14:00:36 +0000</lastBuildDate>
-    <atom:link href="/tags/siraj/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/siraj/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USA Bowl, India Opt for Siraj as Bumrah Misses Out Due to Illness</title>
-      <link>/posts/usa-bowl-india-opt-for-siraj-as-bumrah-misses-out-due-to-illness/</link>
+      <link>//localhost:1313/posts/usa-bowl-india-opt-for-siraj-as-bumrah-misses-out-due-to-illness/</link>
       <pubDate>Sat, 07 Feb 2026 14:00:36 +0000</pubDate>
-      <guid>/posts/usa-bowl-india-opt-for-siraj-as-bumrah-misses-out-due-to-illness/</guid>
+      <guid>//localhost:1313/posts/usa-bowl-india-opt-for-siraj-as-bumrah-misses-out-due-to-illness/</guid>
       <description>India&amp;#39;s bowling lineup sees a change as Jasprit Bumrah is sidelined with illness, paving the way for Mohammed Siraj in the latest match against the USA.</description>
     </item>
   </channel>

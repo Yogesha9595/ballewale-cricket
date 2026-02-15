@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bidding on BalleWale Cricket News</title>
-    <link>/tags/bidding/</link>
+    <link>//localhost:1313/tags/bidding/</link>
     <description>Recent content in Bidding on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 11:40:34 +0000</lastBuildDate>
-    <atom:link href="/tags/bidding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/bidding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manchester United Owner Joins Bidding War for Royal Challengers Bangalore</title>
-      <link>/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</link>
+      <link>//localhost:1313/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</link>
       <pubDate>Mon, 09 Feb 2026 11:40:34 +0000</pubDate>
-      <guid>/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</guid>
+      <guid>//localhost:1313/posts/manchester-united-owner-joins-bidding-war-for-royal-challengers-bangalore/</guid>
       <description>Manchester United owner enters the bidding process for RCB, highlighting the growing interest in IPL franchises.</description>
     </item>
   </channel>

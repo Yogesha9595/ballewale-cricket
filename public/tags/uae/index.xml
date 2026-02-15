@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>UAE on BalleWale Cricket News</title>
-    <link>/tags/uae/</link>
+    <link>//localhost:1313/tags/uae/</link>
     <description>Recent content in UAE on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 07:45:38 +0000</lastBuildDate>
-    <atom:link href="/tags/uae/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/uae/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Zealand Brace for Unfamiliar Opponents UAE in Upcoming ODI Series</title>
-      <link>/posts/new-zealand-brace-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</link>
+      <link>//localhost:1313/posts/new-zealand-brace-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</link>
       <pubDate>Mon, 09 Feb 2026 07:45:38 +0000</pubDate>
-      <guid>/posts/new-zealand-brace-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</guid>
+      <guid>//localhost:1313/posts/new-zealand-brace-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</guid>
       <description>New Zealand prepares to face the UAE in an ODI series, marking a significant encounter against an emerging cricketing nation.</description>
     </item>
     <item>
       <title>New Zealand Prepare for Unfamiliar Challenge Against UAE in World Cup 2023</title>
-      <link>/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup-2023/</link>
+      <link>//localhost:1313/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup-2023/</link>
       <pubDate>Mon, 09 Feb 2026 07:30:33 +0000</pubDate>
-      <guid>/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup-2023/</guid>
+      <guid>//localhost:1313/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup-2023/</guid>
       <description>New Zealand gears up to face UAE in World Cup 2023, marking a significant encounter against less familiar opponents.</description>
     </item>
     <item>
       <title>New Zealand Prepare for Unfamiliar Challenge Against UAE in World Cup</title>
-      <link>/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup/</link>
+      <link>//localhost:1313/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup/</link>
       <pubDate>Mon, 09 Feb 2026 07:20:33 +0000</pubDate>
-      <guid>/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup/</guid>
+      <guid>//localhost:1313/posts/new-zealand-prepare-for-unfamiliar-challenge-against-uae-in-world-cup/</guid>
       <description>New Zealand gears up to face UAE in the World Cup, marking a significant encounter against less familiar opponents.</description>
     </item>
     <item>
       <title>New Zealand Prepare for Unfamiliar Opponents UAE in Upcoming ODI Series</title>
-      <link>/posts/new-zealand-prepare-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</link>
+      <link>//localhost:1313/posts/new-zealand-prepare-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</link>
       <pubDate>Mon, 09 Feb 2026 07:10:33 +0000</pubDate>
-      <guid>/posts/new-zealand-prepare-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</guid>
+      <guid>//localhost:1313/posts/new-zealand-prepare-for-unfamiliar-opponents-uae-in-upcoming-odi-series/</guid>
       <description>New Zealand gears up to face UAE in a rare ODI series, marking a significant moment for both teams in international cricket.</description>
     </item>
   </channel>

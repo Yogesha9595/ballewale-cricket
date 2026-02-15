@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Afghanistan on BalleWale Cricket News</title>
-    <link>/tags/afghanistan/</link>
+    <link>//localhost:1313/tags/afghanistan/</link>
     <description>Recent content in Afghanistan on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 09:15:29 +0000</lastBuildDate>
-    <atom:link href="/tags/afghanistan/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/afghanistan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Seifert and Phillips Conquer Afghanistan Spin to Script Convincing New Zealand Win</title>
-      <link>/posts/seifert-and-phillips-conquer-afghanistan-spin-to-script-convincing-new-zealand-w/</link>
+      <link>//localhost:1313/posts/seifert-and-phillips-conquer-afghanistan-spin-to-script-convincing-new-zealand-w/</link>
       <pubDate>Sun, 08 Feb 2026 09:15:29 +0000</pubDate>
-      <guid>/posts/seifert-and-phillips-conquer-afghanistan-spin-to-script-convincing-new-zealand-w/</guid>
+      <guid>//localhost:1313/posts/seifert-and-phillips-conquer-afghanistan-spin-to-script-convincing-new-zealand-w/</guid>
       <description>New Zealand&amp;#39;s Seifert and Phillips excel against Afghanistan&amp;#39;s spin attack, leading their team to a decisive victory in the World Cup clash.</description>
     </item>
     <item>
       <title>Afghanistan Pack Their XI with Spinners, Ask New Zealand to Field</title>
-      <link>/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</link>
+      <link>//localhost:1313/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</link>
       <pubDate>Sun, 08 Feb 2026 05:45:30 +0000</pubDate>
-      <guid>/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</guid>
+      <guid>//localhost:1313/posts/afghanistan-pack-their-xi-with-spinners-ask-new-zealand-to-field/</guid>
       <description>Afghanistan opts for a spin-heavy lineup against New Zealand in their World Cup clash, emphasizing their strategic approach in the tournament.</description>
     </item>
     <item>
       <title>Afghanistan Opt for Spin-heavy Line-up Against New Zealand in World Cup Clash</title>
-      <link>/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</link>
       <pubDate>Sun, 08 Feb 2026 05:40:29 +0000</pubDate>
-      <guid>/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</guid>
       <description>Afghanistan&amp;#39;s strategic decision to field a spin-dominant XI against New Zealand highlights their tactical approach in the World Cup.</description>
     </item>
     <item>
       <title>Injury-hit New Zealand Eye Revenge as Afghanistan Look to Run It Back</title>
-      <link>/posts/injury-hit-new-zealand-eye-revenge-as-afghanistan-look-to-run-it-back/</link>
+      <link>//localhost:1313/posts/injury-hit-new-zealand-eye-revenge-as-afghanistan-look-to-run-it-back/</link>
       <pubDate>Sat, 07 Feb 2026 12:30:34 +0000</pubDate>
-      <guid>/posts/injury-hit-new-zealand-eye-revenge-as-afghanistan-look-to-run-it-back/</guid>
+      <guid>//localhost:1313/posts/injury-hit-new-zealand-eye-revenge-as-afghanistan-look-to-run-it-back/</guid>
       <description>New Zealand faces Afghanistan in a crucial World Cup clash, seeking redemption after previous encounters amidst injury challenges.</description>
     </item>
   </channel>

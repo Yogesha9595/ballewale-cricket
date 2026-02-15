@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gharami on BalleWale Cricket News</title>
-    <link>/tags/gharami/</link>
+    <link>//localhost:1313/tags/gharami/</link>
     <description>Recent content in Gharami on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 12:00:51 +0000</lastBuildDate>
-    <atom:link href="/tags/gharami/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/gharami/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uttarakhand Qualify for Maiden Semi-Final; Gharami&#39;s Double-Ton Deflates Andhra</title>
-      <link>/posts/uttarakhand-qualify-for-maiden-semi-final-gharamis-double-ton-deflates-andhra/</link>
+      <link>//localhost:1313/posts/uttarakhand-qualify-for-maiden-semi-final-gharamis-double-ton-deflates-andhra/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:51 +0000</pubDate>
-      <guid>/posts/uttarakhand-qualify-for-maiden-semi-final-gharamis-double-ton-deflates-andhra/</guid>
+      <guid>//localhost:1313/posts/uttarakhand-qualify-for-maiden-semi-final-gharamis-double-ton-deflates-andhra/</guid>
       <description>Uttarakhand&amp;#39;s historic journey continues as Gharami&amp;#39;s double-century leads them to their first semi-final, defeating Andhra in a thrilling encounter.</description>
     </item>
     <item>
       <title>Gharami&#39;s Unbeaten Ton Keeps Bengal Afloat Against Andhra</title>
-      <link>/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</link>
+      <link>//localhost:1313/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</link>
       <pubDate>Sat, 07 Feb 2026 12:00:29 +0000</pubDate>
-      <guid>/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</guid>
+      <guid>//localhost:1313/posts/gharamis-unbeaten-ton-keeps-bengal-afloat-against-andhra/</guid>
       <description>Bengal&amp;#39;s Gharami scores a crucial unbeaten century to secure a draw against Andhra in the Ranji Trophy match.</description>
     </item>
   </channel>

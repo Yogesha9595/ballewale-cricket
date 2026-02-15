@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Domestic Tournaments on BalleWale Cricket News</title>
-    <link>/tags/domestic-tournaments/</link>
+    <link>//localhost:1313/tags/domestic-tournaments/</link>
     <description>Recent content in Domestic Tournaments on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 10:55:33 +0000</lastBuildDate>
-    <atom:link href="/tags/domestic-tournaments/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/domestic-tournaments/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rahul and Smaran Propel Karnataka to Semi-Finals, Eliminate Mumbai</title>
-      <link>/posts/rahul-and-smaran-propel-karnataka-to-semi-finals-eliminate-mumbai/</link>
+      <link>//localhost:1313/posts/rahul-and-smaran-propel-karnataka-to-semi-finals-eliminate-mumbai/</link>
       <pubDate>Mon, 09 Feb 2026 10:55:33 +0000</pubDate>
-      <guid>/posts/rahul-and-smaran-propel-karnataka-to-semi-finals-eliminate-mumbai/</guid>
+      <guid>//localhost:1313/posts/rahul-and-smaran-propel-karnataka-to-semi-finals-eliminate-mumbai/</guid>
       <description>Karnataka&amp;#39;s stellar performance led by Rahul and Smaran secures a semi-final spot by knocking out Mumbai in a thrilling encounter.</description>
     </item>
   </channel>

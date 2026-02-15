@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>South Africa Cricket on BalleWale Cricket News</title>
-    <link>/tags/south-africa-cricket/</link>
+    <link>//localhost:1313/tags/south-africa-cricket/</link>
     <description>Recent content in South Africa Cricket on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 14:50:31 +0000</lastBuildDate>
-    <atom:link href="/tags/south-africa-cricket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/south-africa-cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canada to Face South Africa&#39;s Pace Attack in World Cup Clash</title>
-      <link>/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
-      <guid>/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/canada-to-face-south-africas-pace-attack-in-world-cup-clash/</guid>
       <description>Canada prepares to bowl against a formidable South African pace attack in their World Cup match, seeking to make a mark on the global stage.</description>
     </item>
     <item>
       <title>Canada to Face Pace-Heavy South Africa in World Cup Clash</title>
-      <link>/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/</link>
       <pubDate>Mon, 09 Feb 2026 14:15:32 +0000</pubDate>
-      <guid>/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/canada-to-face-pace-heavy-south-africa-in-world-cup-clash/</guid>
       <description>Canada prepares to bowl against a formidable South African pace attack in their World Cup encounter, seeking to make an impact on the global stage.</description>
     </item>
     <item>
       <title>Canada Faces Off Against Pace-Heavy South Africa in World Cup Clash</title>
-      <link>/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/</link>
       <pubDate>Mon, 09 Feb 2026 14:05:31 +0000</pubDate>
-      <guid>/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/canada-faces-off-against-pace-heavy-south-africa-in-world-cup-clash/</guid>
       <description>Canada prepares to bowl against a formidable South African side known for its pace attack in the World Cup 2023.</description>
     </item>
     <item>
       <title>Canada Set to Face South Africa&#39;s Pace Attack in World Cup Clash</title>
-      <link>/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/</link>
       <pubDate>Mon, 09 Feb 2026 14:00:32 +0000</pubDate>
-      <guid>/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/canada-set-to-face-south-africas-pace-attack-in-world-cup-clash/</guid>
       <description>Canada prepares to bowl against a formidable South African pace attack in their World Cup encounter.</description>
     </item>
     <item>
       <title>Canada Set to Face Pace-Heavy South Africa in World Cup Clash</title>
-      <link>/posts/canada-set-to-face-pace-heavy-south-africa-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/canada-set-to-face-pace-heavy-south-africa-in-world-cup-clash/</link>
       <pubDate>Mon, 09 Feb 2026 13:55:30 +0000</pubDate>
-      <guid>/posts/canada-set-to-face-pace-heavy-south-africa-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/canada-set-to-face-pace-heavy-south-africa-in-world-cup-clash/</guid>
       <description>Canada prepares to bowl against a formidable South African side known for its pace attack in the World Cup.</description>
     </item>
     <item>
       <title>Canada Set to Bowl Against Pace-Heavy South Africa in World Cup Clash</title>
-      <link>/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/</link>
+      <link>//localhost:1313/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/</link>
       <pubDate>Mon, 09 Feb 2026 13:35:28 +0000</pubDate>
-      <guid>/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/</guid>
+      <guid>//localhost:1313/posts/canada-set-to-bowl-against-pace-heavy-south-africa-in-world-cup-clash/</guid>
       <description>Canada faces a formidable challenge as they bowl against a pace-heavy South Africa in their World Cup encounter.</description>
     </item>
   </channel>

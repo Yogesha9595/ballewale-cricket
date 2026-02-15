@@ -2,1277 +2,1277 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on BalleWale Cricket News</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 14:50:31 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canada Cricket</title>
-      <link>/tags/canada-cricket/</link>
+      <link>//localhost:1313/tags/canada-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
-      <guid>/tags/canada-cricket/</guid>
+      <guid>//localhost:1313/tags/canada-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>International Cricket</title>
-      <link>/tags/international-cricket/</link>
+      <link>//localhost:1313/tags/international-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
-      <guid>/tags/international-cricket/</guid>
+      <guid>//localhost:1313/tags/international-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Pace Attack</title>
-      <link>/tags/pace-attack/</link>
+      <link>//localhost:1313/tags/pace-attack/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
-      <guid>/tags/pace-attack/</guid>
+      <guid>//localhost:1313/tags/pace-attack/</guid>
       <description></description>
     </item>
     <item>
       <title>South Africa Cricket</title>
-      <link>/tags/south-africa-cricket/</link>
+      <link>//localhost:1313/tags/south-africa-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
-      <guid>/tags/south-africa-cricket/</guid>
+      <guid>//localhost:1313/tags/south-africa-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>World Cup 2023</title>
-      <link>/tags/world-cup-2023/</link>
+      <link>//localhost:1313/tags/world-cup-2023/</link>
       <pubDate>Mon, 09 Feb 2026 14:50:31 +0000</pubDate>
-      <guid>/tags/world-cup-2023/</guid>
+      <guid>//localhost:1313/tags/world-cup-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket News</title>
-      <link>/tags/cricket-news/</link>
+      <link>//localhost:1313/tags/cricket-news/</link>
       <pubDate>Mon, 09 Feb 2026 13:55:30 +0000</pubDate>
-      <guid>/tags/cricket-news/</guid>
+      <guid>//localhost:1313/tags/cricket-news/</guid>
       <description></description>
     </item>
     <item>
       <title>Gary Kirsten</title>
-      <link>/tags/gary-kirsten/</link>
+      <link>//localhost:1313/tags/gary-kirsten/</link>
       <pubDate>Mon, 09 Feb 2026 13:25:29 +0000</pubDate>
-      <guid>/tags/gary-kirsten/</guid>
+      <guid>//localhost:1313/tags/gary-kirsten/</guid>
       <description></description>
     </item>
     <item>
       <title>Indian Conditions</title>
-      <link>/tags/indian-conditions/</link>
+      <link>//localhost:1313/tags/indian-conditions/</link>
       <pubDate>Mon, 09 Feb 2026 13:25:29 +0000</pubDate>
-      <guid>/tags/indian-conditions/</guid>
+      <guid>//localhost:1313/tags/indian-conditions/</guid>
       <description></description>
     </item>
     <item>
       <title>Namibia</title>
-      <link>/tags/namibia/</link>
+      <link>//localhost:1313/tags/namibia/</link>
       <pubDate>Mon, 09 Feb 2026 13:25:29 +0000</pubDate>
-      <guid>/tags/namibia/</guid>
+      <guid>//localhost:1313/tags/namibia/</guid>
       <description></description>
     </item>
     <item>
       <title>T20 World Cup</title>
-      <link>/tags/t20-world-cup/</link>
+      <link>//localhost:1313/tags/t20-world-cup/</link>
       <pubDate>Mon, 09 Feb 2026 13:25:29 +0000</pubDate>
-      <guid>/tags/t20-world-cup/</guid>
+      <guid>//localhost:1313/tags/t20-world-cup/</guid>
       <description></description>
     </item>
     <item>
       <title>ODI</title>
-      <link>/tags/odi/</link>
+      <link>//localhost:1313/tags/odi/</link>
       <pubDate>Mon, 09 Feb 2026 13:10:31 +0000</pubDate>
-      <guid>/tags/odi/</guid>
+      <guid>//localhost:1313/tags/odi/</guid>
       <description></description>
     </item>
     <item>
       <title>Oman Cricket</title>
-      <link>/tags/oman-cricket/</link>
+      <link>//localhost:1313/tags/oman-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 13:10:31 +0000</pubDate>
-      <guid>/tags/oman-cricket/</guid>
+      <guid>//localhost:1313/tags/oman-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Zimbabwe Cricket</title>
-      <link>/tags/zimbabwe-cricket/</link>
+      <link>//localhost:1313/tags/zimbabwe-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 13:10:31 +0000</pubDate>
-      <guid>/tags/zimbabwe-cricket/</guid>
+      <guid>//localhost:1313/tags/zimbabwe-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>T20</title>
-      <link>/tags/t20/</link>
+      <link>//localhost:1313/tags/t20/</link>
       <pubDate>Mon, 09 Feb 2026 13:05:31 +0000</pubDate>
-      <guid>/tags/t20/</guid>
+      <guid>//localhost:1313/tags/t20/</guid>
       <description></description>
     </item>
     <item>
       <title>Muzarabani</title>
-      <link>/tags/muzarabani/</link>
+      <link>//localhost:1313/tags/muzarabani/</link>
       <pubDate>Mon, 09 Feb 2026 13:00:30 +0000</pubDate>
-      <guid>/tags/muzarabani/</guid>
+      <guid>//localhost:1313/tags/muzarabani/</guid>
       <description></description>
     </item>
     <item>
       <title>Ngarava</title>
-      <link>/tags/ngarava/</link>
+      <link>//localhost:1313/tags/ngarava/</link>
       <pubDate>Mon, 09 Feb 2026 13:00:30 +0000</pubDate>
-      <guid>/tags/ngarava/</guid>
+      <guid>//localhost:1313/tags/ngarava/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Ownership</title>
-      <link>/tags/cricket-ownership/</link>
+      <link>//localhost:1313/tags/cricket-ownership/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
-      <guid>/tags/cricket-ownership/</guid>
+      <guid>//localhost:1313/tags/cricket-ownership/</guid>
       <description></description>
     </item>
     <item>
       <title>IPL</title>
-      <link>/tags/ipl/</link>
+      <link>//localhost:1313/tags/ipl/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
-      <guid>/tags/ipl/</guid>
+      <guid>//localhost:1313/tags/ipl/</guid>
       <description></description>
     </item>
     <item>
       <title>Manchester United</title>
-      <link>/tags/manchester-united/</link>
+      <link>//localhost:1313/tags/manchester-united/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
-      <guid>/tags/manchester-united/</guid>
+      <guid>//localhost:1313/tags/manchester-united/</guid>
       <description></description>
     </item>
     <item>
       <title>RCB</title>
-      <link>/tags/rcb/</link>
+      <link>//localhost:1313/tags/rcb/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
-      <guid>/tags/rcb/</guid>
+      <guid>//localhost:1313/tags/rcb/</guid>
       <description></description>
     </item>
     <item>
       <title>RR</title>
-      <link>/tags/rr/</link>
+      <link>//localhost:1313/tags/rr/</link>
       <pubDate>Mon, 09 Feb 2026 12:50:30 +0000</pubDate>
-      <guid>/tags/rr/</guid>
+      <guid>//localhost:1313/tags/rr/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket</title>
-      <link>/tags/cricket/</link>
+      <link>//localhost:1313/tags/cricket/</link>
       <pubDate>Mon, 09 Feb 2026 12:45:34 +0000</pubDate>
-      <guid>/tags/cricket/</guid>
+      <guid>//localhost:1313/tags/cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>February Fixture</title>
-      <link>/tags/february-fixture/</link>
+      <link>//localhost:1313/tags/february-fixture/</link>
       <pubDate>Mon, 09 Feb 2026 12:45:34 +0000</pubDate>
-      <guid>/tags/february-fixture/</guid>
+      <guid>//localhost:1313/tags/february-fixture/</guid>
       <description></description>
     </item>
     <item>
       <title>India</title>
-      <link>/tags/india/</link>
+      <link>//localhost:1313/tags/india/</link>
       <pubDate>Mon, 09 Feb 2026 12:45:34 +0000</pubDate>
-      <guid>/tags/india/</guid>
+      <guid>//localhost:1313/tags/india/</guid>
       <description></description>
     </item>
     <item>
       <title>Pakistan</title>
-      <link>/tags/pakistan/</link>
+      <link>//localhost:1313/tags/pakistan/</link>
       <pubDate>Mon, 09 Feb 2026 12:45:34 +0000</pubDate>
-      <guid>/tags/pakistan/</guid>
+      <guid>//localhost:1313/tags/pakistan/</guid>
       <description></description>
     </item>
     <item>
       <title>Domestic Cricket</title>
-      <link>/tags/domestic-cricket/</link>
+      <link>//localhost:1313/tags/domestic-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 12:30:41 +0000</pubDate>
-      <guid>/tags/domestic-cricket/</guid>
+      <guid>//localhost:1313/tags/domestic-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Karnataka</title>
-      <link>/tags/karnataka/</link>
+      <link>//localhost:1313/tags/karnataka/</link>
       <pubDate>Mon, 09 Feb 2026 12:30:41 +0000</pubDate>
-      <guid>/tags/karnataka/</guid>
+      <guid>//localhost:1313/tags/karnataka/</guid>
       <description></description>
     </item>
     <item>
       <title>Mumbai</title>
-      <link>/tags/mumbai/</link>
+      <link>//localhost:1313/tags/mumbai/</link>
       <pubDate>Mon, 09 Feb 2026 12:30:41 +0000</pubDate>
-      <guid>/tags/mumbai/</guid>
+      <guid>//localhost:1313/tags/mumbai/</guid>
       <description></description>
     </item>
     <item>
       <title>Semi-Finals</title>
-      <link>/tags/semi-finals/</link>
+      <link>//localhost:1313/tags/semi-finals/</link>
       <pubDate>Mon, 09 Feb 2026 12:30:41 +0000</pubDate>
-      <guid>/tags/semi-finals/</guid>
+      <guid>//localhost:1313/tags/semi-finals/</guid>
       <description></description>
     </item>
     <item>
       <title>Franchise Ownership</title>
-      <link>/tags/franchise-ownership/</link>
+      <link>//localhost:1313/tags/franchise-ownership/</link>
       <pubDate>Mon, 09 Feb 2026 12:30:34 +0000</pubDate>
-      <guid>/tags/franchise-ownership/</guid>
+      <guid>//localhost:1313/tags/franchise-ownership/</guid>
       <description></description>
     </item>
     <item>
       <title>Avram Glazer</title>
-      <link>/tags/avram-glazer/</link>
+      <link>//localhost:1313/tags/avram-glazer/</link>
       <pubDate>Mon, 09 Feb 2026 12:15:33 +0000</pubDate>
-      <guid>/tags/avram-glazer/</guid>
+      <guid>//localhost:1313/tags/avram-glazer/</guid>
       <description></description>
     </item>
     <item>
       <title>Pakistan Cricket</title>
-      <link>/tags/pakistan-cricket/</link>
+      <link>//localhost:1313/tags/pakistan-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 11:50:35 +0000</pubDate>
-      <guid>/tags/pakistan-cricket/</guid>
+      <guid>//localhost:1313/tags/pakistan-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>USA Cricket</title>
-      <link>/tags/usa-cricket/</link>
+      <link>//localhost:1313/tags/usa-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 11:50:35 +0000</pubDate>
-      <guid>/tags/usa-cricket/</guid>
+      <guid>//localhost:1313/tags/usa-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Bidders</title>
-      <link>/tags/bidders/</link>
+      <link>//localhost:1313/tags/bidders/</link>
       <pubDate>Mon, 09 Feb 2026 11:45:33 +0000</pubDate>
-      <guid>/tags/bidders/</guid>
+      <guid>//localhost:1313/tags/bidders/</guid>
       <description></description>
     </item>
     <item>
       <title>Bidding</title>
-      <link>/tags/bidding/</link>
+      <link>//localhost:1313/tags/bidding/</link>
       <pubDate>Mon, 09 Feb 2026 11:40:34 +0000</pubDate>
-      <guid>/tags/bidding/</guid>
+      <guid>//localhost:1313/tags/bidding/</guid>
       <description></description>
     </item>
     <item>
       <title>Domestic Tournaments</title>
-      <link>/tags/domestic-tournaments/</link>
+      <link>//localhost:1313/tags/domestic-tournaments/</link>
       <pubDate>Mon, 09 Feb 2026 10:55:33 +0000</pubDate>
-      <guid>/tags/domestic-tournaments/</guid>
+      <guid>//localhost:1313/tags/domestic-tournaments/</guid>
       <description></description>
     </item>
     <item>
       <title>Domestic Tournament</title>
-      <link>/tags/domestic-tournament/</link>
+      <link>//localhost:1313/tags/domestic-tournament/</link>
       <pubDate>Mon, 09 Feb 2026 10:40:34 +0000</pubDate>
-      <guid>/tags/domestic-tournament/</guid>
+      <guid>//localhost:1313/tags/domestic-tournament/</guid>
       <description></description>
     </item>
     <item>
       <title>Jammu and Kashmir</title>
-      <link>/tags/jammu-and-kashmir/</link>
+      <link>//localhost:1313/tags/jammu-and-kashmir/</link>
       <pubDate>Mon, 09 Feb 2026 10:30:35 +0000</pubDate>
-      <guid>/tags/jammu-and-kashmir/</guid>
+      <guid>//localhost:1313/tags/jammu-and-kashmir/</guid>
       <description></description>
     </item>
     <item>
       <title>Madhya Pradesh</title>
-      <link>/tags/madhya-pradesh/</link>
+      <link>//localhost:1313/tags/madhya-pradesh/</link>
       <pubDate>Mon, 09 Feb 2026 10:30:35 +0000</pubDate>
-      <guid>/tags/madhya-pradesh/</guid>
+      <guid>//localhost:1313/tags/madhya-pradesh/</guid>
       <description></description>
     </item>
     <item>
       <title>Mohammad Nabi</title>
-      <link>/tags/mohammad-nabi/</link>
+      <link>//localhost:1313/tags/mohammad-nabi/</link>
       <pubDate>Mon, 09 Feb 2026 10:30:35 +0000</pubDate>
-      <guid>/tags/mohammad-nabi/</guid>
+      <guid>//localhost:1313/tags/mohammad-nabi/</guid>
       <description></description>
     </item>
     <item>
       <title>Ranji Trophy</title>
-      <link>/tags/ranji-trophy/</link>
+      <link>//localhost:1313/tags/ranji-trophy/</link>
       <pubDate>Mon, 09 Feb 2026 10:30:35 +0000</pubDate>
-      <guid>/tags/ranji-trophy/</guid>
+      <guid>//localhost:1313/tags/ranji-trophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Jammu &amp; Kashmir</title>
-      <link>/tags/jammu--kashmir/</link>
+      <link>//localhost:1313/tags/jammu--kashmir/</link>
       <pubDate>Mon, 09 Feb 2026 10:25:33 +0000</pubDate>
-      <guid>/tags/jammu--kashmir/</guid>
+      <guid>//localhost:1313/tags/jammu--kashmir/</guid>
       <description></description>
     </item>
     <item>
       <title>Nabi</title>
-      <link>/tags/nabi/</link>
+      <link>//localhost:1313/tags/nabi/</link>
       <pubDate>Mon, 09 Feb 2026 10:00:34 +0000</pubDate>
-      <guid>/tags/nabi/</guid>
+      <guid>//localhost:1313/tags/nabi/</guid>
       <description></description>
     </item>
     <item>
       <title>Oman</title>
-      <link>/tags/oman/</link>
+      <link>//localhost:1313/tags/oman/</link>
       <pubDate>Mon, 09 Feb 2026 09:30:39 +0000</pubDate>
-      <guid>/tags/oman/</guid>
+      <guid>//localhost:1313/tags/oman/</guid>
       <description></description>
     </item>
     <item>
       <title>World Cup Qualifier</title>
-      <link>/tags/world-cup-qualifier/</link>
+      <link>//localhost:1313/tags/world-cup-qualifier/</link>
       <pubDate>Mon, 09 Feb 2026 09:30:39 +0000</pubDate>
-      <guid>/tags/world-cup-qualifier/</guid>
+      <guid>//localhost:1313/tags/world-cup-qualifier/</guid>
       <description></description>
     </item>
     <item>
       <title>Zimbabwe</title>
-      <link>/tags/zimbabwe/</link>
+      <link>//localhost:1313/tags/zimbabwe/</link>
       <pubDate>Mon, 09 Feb 2026 09:30:39 +0000</pubDate>
-      <guid>/tags/zimbabwe/</guid>
+      <guid>//localhost:1313/tags/zimbabwe/</guid>
       <description></description>
     </item>
     <item>
       <title>Italy</title>
-      <link>/tags/italy/</link>
+      <link>//localhost:1313/tags/italy/</link>
       <pubDate>Mon, 09 Feb 2026 09:10:34 +0000</pubDate>
-      <guid>/tags/italy/</guid>
+      <guid>//localhost:1313/tags/italy/</guid>
       <description></description>
     </item>
     <item>
       <title>Leask</title>
-      <link>/tags/leask/</link>
+      <link>//localhost:1313/tags/leask/</link>
       <pubDate>Mon, 09 Feb 2026 09:10:34 +0000</pubDate>
-      <guid>/tags/leask/</guid>
+      <guid>//localhost:1313/tags/leask/</guid>
       <description></description>
     </item>
     <item>
       <title>Munsey</title>
-      <link>/tags/munsey/</link>
+      <link>//localhost:1313/tags/munsey/</link>
       <pubDate>Mon, 09 Feb 2026 09:10:34 +0000</pubDate>
-      <guid>/tags/munsey/</guid>
+      <guid>//localhost:1313/tags/munsey/</guid>
       <description></description>
     </item>
     <item>
       <title>Scotland</title>
-      <link>/tags/scotland/</link>
+      <link>//localhost:1313/tags/scotland/</link>
       <pubDate>Mon, 09 Feb 2026 09:10:34 +0000</pubDate>
-      <guid>/tags/scotland/</guid>
+      <guid>//localhost:1313/tags/scotland/</guid>
       <description></description>
     </item>
     <item>
       <title>Netherlands</title>
-      <link>/tags/netherlands/</link>
+      <link>//localhost:1313/tags/netherlands/</link>
       <pubDate>Mon, 09 Feb 2026 08:45:33 +0000</pubDate>
-      <guid>/tags/netherlands/</guid>
+      <guid>//localhost:1313/tags/netherlands/</guid>
       <description></description>
     </item>
     <item>
       <title>Australia</title>
-      <link>/tags/australia/</link>
+      <link>//localhost:1313/tags/australia/</link>
       <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
-      <guid>/tags/australia/</guid>
+      <guid>//localhost:1313/tags/australia/</guid>
       <description></description>
     </item>
     <item>
       <title>Injury Updates</title>
-      <link>/tags/injury-updates/</link>
+      <link>//localhost:1313/tags/injury-updates/</link>
       <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
-      <guid>/tags/injury-updates/</guid>
+      <guid>//localhost:1313/tags/injury-updates/</guid>
       <description></description>
     </item>
     <item>
       <title>Pace Bowling</title>
-      <link>/tags/pace-bowling/</link>
+      <link>//localhost:1313/tags/pace-bowling/</link>
       <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
-      <guid>/tags/pace-bowling/</guid>
+      <guid>//localhost:1313/tags/pace-bowling/</guid>
       <description></description>
     </item>
     <item>
       <title>World Cup</title>
-      <link>/tags/world-cup/</link>
+      <link>//localhost:1313/tags/world-cup/</link>
       <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
-      <guid>/tags/world-cup/</guid>
+      <guid>//localhost:1313/tags/world-cup/</guid>
       <description></description>
     </item>
     <item>
       <title>New Zealand</title>
-      <link>/tags/new-zealand/</link>
+      <link>//localhost:1313/tags/new-zealand/</link>
       <pubDate>Mon, 09 Feb 2026 07:45:38 +0000</pubDate>
-      <guid>/tags/new-zealand/</guid>
+      <guid>//localhost:1313/tags/new-zealand/</guid>
       <description></description>
     </item>
     <item>
       <title>ODI Series</title>
-      <link>/tags/odi-series/</link>
+      <link>//localhost:1313/tags/odi-series/</link>
       <pubDate>Mon, 09 Feb 2026 07:45:38 +0000</pubDate>
-      <guid>/tags/odi-series/</guid>
+      <guid>//localhost:1313/tags/odi-series/</guid>
       <description></description>
     </item>
     <item>
       <title>UAE</title>
-      <link>/tags/uae/</link>
+      <link>//localhost:1313/tags/uae/</link>
       <pubDate>Mon, 09 Feb 2026 07:45:38 +0000</pubDate>
-      <guid>/tags/uae/</guid>
+      <guid>//localhost:1313/tags/uae/</guid>
       <description></description>
     </item>
     <item>
       <title>New Zealand Cricket</title>
-      <link>/tags/new-zealand-cricket/</link>
+      <link>//localhost:1313/tags/new-zealand-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 07:40:33 +0000</pubDate>
-      <guid>/tags/new-zealand-cricket/</guid>
+      <guid>//localhost:1313/tags/new-zealand-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>UAE Cricket</title>
-      <link>/tags/uae-cricket/</link>
+      <link>//localhost:1313/tags/uae-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 07:40:33 +0000</pubDate>
-      <guid>/tags/uae-cricket/</guid>
+      <guid>//localhost:1313/tags/uae-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Brad Wheal</title>
-      <link>/tags/brad-wheal/</link>
+      <link>//localhost:1313/tags/brad-wheal/</link>
       <pubDate>Mon, 09 Feb 2026 07:00:32 +0000</pubDate>
-      <guid>/tags/brad-wheal/</guid>
+      <guid>//localhost:1313/tags/brad-wheal/</guid>
       <description></description>
     </item>
     <item>
       <title>Italy Cricket</title>
-      <link>/tags/italy-cricket/</link>
+      <link>//localhost:1313/tags/italy-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 07:00:32 +0000</pubDate>
-      <guid>/tags/italy-cricket/</guid>
+      <guid>//localhost:1313/tags/italy-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Scotland Cricket</title>
-      <link>/tags/scotland-cricket/</link>
+      <link>//localhost:1313/tags/scotland-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 07:00:32 +0000</pubDate>
-      <guid>/tags/scotland-cricket/</guid>
+      <guid>//localhost:1313/tags/scotland-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>T20 Match</title>
-      <link>/tags/t20-match/</link>
+      <link>//localhost:1313/tags/t20-match/</link>
       <pubDate>Mon, 09 Feb 2026 07:00:32 +0000</pubDate>
-      <guid>/tags/t20-match/</guid>
+      <guid>//localhost:1313/tags/t20-match/</guid>
       <description></description>
     </item>
     <item>
       <title>Italy vs Scotland</title>
-      <link>/tags/italy-vs-scotland/</link>
+      <link>//localhost:1313/tags/italy-vs-scotland/</link>
       <pubDate>Mon, 09 Feb 2026 06:55:33 +0000</pubDate>
-      <guid>/tags/italy-vs-scotland/</guid>
+      <guid>//localhost:1313/tags/italy-vs-scotland/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Injury</title>
-      <link>/tags/cricket-injury/</link>
+      <link>//localhost:1313/tags/cricket-injury/</link>
       <pubDate>Mon, 09 Feb 2026 06:50:33 +0000</pubDate>
-      <guid>/tags/cricket-injury/</guid>
+      <guid>//localhost:1313/tags/cricket-injury/</guid>
       <description></description>
     </item>
     <item>
       <title>Wayne Madsen</title>
-      <link>/tags/wayne-madsen/</link>
+      <link>//localhost:1313/tags/wayne-madsen/</link>
       <pubDate>Mon, 09 Feb 2026 06:50:33 +0000</pubDate>
-      <guid>/tags/wayne-madsen/</guid>
+      <guid>//localhost:1313/tags/wayne-madsen/</guid>
       <description></description>
     </item>
     <item>
       <title>ICC Qualifier</title>
-      <link>/tags/icc-qualifier/</link>
+      <link>//localhost:1313/tags/icc-qualifier/</link>
       <pubDate>Mon, 09 Feb 2026 06:35:32 +0000</pubDate>
-      <guid>/tags/icc-qualifier/</guid>
+      <guid>//localhost:1313/tags/icc-qualifier/</guid>
       <description></description>
     </item>
     <item>
       <title>International</title>
-      <link>/tags/international/</link>
+      <link>//localhost:1313/tags/international/</link>
       <pubDate>Mon, 09 Feb 2026 05:50:33 +0000</pubDate>
-      <guid>/tags/international/</guid>
+      <guid>//localhost:1313/tags/international/</guid>
       <description></description>
     </item>
     <item>
       <title>Kamindu Mendis</title>
-      <link>/tags/kamindu-mendis/</link>
+      <link>//localhost:1313/tags/kamindu-mendis/</link>
       <pubDate>Mon, 09 Feb 2026 02:10:35 +0000</pubDate>
-      <guid>/tags/kamindu-mendis/</guid>
+      <guid>//localhost:1313/tags/kamindu-mendis/</guid>
       <description></description>
     </item>
     <item>
       <title>Kusal Mendis</title>
-      <link>/tags/kusal-mendis/</link>
+      <link>//localhost:1313/tags/kusal-mendis/</link>
       <pubDate>Mon, 09 Feb 2026 02:10:35 +0000</pubDate>
-      <guid>/tags/kusal-mendis/</guid>
+      <guid>//localhost:1313/tags/kusal-mendis/</guid>
       <description></description>
     </item>
     <item>
       <title>ODI Win</title>
-      <link>/tags/odi-win/</link>
+      <link>//localhost:1313/tags/odi-win/</link>
       <pubDate>Mon, 09 Feb 2026 02:10:35 +0000</pubDate>
-      <guid>/tags/odi-win/</guid>
+      <guid>//localhost:1313/tags/odi-win/</guid>
       <description></description>
     </item>
     <item>
       <title>Sri Lanka Cricket</title>
-      <link>/tags/sri-lanka-cricket/</link>
+      <link>//localhost:1313/tags/sri-lanka-cricket/</link>
       <pubDate>Mon, 09 Feb 2026 02:10:35 +0000</pubDate>
-      <guid>/tags/sri-lanka-cricket/</guid>
+      <guid>//localhost:1313/tags/sri-lanka-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Spinners</title>
-      <link>/tags/spinners/</link>
+      <link>//localhost:1313/tags/spinners/</link>
       <pubDate>Mon, 09 Feb 2026 01:50:35 +0000</pubDate>
-      <guid>/tags/spinners/</guid>
+      <guid>//localhost:1313/tags/spinners/</guid>
       <description></description>
     </item>
     <item>
       <title>Sri Lanka</title>
-      <link>/tags/sri-lanka/</link>
+      <link>//localhost:1313/tags/sri-lanka/</link>
       <pubDate>Mon, 09 Feb 2026 01:50:35 +0000</pubDate>
-      <guid>/tags/sri-lanka/</guid>
+      <guid>//localhost:1313/tags/sri-lanka/</guid>
       <description></description>
     </item>
     <item>
       <title>ODI Victory</title>
-      <link>/tags/odi-victory/</link>
+      <link>//localhost:1313/tags/odi-victory/</link>
       <pubDate>Mon, 09 Feb 2026 00:55:33 +0000</pubDate>
-      <guid>/tags/odi-victory/</guid>
+      <guid>//localhost:1313/tags/odi-victory/</guid>
       <description></description>
     </item>
     <item>
       <title>Spin Bowling</title>
-      <link>/tags/spin-bowling/</link>
+      <link>//localhost:1313/tags/spin-bowling/</link>
       <pubDate>Mon, 09 Feb 2026 00:15:33 +0000</pubDate>
-      <guid>/tags/spin-bowling/</guid>
+      <guid>//localhost:1313/tags/spin-bowling/</guid>
       <description></description>
     </item>
     <item>
       <title>Fielding Errors</title>
-      <link>/tags/fielding-errors/</link>
+      <link>//localhost:1313/tags/fielding-errors/</link>
       <pubDate>Sun, 08 Feb 2026 21:25:32 +0000</pubDate>
-      <guid>/tags/fielding-errors/</guid>
+      <guid>//localhost:1313/tags/fielding-errors/</guid>
       <description></description>
     </item>
     <item>
       <title>Ireland Cricket</title>
-      <link>/tags/ireland-cricket/</link>
+      <link>//localhost:1313/tags/ireland-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 21:25:32 +0000</pubDate>
-      <guid>/tags/ireland-cricket/</guid>
+      <guid>//localhost:1313/tags/ireland-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>International Match</title>
-      <link>/tags/international-match/</link>
+      <link>//localhost:1313/tags/international-match/</link>
       <pubDate>Sun, 08 Feb 2026 18:15:34 +0000</pubDate>
-      <guid>/tags/international-match/</guid>
+      <guid>//localhost:1313/tags/international-match/</guid>
       <description></description>
     </item>
     <item>
       <title>Death Bowling</title>
-      <link>/tags/death-bowling/</link>
+      <link>//localhost:1313/tags/death-bowling/</link>
       <pubDate>Sun, 08 Feb 2026 15:30:45 +0000</pubDate>
-      <guid>/tags/death-bowling/</guid>
+      <guid>//localhost:1313/tags/death-bowling/</guid>
       <description></description>
     </item>
     <item>
       <title>Match Report</title>
-      <link>/tags/match-report/</link>
+      <link>//localhost:1313/tags/match-report/</link>
       <pubDate>Sun, 08 Feb 2026 15:30:45 +0000</pubDate>
-      <guid>/tags/match-report/</guid>
+      <guid>//localhost:1313/tags/match-report/</guid>
       <description></description>
     </item>
     <item>
       <title>Sam Curran</title>
-      <link>/tags/sam-curran/</link>
+      <link>//localhost:1313/tags/sam-curran/</link>
       <pubDate>Sun, 08 Feb 2026 15:30:45 +0000</pubDate>
-      <guid>/tags/sam-curran/</guid>
+      <guid>//localhost:1313/tags/sam-curran/</guid>
       <description></description>
     </item>
     <item>
       <title>T20 Cricket</title>
-      <link>/tags/t20-cricket/</link>
+      <link>//localhost:1313/tags/t20-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 15:30:45 +0000</pubDate>
-      <guid>/tags/t20-cricket/</guid>
+      <guid>//localhost:1313/tags/t20-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Associate Nations</title>
-      <link>/tags/associate-nations/</link>
+      <link>//localhost:1313/tags/associate-nations/</link>
       <pubDate>Sun, 08 Feb 2026 15:30:38 +0000</pubDate>
-      <guid>/tags/associate-nations/</guid>
+      <guid>//localhost:1313/tags/associate-nations/</guid>
       <description></description>
     </item>
     <item>
       <title>Sikandar Raza</title>
-      <link>/tags/sikandar-raza/</link>
+      <link>//localhost:1313/tags/sikandar-raza/</link>
       <pubDate>Sun, 08 Feb 2026 15:30:38 +0000</pubDate>
-      <guid>/tags/sikandar-raza/</guid>
+      <guid>//localhost:1313/tags/sikandar-raza/</guid>
       <description></description>
     </item>
     <item>
       <title>Match Highlights</title>
-      <link>/tags/match-highlights/</link>
+      <link>//localhost:1313/tags/match-highlights/</link>
       <pubDate>Sun, 08 Feb 2026 15:15:36 +0000</pubDate>
-      <guid>/tags/match-highlights/</guid>
+      <guid>//localhost:1313/tags/match-highlights/</guid>
       <description></description>
     </item>
     <item>
       <title>Debutants</title>
-      <link>/tags/debutants/</link>
+      <link>//localhost:1313/tags/debutants/</link>
       <pubDate>Sun, 08 Feb 2026 14:05:42 +0000</pubDate>
-      <guid>/tags/debutants/</guid>
+      <guid>//localhost:1313/tags/debutants/</guid>
       <description></description>
     </item>
     <item>
       <title>Kolkata</title>
-      <link>/tags/kolkata/</link>
+      <link>//localhost:1313/tags/kolkata/</link>
       <pubDate>Sun, 08 Feb 2026 14:05:42 +0000</pubDate>
-      <guid>/tags/kolkata/</guid>
+      <guid>//localhost:1313/tags/kolkata/</guid>
       <description></description>
     </item>
     <item>
       <title>England</title>
-      <link>/tags/england/</link>
+      <link>//localhost:1313/tags/england/</link>
       <pubDate>Sun, 08 Feb 2026 14:05:37 +0000</pubDate>
-      <guid>/tags/england/</guid>
+      <guid>//localhost:1313/tags/england/</guid>
       <description></description>
     </item>
     <item>
       <title>Nepal</title>
-      <link>/tags/nepal/</link>
+      <link>//localhost:1313/tags/nepal/</link>
       <pubDate>Sun, 08 Feb 2026 14:05:37 +0000</pubDate>
-      <guid>/tags/nepal/</guid>
+      <guid>//localhost:1313/tags/nepal/</guid>
       <description></description>
     </item>
     <item>
       <title>Thriller</title>
-      <link>/tags/thriller/</link>
+      <link>//localhost:1313/tags/thriller/</link>
       <pubDate>Sun, 08 Feb 2026 14:05:37 +0000</pubDate>
-      <guid>/tags/thriller/</guid>
+      <guid>//localhost:1313/tags/thriller/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Strategy</title>
-      <link>/tags/cricket-strategy/</link>
+      <link>//localhost:1313/tags/cricket-strategy/</link>
       <pubDate>Sun, 08 Feb 2026 13:55:37 +0000</pubDate>
-      <guid>/tags/cricket-strategy/</guid>
+      <guid>//localhost:1313/tags/cricket-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Ireland</title>
-      <link>/tags/ireland/</link>
+      <link>//localhost:1313/tags/ireland/</link>
       <pubDate>Sun, 08 Feb 2026 13:55:37 +0000</pubDate>
-      <guid>/tags/ireland/</guid>
+      <guid>//localhost:1313/tags/ireland/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Thriller</title>
-      <link>/tags/cricket-thriller/</link>
+      <link>//localhost:1313/tags/cricket-thriller/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:42 +0000</pubDate>
-      <guid>/tags/cricket-thriller/</guid>
+      <guid>//localhost:1313/tags/cricket-thriller/</guid>
       <description></description>
     </item>
     <item>
       <title>England Cricket</title>
-      <link>/tags/england-cricket/</link>
+      <link>//localhost:1313/tags/england-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:42 +0000</pubDate>
-      <guid>/tags/england-cricket/</guid>
+      <guid>//localhost:1313/tags/england-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Last Over Drama</title>
-      <link>/tags/last-over-drama/</link>
+      <link>//localhost:1313/tags/last-over-drama/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:42 +0000</pubDate>
-      <guid>/tags/last-over-drama/</guid>
+      <guid>//localhost:1313/tags/last-over-drama/</guid>
       <description></description>
     </item>
     <item>
       <title>Nepal Cricket</title>
-      <link>/tags/nepal-cricket/</link>
+      <link>//localhost:1313/tags/nepal-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:42 +0000</pubDate>
-      <guid>/tags/nepal-cricket/</guid>
+      <guid>//localhost:1313/tags/nepal-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Afghanistan Cricket</title>
-      <link>/tags/afghanistan-cricket/</link>
+      <link>//localhost:1313/tags/afghanistan-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:37 +0000</pubDate>
-      <guid>/tags/afghanistan-cricket/</guid>
+      <guid>//localhost:1313/tags/afghanistan-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Naib</title>
-      <link>/tags/naib/</link>
+      <link>//localhost:1313/tags/naib/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:37 +0000</pubDate>
-      <guid>/tags/naib/</guid>
+      <guid>//localhost:1313/tags/naib/</guid>
       <description></description>
     </item>
     <item>
       <title>Noor</title>
-      <link>/tags/noor/</link>
+      <link>//localhost:1313/tags/noor/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:37 +0000</pubDate>
-      <guid>/tags/noor/</guid>
+      <guid>//localhost:1313/tags/noor/</guid>
       <description></description>
     </item>
     <item>
       <title>BCB</title>
-      <link>/tags/bcb/</link>
+      <link>//localhost:1313/tags/bcb/</link>
       <pubDate>Sun, 08 Feb 2026 13:30:46 +0000</pubDate>
-      <guid>/tags/bcb/</guid>
+      <guid>//localhost:1313/tags/bcb/</guid>
       <description></description>
     </item>
     <item>
       <title>ICC</title>
-      <link>/tags/icc/</link>
+      <link>//localhost:1313/tags/icc/</link>
       <pubDate>Sun, 08 Feb 2026 13:30:46 +0000</pubDate>
-      <guid>/tags/icc/</guid>
+      <guid>//localhost:1313/tags/icc/</guid>
       <description></description>
     </item>
     <item>
       <title>PCB</title>
-      <link>/tags/pcb/</link>
+      <link>//localhost:1313/tags/pcb/</link>
       <pubDate>Sun, 08 Feb 2026 13:30:46 +0000</pubDate>
-      <guid>/tags/pcb/</guid>
+      <guid>//localhost:1313/tags/pcb/</guid>
       <description></description>
     </item>
     <item>
       <title>World Cup Qualifiers</title>
-      <link>/tags/world-cup-qualifiers/</link>
+      <link>//localhost:1313/tags/world-cup-qualifiers/</link>
       <pubDate>Sun, 08 Feb 2026 13:30:41 +0000</pubDate>
-      <guid>/tags/world-cup-qualifiers/</guid>
+      <guid>//localhost:1313/tags/world-cup-qualifiers/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Diplomacy</title>
-      <link>/tags/cricket-diplomacy/</link>
+      <link>//localhost:1313/tags/cricket-diplomacy/</link>
       <pubDate>Sun, 08 Feb 2026 13:10:38 +0000</pubDate>
-      <guid>/tags/cricket-diplomacy/</guid>
+      <guid>//localhost:1313/tags/cricket-diplomacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Jatinder Singh</title>
-      <link>/tags/jatinder-singh/</link>
+      <link>//localhost:1313/tags/jatinder-singh/</link>
       <pubDate>Sun, 08 Feb 2026 12:55:39 +0000</pubDate>
-      <guid>/tags/jatinder-singh/</guid>
+      <guid>//localhost:1313/tags/jatinder-singh/</guid>
       <description></description>
     </item>
     <item>
       <title>T20 Series</title>
-      <link>/tags/t20-series/</link>
+      <link>//localhost:1313/tags/t20-series/</link>
       <pubDate>Sun, 08 Feb 2026 12:20:38 +0000</pubDate>
-      <guid>/tags/t20-series/</guid>
+      <guid>//localhost:1313/tags/t20-series/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Qualifiers</title>
-      <link>/tags/cricket-qualifiers/</link>
+      <link>//localhost:1313/tags/cricket-qualifiers/</link>
       <pubDate>Sun, 08 Feb 2026 12:10:41 +0000</pubDate>
-      <guid>/tags/cricket-qualifiers/</guid>
+      <guid>//localhost:1313/tags/cricket-qualifiers/</guid>
       <description></description>
     </item>
     <item>
       <title>Andhra</title>
-      <link>/tags/andhra/</link>
+      <link>//localhost:1313/tags/andhra/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:51 +0000</pubDate>
-      <guid>/tags/andhra/</guid>
+      <guid>//localhost:1313/tags/andhra/</guid>
       <description></description>
     </item>
     <item>
       <title>Gharami</title>
-      <link>/tags/gharami/</link>
+      <link>//localhost:1313/tags/gharami/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:51 +0000</pubDate>
-      <guid>/tags/gharami/</guid>
+      <guid>//localhost:1313/tags/gharami/</guid>
       <description></description>
     </item>
     <item>
       <title>Semi-Final</title>
-      <link>/tags/semi-final/</link>
+      <link>//localhost:1313/tags/semi-final/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:51 +0000</pubDate>
-      <guid>/tags/semi-final/</guid>
+      <guid>//localhost:1313/tags/semi-final/</guid>
       <description></description>
     </item>
     <item>
       <title>Uttarakhand</title>
-      <link>/tags/uttarakhand/</link>
+      <link>//localhost:1313/tags/uttarakhand/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:51 +0000</pubDate>
-      <guid>/tags/uttarakhand/</guid>
+      <guid>//localhost:1313/tags/uttarakhand/</guid>
       <description></description>
     </item>
     <item>
       <title>South Africa</title>
-      <link>/tags/south-africa/</link>
+      <link>//localhost:1313/tags/south-africa/</link>
       <pubDate>Sun, 08 Feb 2026 12:00:44 +0000</pubDate>
-      <guid>/tags/south-africa/</guid>
+      <guid>//localhost:1313/tags/south-africa/</guid>
       <description></description>
     </item>
     <item>
       <title>Bengal</title>
-      <link>/tags/bengal/</link>
+      <link>//localhost:1313/tags/bengal/</link>
       <pubDate>Sun, 08 Feb 2026 11:40:39 +0000</pubDate>
-      <guid>/tags/bengal/</guid>
+      <guid>//localhost:1313/tags/bengal/</guid>
       <description></description>
     </item>
     <item>
       <title>Double Century</title>
-      <link>/tags/double-century/</link>
+      <link>//localhost:1313/tags/double-century/</link>
       <pubDate>Sun, 08 Feb 2026 11:40:39 +0000</pubDate>
-      <guid>/tags/double-century/</guid>
+      <guid>//localhost:1313/tags/double-century/</guid>
       <description></description>
     </item>
     <item>
       <title>Koushik Gharami</title>
-      <link>/tags/koushik-gharami/</link>
+      <link>//localhost:1313/tags/koushik-gharami/</link>
       <pubDate>Sun, 08 Feb 2026 11:40:39 +0000</pubDate>
-      <guid>/tags/koushik-gharami/</guid>
+      <guid>//localhost:1313/tags/koushik-gharami/</guid>
       <description></description>
     </item>
     <item>
       <title>Canada</title>
-      <link>/tags/canada/</link>
+      <link>//localhost:1313/tags/canada/</link>
       <pubDate>Sun, 08 Feb 2026 10:50:35 +0000</pubDate>
-      <guid>/tags/canada/</guid>
+      <guid>//localhost:1313/tags/canada/</guid>
       <description></description>
     </item>
     <item>
       <title>Debut</title>
-      <link>/tags/debut/</link>
+      <link>//localhost:1313/tags/debut/</link>
       <pubDate>Sun, 08 Feb 2026 10:15:28 +0000</pubDate>
-      <guid>/tags/debut/</guid>
+      <guid>//localhost:1313/tags/debut/</guid>
       <description></description>
     </item>
     <item>
       <title>Sher Malla</title>
-      <link>/tags/sher-malla/</link>
+      <link>//localhost:1313/tags/sher-malla/</link>
       <pubDate>Sun, 08 Feb 2026 10:15:28 +0000</pubDate>
-      <guid>/tags/sher-malla/</guid>
+      <guid>//localhost:1313/tags/sher-malla/</guid>
       <description></description>
     </item>
     <item>
       <title>International Debut</title>
-      <link>/tags/international-debut/</link>
+      <link>//localhost:1313/tags/international-debut/</link>
       <pubDate>Sun, 08 Feb 2026 09:45:27 +0000</pubDate>
-      <guid>/tags/international-debut/</guid>
+      <guid>//localhost:1313/tags/international-debut/</guid>
       <description></description>
     </item>
     <item>
       <title>New South Wales</title>
-      <link>/tags/new-south-wales/</link>
+      <link>//localhost:1313/tags/new-south-wales/</link>
       <pubDate>Sun, 08 Feb 2026 09:20:29 +0000</pubDate>
-      <guid>/tags/new-south-wales/</guid>
+      <guid>//localhost:1313/tags/new-south-wales/</guid>
       <description></description>
     </item>
     <item>
       <title>Rain Delay</title>
-      <link>/tags/rain-delay/</link>
+      <link>//localhost:1313/tags/rain-delay/</link>
       <pubDate>Sun, 08 Feb 2026 09:20:29 +0000</pubDate>
-      <guid>/tags/rain-delay/</guid>
+      <guid>//localhost:1313/tags/rain-delay/</guid>
       <description></description>
     </item>
     <item>
       <title>Afghanistan</title>
-      <link>/tags/afghanistan/</link>
+      <link>//localhost:1313/tags/afghanistan/</link>
       <pubDate>Sun, 08 Feb 2026 09:15:29 +0000</pubDate>
-      <guid>/tags/afghanistan/</guid>
+      <guid>//localhost:1313/tags/afghanistan/</guid>
       <description></description>
     </item>
     <item>
       <title>Phillips</title>
-      <link>/tags/phillips/</link>
+      <link>//localhost:1313/tags/phillips/</link>
       <pubDate>Sun, 08 Feb 2026 09:15:29 +0000</pubDate>
-      <guid>/tags/phillips/</guid>
+      <guid>//localhost:1313/tags/phillips/</guid>
       <description></description>
     </item>
     <item>
       <title>Seifert</title>
-      <link>/tags/seifert/</link>
+      <link>//localhost:1313/tags/seifert/</link>
       <pubDate>Sun, 08 Feb 2026 09:15:29 +0000</pubDate>
-      <guid>/tags/seifert/</guid>
+      <guid>//localhost:1313/tags/seifert/</guid>
       <description></description>
     </item>
     <item>
       <title>Bell</title>
-      <link>/tags/bell/</link>
+      <link>//localhost:1313/tags/bell/</link>
       <pubDate>Sun, 08 Feb 2026 08:10:28 +0000</pubDate>
-      <guid>/tags/bell/</guid>
+      <guid>//localhost:1313/tags/bell/</guid>
       <description></description>
     </item>
     <item>
       <title>Doran</title>
-      <link>/tags/doran/</link>
+      <link>//localhost:1313/tags/doran/</link>
       <pubDate>Sun, 08 Feb 2026 08:10:28 +0000</pubDate>
-      <guid>/tags/doran/</guid>
+      <guid>//localhost:1313/tags/doran/</guid>
       <description></description>
     </item>
     <item>
       <title>Tasmania</title>
-      <link>/tags/tasmania/</link>
+      <link>//localhost:1313/tags/tasmania/</link>
       <pubDate>Sun, 08 Feb 2026 08:10:28 +0000</pubDate>
-      <guid>/tags/tasmania/</guid>
+      <guid>//localhost:1313/tags/tasmania/</guid>
       <description></description>
     </item>
     <item>
       <title>Queensland</title>
-      <link>/tags/queensland/</link>
+      <link>//localhost:1313/tags/queensland/</link>
       <pubDate>Sun, 08 Feb 2026 08:05:29 +0000</pubDate>
-      <guid>/tags/queensland/</guid>
+      <guid>//localhost:1313/tags/queensland/</guid>
       <description></description>
     </item>
     <item>
       <title>Sheffield Shield</title>
-      <link>/tags/sheffield-shield/</link>
+      <link>//localhost:1313/tags/sheffield-shield/</link>
       <pubDate>Sun, 08 Feb 2026 08:05:29 +0000</pubDate>
-      <guid>/tags/sheffield-shield/</guid>
+      <guid>//localhost:1313/tags/sheffield-shield/</guid>
       <description></description>
     </item>
     <item>
       <title>Straker</title>
-      <link>/tags/straker/</link>
+      <link>//localhost:1313/tags/straker/</link>
       <pubDate>Sun, 08 Feb 2026 07:50:29 +0000</pubDate>
-      <guid>/tags/straker/</guid>
+      <guid>//localhost:1313/tags/straker/</guid>
       <description></description>
     </item>
     <item>
       <title>Swepson</title>
-      <link>/tags/swepson/</link>
+      <link>//localhost:1313/tags/swepson/</link>
       <pubDate>Sun, 08 Feb 2026 07:50:29 +0000</pubDate>
-      <guid>/tags/swepson/</guid>
+      <guid>//localhost:1313/tags/swepson/</guid>
       <description></description>
     </item>
     <item>
       <title>Brasher</title>
-      <link>/tags/brasher/</link>
+      <link>//localhost:1313/tags/brasher/</link>
       <pubDate>Sun, 08 Feb 2026 07:10:29 +0000</pubDate>
-      <guid>/tags/brasher/</guid>
+      <guid>//localhost:1313/tags/brasher/</guid>
       <description></description>
     </item>
     <item>
       <title>Queensland Cricket</title>
-      <link>/tags/queensland-cricket/</link>
+      <link>//localhost:1313/tags/queensland-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 06:25:28 +0000</pubDate>
-      <guid>/tags/queensland-cricket/</guid>
+      <guid>//localhost:1313/tags/queensland-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Tasmania Cricket</title>
-      <link>/tags/tasmania-cricket/</link>
+      <link>//localhost:1313/tags/tasmania-cricket/</link>
       <pubDate>Sun, 08 Feb 2026 06:25:28 +0000</pubDate>
-      <guid>/tags/tasmania-cricket/</guid>
+      <guid>//localhost:1313/tags/tasmania-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Spin Bowlers</title>
-      <link>/tags/spin-bowlers/</link>
+      <link>//localhost:1313/tags/spin-bowlers/</link>
       <pubDate>Sun, 08 Feb 2026 05:40:29 +0000</pubDate>
-      <guid>/tags/spin-bowlers/</guid>
+      <guid>//localhost:1313/tags/spin-bowlers/</guid>
       <description></description>
     </item>
     <item>
       <title>Indian Cricket</title>
-      <link>/tags/indian-cricket/</link>
+      <link>//localhost:1313/tags/indian-cricket/</link>
       <pubDate>Sat, 07 Feb 2026 19:10:33 +0000</pubDate>
-      <guid>/tags/indian-cricket/</guid>
+      <guid>//localhost:1313/tags/indian-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Team India</title>
-      <link>/tags/team-india/</link>
+      <link>//localhost:1313/tags/team-india/</link>
       <pubDate>Sat, 07 Feb 2026 19:10:33 +0000</pubDate>
-      <guid>/tags/team-india/</guid>
+      <guid>//localhost:1313/tags/team-india/</guid>
       <description></description>
     </item>
     <item>
       <title>Washington Sundar</title>
-      <link>/tags/washington-sundar/</link>
+      <link>//localhost:1313/tags/washington-sundar/</link>
       <pubDate>Sat, 07 Feb 2026 19:10:33 +0000</pubDate>
-      <guid>/tags/washington-sundar/</guid>
+      <guid>//localhost:1313/tags/washington-sundar/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket World Cup</title>
-      <link>/tags/cricket-world-cup/</link>
+      <link>//localhost:1313/tags/cricket-world-cup/</link>
       <pubDate>Sat, 07 Feb 2026 18:35:31 +0000</pubDate>
-      <guid>/tags/cricket-world-cup/</guid>
+      <guid>//localhost:1313/tags/cricket-world-cup/</guid>
       <description></description>
     </item>
     <item>
       <title>Khettarama</title>
-      <link>/tags/khettarama/</link>
+      <link>//localhost:1313/tags/khettarama/</link>
       <pubDate>Sat, 07 Feb 2026 17:45:33 +0000</pubDate>
-      <guid>/tags/khettarama/</guid>
+      <guid>//localhost:1313/tags/khettarama/</guid>
       <description></description>
     </item>
     <item>
       <title>Pitch Conditions</title>
-      <link>/tags/pitch-conditions/</link>
+      <link>//localhost:1313/tags/pitch-conditions/</link>
       <pubDate>Sat, 07 Feb 2026 17:45:33 +0000</pubDate>
-      <guid>/tags/pitch-conditions/</guid>
+      <guid>//localhost:1313/tags/pitch-conditions/</guid>
       <description></description>
     </item>
     <item>
       <title>India vs USA</title>
-      <link>/tags/india-vs-usa/</link>
+      <link>//localhost:1313/tags/india-vs-usa/</link>
       <pubDate>Sat, 07 Feb 2026 17:35:34 +0000</pubDate>
-      <guid>/tags/india-vs-usa/</guid>
+      <guid>//localhost:1313/tags/india-vs-usa/</guid>
       <description></description>
     </item>
     <item>
       <title>Suryakumar Yadav</title>
-      <link>/tags/suryakumar-yadav/</link>
+      <link>//localhost:1313/tags/suryakumar-yadav/</link>
       <pubDate>Sat, 07 Feb 2026 17:35:34 +0000</pubDate>
-      <guid>/tags/suryakumar-yadav/</guid>
+      <guid>//localhost:1313/tags/suryakumar-yadav/</guid>
       <description></description>
     </item>
     <item>
       <title>Force Majeure</title>
-      <link>/tags/force-majeure/</link>
+      <link>//localhost:1313/tags/force-majeure/</link>
       <pubDate>Sat, 07 Feb 2026 15:45:33 +0000</pubDate>
-      <guid>/tags/force-majeure/</guid>
+      <guid>//localhost:1313/tags/force-majeure/</guid>
       <description></description>
     </item>
     <item>
       <title>Cricket Upset</title>
-      <link>/tags/cricket-upset/</link>
+      <link>//localhost:1313/tags/cricket-upset/</link>
       <pubDate>Sat, 07 Feb 2026 15:25:32 +0000</pubDate>
-      <guid>/tags/cricket-upset/</guid>
+      <guid>//localhost:1313/tags/cricket-upset/</guid>
       <description></description>
     </item>
     <item>
       <title>Hetmyer</title>
-      <link>/tags/hetmyer/</link>
+      <link>//localhost:1313/tags/hetmyer/</link>
       <pubDate>Sat, 07 Feb 2026 15:00:33 +0000</pubDate>
-      <guid>/tags/hetmyer/</guid>
+      <guid>//localhost:1313/tags/hetmyer/</guid>
       <description></description>
     </item>
     <item>
       <title>Shepherd</title>
-      <link>/tags/shepherd/</link>
+      <link>//localhost:1313/tags/shepherd/</link>
       <pubDate>Sat, 07 Feb 2026 15:00:33 +0000</pubDate>
-      <guid>/tags/shepherd/</guid>
+      <guid>//localhost:1313/tags/shepherd/</guid>
       <description></description>
     </item>
     <item>
       <title>West Indies</title>
-      <link>/tags/west-indies/</link>
+      <link>//localhost:1313/tags/west-indies/</link>
       <pubDate>Sat, 07 Feb 2026 15:00:33 +0000</pubDate>
-      <guid>/tags/west-indies/</guid>
+      <guid>//localhost:1313/tags/west-indies/</guid>
       <description></description>
     </item>
     <item>
       <title>Upset</title>
-      <link>/tags/upset/</link>
+      <link>//localhost:1313/tags/upset/</link>
       <pubDate>Sat, 07 Feb 2026 15:00:28 +0000</pubDate>
-      <guid>/tags/upset/</guid>
+      <guid>//localhost:1313/tags/upset/</guid>
       <description></description>
     </item>
     <item>
       <title>Bumrah</title>
-      <link>/tags/bumrah/</link>
+      <link>//localhost:1313/tags/bumrah/</link>
       <pubDate>Sat, 07 Feb 2026 14:00:36 +0000</pubDate>
-      <guid>/tags/bumrah/</guid>
+      <guid>//localhost:1313/tags/bumrah/</guid>
       <description></description>
     </item>
     <item>
       <title>Siraj</title>
-      <link>/tags/siraj/</link>
+      <link>//localhost:1313/tags/siraj/</link>
       <pubDate>Sat, 07 Feb 2026 14:00:36 +0000</pubDate>
-      <guid>/tags/siraj/</guid>
+      <guid>//localhost:1313/tags/siraj/</guid>
       <description></description>
     </item>
     <item>
       <title>USA</title>
-      <link>/tags/usa/</link>
+      <link>//localhost:1313/tags/usa/</link>
       <pubDate>Sat, 07 Feb 2026 14:00:36 +0000</pubDate>
-      <guid>/tags/usa/</guid>
+      <guid>//localhost:1313/tags/usa/</guid>
       <description></description>
     </item>
     <item>
       <title>Romario Shepherd</title>
-      <link>/tags/romario-shepherd/</link>
+      <link>//localhost:1313/tags/romario-shepherd/</link>
       <pubDate>Sat, 07 Feb 2026 14:00:28 +0000</pubDate>
-      <guid>/tags/romario-shepherd/</guid>
+      <guid>//localhost:1313/tags/romario-shepherd/</guid>
       <description></description>
     </item>
     <item>
       <title>Shimron Hetmyer</title>
-      <link>/tags/shimron-hetmyer/</link>
+      <link>//localhost:1313/tags/shimron-hetmyer/</link>
       <pubDate>Sat, 07 Feb 2026 14:00:28 +0000</pubDate>
-      <guid>/tags/shimron-hetmyer/</guid>
+      <guid>//localhost:1313/tags/shimron-hetmyer/</guid>
       <description></description>
     </item>
     <item>
       <title>Bengal Cricket</title>
-      <link>/tags/bengal-cricket/</link>
+      <link>//localhost:1313/tags/bengal-cricket/</link>
       <pubDate>Sat, 07 Feb 2026 13:00:28 +0000</pubDate>
-      <guid>/tags/bengal-cricket/</guid>
+      <guid>//localhost:1313/tags/bengal-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Seven Wickets</title>
-      <link>/tags/seven-wickets/</link>
+      <link>//localhost:1313/tags/seven-wickets/</link>
       <pubDate>Sat, 07 Feb 2026 13:00:28 +0000</pubDate>
-      <guid>/tags/seven-wickets/</guid>
+      <guid>//localhost:1313/tags/seven-wickets/</guid>
       <description></description>
     </item>
     <item>
       <title>Sudip Gharami</title>
-      <link>/tags/sudip-gharami/</link>
+      <link>//localhost:1313/tags/sudip-gharami/</link>
       <pubDate>Sat, 07 Feb 2026 13:00:28 +0000</pubDate>
-      <guid>/tags/sudip-gharami/</guid>
+      <guid>//localhost:1313/tags/sudip-gharami/</guid>
       <description></description>
     </item>
     <item>
       <title>Rashid Khan</title>
-      <link>/tags/rashid-khan/</link>
+      <link>//localhost:1313/tags/rashid-khan/</link>
       <pubDate>Sat, 07 Feb 2026 12:30:29 +0000</pubDate>
-      <guid>/tags/rashid-khan/</guid>
+      <guid>//localhost:1313/tags/rashid-khan/</guid>
       <description></description>
     </item>
     <item>
       <title>Sports</title>
-      <link>/tags/sports/</link>
+      <link>//localhost:1313/tags/sports/</link>
       <pubDate>Sat, 07 Feb 2026 12:30:29 +0000</pubDate>
-      <guid>/tags/sports/</guid>
+      <guid>//localhost:1313/tags/sports/</guid>
       <description></description>
     </item>
     <item>
       <title>Harry Brook</title>
-      <link>/tags/harry-brook/</link>
+      <link>//localhost:1313/tags/harry-brook/</link>
       <pubDate>Sat, 07 Feb 2026 12:00:35 +0000</pubDate>
-      <guid>/tags/harry-brook/</guid>
+      <guid>//localhost:1313/tags/harry-brook/</guid>
       <description></description>
     </item>
     <item>
       <title>Player Performance</title>
-      <link>/tags/player-performance/</link>
+      <link>//localhost:1313/tags/player-performance/</link>
       <pubDate>Sat, 07 Feb 2026 12:00:35 +0000</pubDate>
-      <guid>/tags/player-performance/</guid>
+      <guid>//localhost:1313/tags/player-performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Wellington</title>
-      <link>/tags/wellington/</link>
+      <link>//localhost:1313/tags/wellington/</link>
       <pubDate>Sat, 07 Feb 2026 12:00:35 +0000</pubDate>
-      <guid>/tags/wellington/</guid>
+      <guid>//localhost:1313/tags/wellington/</guid>
       <description></description>
     </item>
     <item>
       <title>Andhra Cricket</title>
-      <link>/tags/andhra-cricket/</link>
+      <link>//localhost:1313/tags/andhra-cricket/</link>
       <pubDate>Sat, 07 Feb 2026 12:00:29 +0000</pubDate>
-      <guid>/tags/andhra-cricket/</guid>
+      <guid>//localhost:1313/tags/andhra-cricket/</guid>
       <description></description>
     </item>
     <item>
       <title>Batting Woes</title>
-      <link>/tags/batting-woes/</link>
+      <link>//localhost:1313/tags/batting-woes/</link>
       <pubDate>Sat, 07 Feb 2026 11:30:28 +0000</pubDate>
-      <guid>/tags/batting-woes/</guid>
+      <guid>//localhost:1313/tags/batting-woes/</guid>
       <description></description>
     </item>
     <item>
       <title>Dasun Shanaka</title>
-      <link>/tags/dasun-shanaka/</link>
+      <link>//localhost:1313/tags/dasun-shanaka/</link>
       <pubDate>Sat, 07 Feb 2026 11:30:28 +0000</pubDate>
-      <guid>/tags/dasun-shanaka/</guid>
+      <guid>//localhost:1313/tags/dasun-shanaka/</guid>
       <description></description>
     </item>
     <item>
       <title>Spin Pitches</title>
-      <link>/tags/spin-pitches/</link>
+      <link>//localhost:1313/tags/spin-pitches/</link>
       <pubDate>Sat, 07 Feb 2026 11:30:28 +0000</pubDate>
-      <guid>/tags/spin-pitches/</guid>
+      <guid>//localhost:1313/tags/spin-pitches/</guid>
       <description></description>
     </item>
     <item>
       <title>Bancroft</title>
-      <link>/tags/bancroft/</link>
+      <link>//localhost:1313/tags/bancroft/</link>
       <pubDate>Sat, 07 Feb 2026 11:00:30 +0000</pubDate>
-      <guid>/tags/bancroft/</guid>
+      <guid>//localhost:1313/tags/bancroft/</guid>
       <description></description>
     </item>
     <item>
       <title>Webster</title>
-      <link>/tags/webster/</link>
+      <link>//localhost:1313/tags/webster/</link>
       <pubDate>Sat, 07 Feb 2026 11:00:30 +0000</pubDate>
-      <guid>/tags/webster/</guid>
+      <guid>//localhost:1313/tags/webster/</guid>
       <description></description>
     </item>
     <item>
       <title>Western Australia</title>
-      <link>/tags/western-australia/</link>
+      <link>//localhost:1313/tags/western-australia/</link>
       <pubDate>Sat, 07 Feb 2026 11:00:30 +0000</pubDate>
-      <guid>/tags/western-australia/</guid>
+      <guid>//localhost:1313/tags/western-australia/</guid>
       <description></description>
     </item>
     <item>
       <title>Faheem Ashraf</title>
-      <link>/tags/faheem-ashraf/</link>
+      <link>//localhost:1313/tags/faheem-ashraf/</link>
       <pubDate>Sat, 07 Feb 2026 10:00:34 +0000</pubDate>
-      <guid>/tags/faheem-ashraf/</guid>
+      <guid>//localhost:1313/tags/faheem-ashraf/</guid>
       <description></description>
     </item>
     <item>
       <title>Mahli Beardman</title>
-      <link>/tags/mahli-beardman/</link>
+      <link>//localhost:1313/tags/mahli-beardman/</link>
       <pubDate>Sat, 07 Feb 2026 09:30:27 +0000</pubDate>
-      <guid>/tags/mahli-beardman/</guid>
+      <guid>//localhost:1313/tags/mahli-beardman/</guid>
       <description></description>
     </item>
     <item>
       <title>Player Updates</title>
-      <link>/tags/player-updates/</link>
+      <link>//localhost:1313/tags/player-updates/</link>
       <pubDate>Sat, 07 Feb 2026 09:30:27 +0000</pubDate>
-      <guid>/tags/player-updates/</guid>
+      <guid>//localhost:1313/tags/player-updates/</guid>
       <description></description>
     </item>
     <item>
       <title>Stress Fracture</title>
-      <link>/tags/stress-fracture/</link>
+      <link>//localhost:1313/tags/stress-fracture/</link>
       <pubDate>Sat, 07 Feb 2026 09:30:27 +0000</pubDate>
-      <guid>/tags/stress-fracture/</guid>
+      <guid>//localhost:1313/tags/stress-fracture/</guid>
       <description></description>
     </item>
     <item>
       <title>Half-Century</title>
-      <link>/tags/half-century/</link>
+      <link>//localhost:1313/tags/half-century/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:58 +0000</pubDate>
-      <guid>/tags/half-century/</guid>
+      <guid>//localhost:1313/tags/half-century/</guid>
       <description></description>
     </item>
     <item>
       <title>Victoria</title>
-      <link>/tags/victoria/</link>
+      <link>//localhost:1313/tags/victoria/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:58 +0000</pubDate>
-      <guid>/tags/victoria/</guid>
+      <guid>//localhost:1313/tags/victoria/</guid>
       <description></description>
     </item>
     <item>
       <title>Centuries</title>
-      <link>/tags/centuries/</link>
+      <link>//localhost:1313/tags/centuries/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:52 +0000</pubDate>
-      <guid>/tags/centuries/</guid>
+      <guid>//localhost:1313/tags/centuries/</guid>
       <description></description>
     </item>
     <item>
       <title>Milestone</title>
-      <link>/tags/milestone/</link>
+      <link>//localhost:1313/tags/milestone/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:52 +0000</pubDate>
-      <guid>/tags/milestone/</guid>
+      <guid>//localhost:1313/tags/milestone/</guid>
       <description></description>
     </item>
     <item>
       <title>Patterson</title>
-      <link>/tags/patterson/</link>
+      <link>//localhost:1313/tags/patterson/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:52 +0000</pubDate>
-      <guid>/tags/patterson/</guid>
+      <guid>//localhost:1313/tags/patterson/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Cricket</title>
-      <link>/tags/test-cricket/</link>
+      <link>//localhost:1313/tags/test-cricket/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:52 +0000</pubDate>
-      <guid>/tags/test-cricket/</guid>
+      <guid>//localhost:1313/tags/test-cricket/</guid>
       <description></description>
     </item>
   </channel>

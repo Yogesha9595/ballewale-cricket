@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Debut on BalleWale Cricket News</title>
-    <link>/tags/debut/</link>
+    <link>//localhost:1313/tags/debut/</link>
     <description>Recent content in Debut on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 10:15:28 +0000</lastBuildDate>
-    <atom:link href="/tags/debut/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/debut/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>England Bat First as Nepal Introduces Sher Malla for Debut Match</title>
-      <link>/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/</link>
+      <link>//localhost:1313/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/</link>
       <pubDate>Sun, 08 Feb 2026 10:15:28 +0000</pubDate>
-      <guid>/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/</guid>
+      <guid>//localhost:1313/posts/england-bat-first-as-nepal-introduces-sher-malla-for-debut-match/</guid>
       <description>England opts to bat first against Nepal, who hand debut to Sher Malla in an exciting international fixture.</description>
     </item>
     <item>
       <title>England Bat First; Nepal Hand Debut to Sher Malla in Thrilling Encounter</title>
-      <link>/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/</link>
+      <link>//localhost:1313/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/</link>
       <pubDate>Sun, 08 Feb 2026 10:00:29 +0000</pubDate>
-      <guid>/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/</guid>
+      <guid>//localhost:1313/posts/england-bat-first-nepal-hand-debut-to-sher-malla-in-thrilling-encounter/</guid>
       <description>England opts to bat first as Nepal introduces Sher Malla for his international debut in a gripping match.</description>
     </item>
     <item>
       <title>England Bat First; Nepal Hands Debut to Sher Malla in Thrilling Encounter</title>
-      <link>/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/</link>
+      <link>//localhost:1313/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/</link>
       <pubDate>Sun, 08 Feb 2026 09:35:28 +0000</pubDate>
-      <guid>/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/</guid>
+      <guid>//localhost:1313/posts/england-bat-first-nepal-hands-debut-to-sher-malla-in-thrilling-encounter/</guid>
       <description>England opts to bat first as Nepal introduces Sher Malla for his international debut in a captivating match.</description>
     </item>
   </channel>

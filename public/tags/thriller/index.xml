@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Thriller on BalleWale Cricket News</title>
-    <link>/tags/thriller/</link>
+    <link>//localhost:1313/tags/thriller/</link>
     <description>Recent content in Thriller on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 14:05:37 +0000</lastBuildDate>
-    <atom:link href="/tags/thriller/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/thriller/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>England Survive Nepal Scare to Clinch Last-Ball Thriller</title>
-      <link>/posts/england-survive-nepal-scare-to-clinch-last-ball-thriller/</link>
+      <link>//localhost:1313/posts/england-survive-nepal-scare-to-clinch-last-ball-thriller/</link>
       <pubDate>Sun, 08 Feb 2026 14:05:37 +0000</pubDate>
-      <guid>/posts/england-survive-nepal-scare-to-clinch-last-ball-thriller/</guid>
+      <guid>//localhost:1313/posts/england-survive-nepal-scare-to-clinch-last-ball-thriller/</guid>
       <description>In a nail-biting encounter, England edged past Nepal in a thrilling last-ball finish, showcasing resilience and skill in the World Cup.</description>
     </item>
   </channel>

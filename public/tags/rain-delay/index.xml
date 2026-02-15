@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rain Delay on BalleWale Cricket News</title>
-    <link>/tags/rain-delay/</link>
+    <link>//localhost:1313/tags/rain-delay/</link>
     <description>Recent content in Rain Delay on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 09:20:29 +0000</lastBuildDate>
-    <atom:link href="/tags/rain-delay/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/rain-delay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doggett&#39;s Season Over as Rain Frustrates New South Wales</title>
-      <link>/posts/doggetts-season-over-as-rain-frustrates-new-south-wales/</link>
+      <link>//localhost:1313/posts/doggetts-season-over-as-rain-frustrates-new-south-wales/</link>
       <pubDate>Sun, 08 Feb 2026 09:20:29 +0000</pubDate>
-      <guid>/posts/doggetts-season-over-as-rain-frustrates-new-south-wales/</guid>
+      <guid>//localhost:1313/posts/doggetts-season-over-as-rain-frustrates-new-south-wales/</guid>
       <description>New South Wales faces a disappointing end to the season as rain washes out crucial matches, marking the end of Doggett&amp;#39;s campaign.</description>
     </item>
   </channel>

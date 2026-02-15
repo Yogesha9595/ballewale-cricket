@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nepal Cricket on BalleWale Cricket News</title>
-    <link>/tags/nepal-cricket/</link>
+    <link>//localhost:1313/tags/nepal-cricket/</link>
     <description>Recent content in Nepal Cricket on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 13:40:42 +0000</lastBuildDate>
-    <atom:link href="/tags/nepal-cricket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/nepal-cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>England Survive Nepal Scare to Clinch Last-Over Thriller</title>
-      <link>/posts/england-survive-nepal-scare-to-clinch-last-over-thriller/</link>
+      <link>//localhost:1313/posts/england-survive-nepal-scare-to-clinch-last-over-thriller/</link>
       <pubDate>Sun, 08 Feb 2026 13:40:42 +0000</pubDate>
-      <guid>/posts/england-survive-nepal-scare-to-clinch-last-over-thriller/</guid>
+      <guid>//localhost:1313/posts/england-survive-nepal-scare-to-clinch-last-over-thriller/</guid>
       <description>In a nail-biting finish, England edged past Nepal in a last-over thriller at the ICC Cricket World Cup, showcasing resilience and skill.</description>
     </item>
     <item>
       <title>England Bat First as Nepal Introduces Sher Malla in International Debut</title>
-      <link>/posts/england-bat-first-as-nepal-introduces-sher-malla-in-international-debut/</link>
+      <link>//localhost:1313/posts/england-bat-first-as-nepal-introduces-sher-malla-in-international-debut/</link>
       <pubDate>Sun, 08 Feb 2026 09:45:27 +0000</pubDate>
-      <guid>/posts/england-bat-first-as-nepal-introduces-sher-malla-in-international-debut/</guid>
+      <guid>//localhost:1313/posts/england-bat-first-as-nepal-introduces-sher-malla-in-international-debut/</guid>
       <description>England opts to bat first against Nepal, featuring Sher Malla making his international debut in a significant match.</description>
     </item>
     <item>
       <title>England Enter the Unknown in Maiden Encounter with Nepal</title>
-      <link>/posts/england-enter-the-unknown-in-maiden-encounter-with-nepal/</link>
+      <link>//localhost:1313/posts/england-enter-the-unknown-in-maiden-encounter-with-nepal/</link>
       <pubDate>Sat, 07 Feb 2026 16:05:33 +0000</pubDate>
-      <guid>/posts/england-enter-the-unknown-in-maiden-encounter-with-nepal/</guid>
+      <guid>//localhost:1313/posts/england-enter-the-unknown-in-maiden-encounter-with-nepal/</guid>
       <description>England prepares for its first-ever match against Nepal, marking a significant moment in international cricket.</description>
     </item>
   </channel>

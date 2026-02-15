@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jatinder Singh on BalleWale Cricket News</title>
-    <link>/tags/jatinder-singh/</link>
+    <link>//localhost:1313/tags/jatinder-singh/</link>
     <description>Recent content in Jatinder Singh on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 12:55:39 +0000</lastBuildDate>
-    <atom:link href="/tags/jatinder-singh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/jatinder-singh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oman&#39;s Jatinder Singh Counts on Warm-Up Game &#39;Psychological Edge&#39; Against Zimbabwe</title>
-      <link>/posts/omans-jatinder-singh-counts-on-warm-up-game-psychological-edge-against-zimbabwe/</link>
+      <link>//localhost:1313/posts/omans-jatinder-singh-counts-on-warm-up-game-psychological-edge-against-zimbabwe/</link>
       <pubDate>Sun, 08 Feb 2026 12:55:39 +0000</pubDate>
-      <guid>/posts/omans-jatinder-singh-counts-on-warm-up-game-psychological-edge-against-zimbabwe/</guid>
+      <guid>//localhost:1313/posts/omans-jatinder-singh-counts-on-warm-up-game-psychological-edge-against-zimbabwe/</guid>
       <description>Oman&amp;#39;s Jatinder Singh believes a warm-up match against Zimbabwe will provide a crucial psychological advantage ahead of their World Cup campaign.</description>
     </item>
   </channel>

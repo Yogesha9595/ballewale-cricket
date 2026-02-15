@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Australia on BalleWale Cricket News</title>
-    <link>/tags/australia/</link>
+    <link>//localhost:1313/tags/australia/</link>
     <description>Recent content in Australia on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 08:20:33 +0000</lastBuildDate>
-    <atom:link href="/tags/australia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/australia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ellis Backs Australia&#39;s Pace Depth to Cover Big-Name Absences Ahead of World Cup</title>
-      <link>/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences-ahead-of-world-cup/</link>
+      <link>//localhost:1313/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences-ahead-of-world-cup/</link>
       <pubDate>Mon, 09 Feb 2026 08:20:33 +0000</pubDate>
-      <guid>/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences-ahead-of-world-cup/</guid>
+      <guid>//localhost:1313/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences-ahead-of-world-cup/</guid>
       <description>Australia&amp;#39;s pace bowling depth is set to shine as Ellis emphasizes readiness to fill gaps left by injured stars in the World Cup.</description>
     </item>
     <item>
       <title>Ellis Backs Australia&#39;s Pace Depth to Cover Big-Name Absences</title>
-      <link>/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences/</link>
+      <link>//localhost:1313/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences/</link>
       <pubDate>Mon, 09 Feb 2026 07:45:33 +0000</pubDate>
-      <guid>/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences/</guid>
+      <guid>//localhost:1313/posts/ellis-backs-australias-pace-depth-to-cover-big-name-absences/</guid>
       <description>Australia&amp;#39;s pace attack remains formidable despite the absence of key players, says fast bowler Nathan Ellis ahead of the World Cup.</description>
     </item>
   </channel>
