@@ -928,3 +928,15 @@ body {
     display: block;
   }
 }
+/* Mobile sticky live ticker */
+@media (max-width: 768px) {
+  .bw-hero {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .bw-score-card {
+    border-radius: 0;
+  }
+}

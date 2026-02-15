@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>World Cup Qualifiers on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/world-cup-qualifiers/</link>
+    <link>/tags/world-cup-qualifiers/</link>
     <description>Recent content in World Cup Qualifiers on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 13:30:41 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/world-cup-qualifiers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/world-cup-qualifiers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zimbabwe Look to Hit the Ground Running Against Oman in ICC World Cup Qualifiers</title>
-      <link>//localhost:1313/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/</link>
+      <link>/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/</link>
       <pubDate>Sun, 08 Feb 2026 13:30:41 +0000</pubDate>
-      <guid>//localhost:1313/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/</guid>
+      <guid>/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-world-cup-qualifiers/</guid>
       <description>Zimbabwe aims for a strong start against Oman in the ICC World Cup Qualifiers, seeking to secure their place in the upcoming World Cup.</description>
     </item>
     <item>
       <title>Zimbabwe Look to Hit the Ground Running Against Oman in ICC Cricket World Cup Qualifiers</title>
-      <link>//localhost:1313/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/</link>
+      <link>/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/</link>
       <pubDate>Sun, 08 Feb 2026 12:15:38 +0000</pubDate>
-      <guid>//localhost:1313/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/</guid>
+      <guid>/posts/zimbabwe-look-to-hit-the-ground-running-against-oman-in-icc-cricket-world-cup-qu/</guid>
       <description>Zimbabwe aims for a strong start against Oman in the ICC Cricket World Cup Qualifiers, seeking to secure a spot in the prestigious tournament.</description>
     </item>
   </channel>

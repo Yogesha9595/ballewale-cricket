@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USA Cricket on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/usa-cricket/</link>
+    <link>/tags/usa-cricket/</link>
     <description>Recent content in USA Cricket on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 11:50:35 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/usa-cricket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/usa-cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spirited USA Seek Pakistan Scalp After Opening Day Heartbreak</title>
-      <link>//localhost:1313/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</link>
+      <link>/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</link>
       <pubDate>Mon, 09 Feb 2026 11:50:35 +0000</pubDate>
-      <guid>//localhost:1313/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</guid>
+      <guid>/posts/spirited-usa-seek-pakistan-scalp-after-opening-day-heartbreak/</guid>
       <description>The USA cricket team aims for redemption against Pakistan following a tough opening day in the World Cup.</description>
     </item>
   </channel>

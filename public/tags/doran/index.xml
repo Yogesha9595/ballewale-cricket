@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Doran on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/doran/</link>
+    <link>/tags/doran/</link>
     <description>Recent content in Doran on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 08:10:28 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/doran/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/doran/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Herculean Bell and Doran&#39;s Stunner Seal Thriller for Tasmania</title>
-      <link>//localhost:1313/posts/herculean-bell-and-dorans-stunner-seal-thriller-for-tasmania/</link>
+      <link>/posts/herculean-bell-and-dorans-stunner-seal-thriller-for-tasmania/</link>
       <pubDate>Sun, 08 Feb 2026 08:10:28 +0000</pubDate>
-      <guid>//localhost:1313/posts/herculean-bell-and-dorans-stunner-seal-thriller-for-tasmania/</guid>
+      <guid>/posts/herculean-bell-and-dorans-stunner-seal-thriller-for-tasmania/</guid>
       <description>Tasmania clinches a nail-biting victory as Bell and Doran shine in a thrilling match, showcasing exceptional cricketing prowess.</description>
     </item>
   </channel>

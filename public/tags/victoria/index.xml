@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Victoria on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/victoria/</link>
+    <link>/tags/victoria/</link>
     <description>Recent content in Victoria on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 09:04:58 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/victoria/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/victoria/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brasher&#39;s Defiant Half-Century Keeps Victoria Alive After Straker&#39;s Strikes</title>
-      <link>//localhost:1313/posts/brashers-defiant-half-century-keeps-victoria-alive-after-strakers-strikes/</link>
+      <link>/posts/brashers-defiant-half-century-keeps-victoria-alive-after-strakers-strikes/</link>
       <pubDate>Sat, 07 Feb 2026 09:04:58 +0000</pubDate>
-      <guid>//localhost:1313/posts/brashers-defiant-half-century-keeps-victoria-alive-after-strakers-strikes/</guid>
+      <guid>/posts/brashers-defiant-half-century-keeps-victoria-alive-after-strakers-strikes/</guid>
       <description>Victoria&amp;#39;s resilience shines through as Brasher&amp;#39;s fifty counters Straker&amp;#39;s bowling on a tense day of domestic cricket.</description>
     </item>
   </channel>

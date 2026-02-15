@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spin Bowling on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/spin-bowling/</link>
+    <link>/tags/spin-bowling/</link>
     <description>Recent content in Spin Bowling on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 00:15:33 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/spin-bowling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/spin-bowling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kamindu Mendis and Kusal Mendis Shine as Sri Lanka Triumphs with Spin Mastery</title>
-      <link>//localhost:1313/posts/kamindu-mendis-and-kusal-mendis-shine-as-sri-lanka-triumphs-with-spin-mastery/</link>
+      <link>/posts/kamindu-mendis-and-kusal-mendis-shine-as-sri-lanka-triumphs-with-spin-mastery/</link>
       <pubDate>Mon, 09 Feb 2026 00:15:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/kamindu-mendis-and-kusal-mendis-shine-as-sri-lanka-triumphs-with-spin-mastery/</guid>
+      <guid>/posts/kamindu-mendis-and-kusal-mendis-shine-as-sri-lanka-triumphs-with-spin-mastery/</guid>
       <description>Kamindu Mendis and Kusal Mendis lead Sri Lanka to victory with impressive performances, showcasing spinners&amp;#39; dominance in the match.</description>
     </item>
   </channel>

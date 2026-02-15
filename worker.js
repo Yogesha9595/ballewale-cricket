@@ -21,7 +21,7 @@ export default {
 };
 
 ////////////////////////////////////////////////////////
-// LIVE SCORE API
+// LIVE SCORE API (STABLE VERSION)
 ////////////////////////////////////////////////////////
 async function getLiveScores(env, ctx) {
   const cache = caches.default;
@@ -32,37 +32,54 @@ async function getLiveScores(env, ctx) {
 
   try {
     const apiRes = await fetch(
-      `https://api.cricapi.com/v1/currentMatches?apikey=${env.CRICKET_API_KEY}`
+      `https://api.cricapi.com/v1/currentMatches?apikey=${env.CRICKET_API_KEY}&offset=0`
     );
     const data = await apiRes.json();
 
-    const matches = (data.data || []).slice(0, 5).map(match => ({
-      team1: match.teams?.[0] || "",
-      team2: match.teams?.[1] || "",
-      score1: match.score?.[0]
-        ? `${match.score[0].r}/${match.score[0].w}`
-        : "-",
-      score2: match.score?.[1]
-        ? `${match.score[1].r}/${match.score[1].w}`
-        : "-",
-      status: match.status || "LIVE"
-    }));
+    const matches = (data.data || [])
+      .filter(m => m.status && m.status.toLowerCase().includes("live"))
+      .slice(0, 3)
+      .map(match => ({
+        team1: match.teams?.[0] || "Team A",
+        team2: match.teams?.[1] || "Team B",
+
+        score1: match.score?.[0]
+          ? `${match.score[0].r}/${match.score[0].w}`
+          : "-",
+
+        score2: match.score?.[1]
+          ? `${match.score[1].r}/${match.score[1].w}`
+          : "-",
+
+        overs: match.score?.[0]?.o
+          ? `${match.score[0].o} ov`
+          : "",
+
+        status: match.status || "LIVE",
+        commentary: match.status || "Match in progress"
+      }));
 
     const response = new Response(JSON.stringify({ matches }), {
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=20"
+        "Cache-Control": "public, max-age=15"
       }
     });
 
     ctx.waitUntil(cache.put(cacheKey, response.clone()));
     return response;
-  } catch {
-    return new Response(JSON.stringify({ matches: [] }), {
-      headers: { "Content-Type": "application/json" }
-    });
+
+  } catch (err) {
+    return new Response(
+      JSON.stringify({
+        matches: [],
+        error: "Live data unavailable"
+      }),
+      { headers: { "Content-Type": "application/json" } }
+    );
   }
 }
+
 
 ////////////////////////////////////////////////////////
 // MAIN AUTOMATION

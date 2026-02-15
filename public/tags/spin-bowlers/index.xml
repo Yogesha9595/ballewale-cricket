@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spin Bowlers on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/spin-bowlers/</link>
+    <link>/tags/spin-bowlers/</link>
     <description>Recent content in Spin Bowlers on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Feb 2026 05:40:29 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/spin-bowlers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/spin-bowlers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Afghanistan Opt for Spin-heavy Line-up Against New Zealand in World Cup Clash</title>
-      <link>//localhost:1313/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</link>
+      <link>/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</link>
       <pubDate>Sun, 08 Feb 2026 05:40:29 +0000</pubDate>
-      <guid>//localhost:1313/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</guid>
+      <guid>/posts/afghanistan-opt-for-spin-heavy-line-up-against-new-zealand-in-world-cup-clash/</guid>
       <description>Afghanistan&amp;#39;s strategic decision to field a spin-dominant XI against New Zealand highlights their tactical approach in the World Cup.</description>
     </item>
   </channel>

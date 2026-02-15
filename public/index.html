@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.155.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.155.2">
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
   <meta name="description" content="Latest cricket news, live scores, match analysis, and breaking cricket updates.">
 
   
-  <link rel="canonical" href="//localhost:1313/">
+  <link rel="canonical" href="/">
 
   
   <link rel="icon" href="/favicon.ico">
@@ -26,7 +26,7 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="BalleWale Cricket News">
   <meta property="og:description" content="">
-  <meta property="og:url" content="//localhost:1313/">
+  <meta property="og:url" content="/">
   <meta property="og:site_name" content="BalleWale">
 
   
@@ -80,7 +80,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/ballewale.min.edec149b0a29cfd7f2e06cf44e4bf0034625ef6e5108151976c735d94d09dae7.css">
+  <link rel="stylesheet" href="/css/ballewale.min.042bb5c17d020c22ad09f9ecb1307a1cc5d6b1b9e2de27b742792d64383530bf.css">
 </head>
 
 <body>
@@ -786,35 +786,60 @@ function toggleMenu() {
   
   <script>
   async function loadLiveScore() {
-    const card = document.getElementById("live-score");
-    if (!card) return;
+    const team1Name = document.getElementById("team1-name");
+    const team1Score = document.getElementById("team1-score");
+    const team2Name = document.getElementById("team2-name");
+    const team2Score = document.getElementById("team2-score");
+    const matchStatus = document.getElementById("match-status");
+    const matchOvers = document.getElementById("match-overs");
+    const commentary = document.getElementById("live-commentary");
+    const flag1 = document.getElementById("team1-flag");
+    const flag2 = document.getElementById("team2-flag");
+
+    
+    if (!team1Name || !team2Name) return;
 
     try {
-      const res = await fetch("/api/live.json");
+      const res = await fetch("/api/live.json", { cache: "no-store" });
       const data = await res.json();
 
-      if (!data.matches || !data.matches.length) return;
+      if (!data.matches || data.matches.length === 0) {
+        if (commentary) {
+          commentary.textContent = "No live matches right now";
+        }
+        return;
+      }
 
       const match = data.matches[0];
 
-      document.getElementById("team1-name").textContent = match.team1;
-      document.getElementById("team1-score").textContent = match.score1;
+      if (team1Name) team1Name.textContent = match.team1 || "TEAM A";
+      if (team1Score) team1Score.textContent = match.score1 || "-";
 
-      document.getElementById("team2-name").textContent = match.team2;
-      document.getElementById("team2-score").textContent = match.score2;
+      if (team2Name) team2Name.textContent = match.team2 || "TEAM B";
+      if (team2Score) team2Score.textContent = match.score2 || "-";
 
-      document.getElementById("match-status").textContent = match.status;
-      document.getElementById("match-overs").textContent = match.overs;
+      if (matchStatus) matchStatus.textContent = match.status || "LIVE";
+      if (matchOvers) matchOvers.textContent = match.overs || "";
+
+      if (commentary && match.commentary) {
+        commentary.textContent = match.commentary;
+      }
 
       
-      document.getElementById("team1-flag").src =
-        "https://flagcdn.com/w40/" + match.flag1 + ".png";
+      if (flag1 && match.flag1) {
+        flag1.src = "https://flagcdn.com/w40/" + match.flag1 + ".png";
+        flag1.alt = match.team1;
+      }
 
-      document.getElementById("team2-flag").src =
-        "https://flagcdn.com/w40/" + match.flag2 + ".png";
+      if (flag2 && match.flag2) {
+        flag2.src = "https://flagcdn.com/w40/" + match.flag2 + ".png";
+        flag2.alt = match.team2;
+      }
 
     } catch (e) {
-      console.log("Live score not available");
+      if (commentary) {
+        commentary.textContent = "Live score unavailable";
+      }
     }
   }
 
@@ -822,7 +847,7 @@ function toggleMenu() {
   loadLiveScore();
 
   
-  setInterval(loadLiveScore, 30000);
+  setInterval(loadLiveScore, 15000);
   </script>
   
 

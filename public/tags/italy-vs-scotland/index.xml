@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Italy vs Scotland on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/italy-vs-scotland/</link>
+    <link>/tags/italy-vs-scotland/</link>
     <description>Recent content in Italy vs Scotland on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 06:55:33 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/italy-vs-scotland/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/italy-vs-scotland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Italy Opt to Bowl First as Scotland Include Brad Wheal in Squad</title>
-      <link>//localhost:1313/posts/italy-opt-to-bowl-first-as-scotland-include-brad-wheal-in-squad/</link>
+      <link>/posts/italy-opt-to-bowl-first-as-scotland-include-brad-wheal-in-squad/</link>
       <pubDate>Mon, 09 Feb 2026 06:55:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/italy-opt-to-bowl-first-as-scotland-include-brad-wheal-in-squad/</guid>
+      <guid>/posts/italy-opt-to-bowl-first-as-scotland-include-brad-wheal-in-squad/</guid>
       <description>Italy has chosen to bowl first against Scotland, who have named Brad Wheal in their playing XI for the match.</description>
     </item>
   </channel>

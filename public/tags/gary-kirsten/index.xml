@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gary Kirsten on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/gary-kirsten/</link>
+    <link>/tags/gary-kirsten/</link>
     <description>Recent content in Gary Kirsten on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 13:25:29 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/gary-kirsten/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gary-kirsten/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Namibia Bank on Kirsten&#39;s Experience of Indian Conditions as They Begin T20 World Cup Campaign</title>
-      <link>//localhost:1313/posts/namibia-bank-on-kirstens-experience-of-indian-conditions-as-they-begin-t20-world/</link>
+      <link>/posts/namibia-bank-on-kirstens-experience-of-indian-conditions-as-they-begin-t20-world/</link>
       <pubDate>Mon, 09 Feb 2026 13:25:29 +0000</pubDate>
-      <guid>//localhost:1313/posts/namibia-bank-on-kirstens-experience-of-indian-conditions-as-they-begin-t20-world/</guid>
+      <guid>/posts/namibia-bank-on-kirstens-experience-of-indian-conditions-as-they-begin-t20-world/</guid>
       <description>Namibia looks to leverage Gary Kirsten&amp;#39;s expertise in Indian conditions as they kick off their T20 World Cup journey.</description>
     </item>
   </channel>

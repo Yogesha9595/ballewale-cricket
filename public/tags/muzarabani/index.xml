@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Muzarabani on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/muzarabani/</link>
+    <link>/tags/muzarabani/</link>
     <description>Recent content in Muzarabani on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 13:00:30 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/muzarabani/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/muzarabani/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Muzarabani and Ngarava Lead Zimbabwe to Victory Over Oman</title>
-      <link>//localhost:1313/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/</link>
+      <link>/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/</link>
       <pubDate>Mon, 09 Feb 2026 13:00:30 +0000</pubDate>
-      <guid>//localhost:1313/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/</guid>
+      <guid>/posts/muzarabani-and-ngarava-lead-zimbabwe-to-victory-over-oman/</guid>
       <description>Zimbabwe&amp;#39;s Muzarabani and Ngarava shine in a commanding win against Oman, showcasing their bowling prowess in the international cricket arena.</description>
     </item>
     <item>
       <title>Muzarabani Returns as Zimbabwe Opt to Bowl Against Oman in World Cup Qualifier</title>
-      <link>//localhost:1313/posts/muzarabani-returns-as-zimbabwe-opt-to-bowl-against-oman-in-world-cup-qualifier/</link>
+      <link>/posts/muzarabani-returns-as-zimbabwe-opt-to-bowl-against-oman-in-world-cup-qualifier/</link>
       <pubDate>Mon, 09 Feb 2026 09:30:39 +0000</pubDate>
-      <guid>//localhost:1313/posts/muzarabani-returns-as-zimbabwe-opt-to-bowl-against-oman-in-world-cup-qualifier/</guid>
+      <guid>/posts/muzarabani-returns-as-zimbabwe-opt-to-bowl-against-oman-in-world-cup-qualifier/</guid>
       <description>Zimbabwe&amp;#39;s Tendai Muzarabani makes a comeback as they choose to bowl first against Oman in the World Cup Qualifier match.</description>
     </item>
   </channel>

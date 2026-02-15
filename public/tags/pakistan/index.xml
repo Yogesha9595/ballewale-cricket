@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pakistan on BalleWale Cricket News</title>
-    <link>//localhost:1313/tags/pakistan/</link>
+    <link>/tags/pakistan/</link>
     <description>Recent content in Pakistan on BalleWale Cricket News</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Feb 2026 12:45:34 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/pakistan/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/pakistan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>India-Pakistan: Hope Builds That February 15 Fixture Will Go Ahead</title>
-      <link>//localhost:1313/posts/india-pakistan-hope-builds-that-february-15-fixture-will-go-ahead/</link>
+      <link>/posts/india-pakistan-hope-builds-that-february-15-fixture-will-go-ahead/</link>
       <pubDate>Mon, 09 Feb 2026 12:45:34 +0000</pubDate>
-      <guid>//localhost:1313/posts/india-pakistan-hope-builds-that-february-15-fixture-will-go-ahead/</guid>
+      <guid>/posts/india-pakistan-hope-builds-that-february-15-fixture-will-go-ahead/</guid>
       <description>As preparations for the February 15 fixture between India and Pakistan intensify, officials express optimism for a successful match.</description>
     </item>
     <item>
       <title>&#39;We should have potentially sent Pakistan home after today&#39; - van Meekeren rues Netherlands&#39; close loss</title>
-      <link>//localhost:1313/posts/we-should-have-potentially-sent-pakistan-home-after-today-van-meekeren-rues-neth/</link>
+      <link>/posts/we-should-have-potentially-sent-pakistan-home-after-today-van-meekeren-rues-neth/</link>
       <pubDate>Sat, 07 Feb 2026 14:30:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/we-should-have-potentially-sent-pakistan-home-after-today-van-meekeren-rues-neth/</guid>
+      <guid>/posts/we-should-have-potentially-sent-pakistan-home-after-today-van-meekeren-rues-neth/</guid>
       <description>Netherlands&amp;#39; van Meekeren reflects on a narrow defeat to Pakistan, highlighting missed opportunities in their World Cup clash.</description>
     </item>
   </channel>
