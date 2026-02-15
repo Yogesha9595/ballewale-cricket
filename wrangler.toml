@@ -2,3 +2,9 @@ name = "ballewale-rss-ai"
 main = "worker.js"
 compatibility_date = "2026-02-15"
 workers_dev = true
+
+[vars]
+GITHUB_REPO = "Yogesha9595/ballewale-cricket"
+
+[triggers]
+crons = ["*/5 * * * *"]
