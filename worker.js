@@ -25,53 +25,50 @@ export default {
 ////////////////////////////////////////////////////////
 async function getLiveScores(env, ctx) {
   const cache = caches.default;
-  const cacheKey = new Request("https://cache/live-score-single");
+  const cacheKey = new Request("https://cache/live-scores");
 
-  // 1️⃣ Serve cached data first (prevents empty flashes)
   const cached = await cache.match(cacheKey);
   if (cached) return cached;
 
   try {
     const res = await fetch(
-      `https://api.cricapi.com/v1/currentMatches?apikey=${env.CRICKET_API_KEY}&offset=0`
+      `https://api.sportmonks.com/v3/cricket/livescores?api_token=${env.SPORTMONKS_KEY}`
     );
 
-    const json = await res.json();
-    const matches = json?.data || [];
+    const data = await res.json();
 
-    if (!matches.length) {
-      return jsonResponse({ matches: [] }, 15);
-    }
-
-    // 2️⃣ Prefer India / Pakistan match
-    let match =
-      matches.find(m =>
-        (m.teams || []).some(t =>
-          /india|pakistan/i.test(t)
-        )
-      ) || matches[0];
-
-    const normalized = {
-      team1: match.teams?.[0] || "Team A",
-      team2: match.teams?.[1] || "Team B",
-      score1: match.score?.[0]
-        ? `${match.score[0].r}/${match.score[0].w}`
+    const matches = (data.data || []).slice(0, 5).map(m => ({
+      team1: m.localteam?.name || "Team A",
+      team2: m.visitorteam?.name || "Team B",
+      score1: m.runs
+        ? `${m.runs[0]?.score || "-"}`
         : "-",
-      score2: match.score?.[1]
-        ? `${match.score[1].r}/${match.score[1].w}`
+      score2: m.runs?.[1]
+        ? `${m.runs[1].score}`
         : "-",
-      overs: match.score?.[0]?.o ? `${match.score[0].o} ov` : "",
-      status: match.status || "Live",
-    };
+      status: m.status || "LIVE",
+      overs: m.runs?.[0]?.overs
+        ? `${m.runs[0].overs} ov`
+        : ""
+    }));
 
-    const response = jsonResponse({ matches: [normalized] }, 20);
+    const response = new Response(JSON.stringify({ matches }), {
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": "public, max-age=20"
+      }
+    });
+
     ctx.waitUntil(cache.put(cacheKey, response.clone()));
     return response;
 
   } catch (err) {
-    return jsonResponse({ matches: [] }, 10);
+    return new Response(JSON.stringify({ matches: [] }), {
+      headers: { "Content-Type": "application/json" }
+    });
   }
 }
+
 
 
 ////////////////////////////////////////////////////////
