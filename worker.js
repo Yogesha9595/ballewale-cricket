@@ -25,58 +25,51 @@ export default {
 ////////////////////////////////////////////////////////
 async function getLiveScores(env, ctx) {
   const cache = caches.default;
-  const cacheKey = new Request("https://cache/live-scores");
+  const cacheKey = new Request("https://cache/live-score-single");
 
+  // 1️⃣ Serve cached data first (prevents empty flashes)
   const cached = await cache.match(cacheKey);
   if (cached) return cached;
 
   try {
-    const apiRes = await fetch(
+    const res = await fetch(
       `https://api.cricapi.com/v1/currentMatches?apikey=${env.CRICKET_API_KEY}&offset=0`
     );
-    const data = await apiRes.json();
 
-    const matches = (data.data || [])
-      .filter(m => m.status && m.status.toLowerCase().includes("live"))
-      .slice(0, 3)
-      .map(match => ({
-        team1: match.teams?.[0] || "Team A",
-        team2: match.teams?.[1] || "Team B",
+    const json = await res.json();
+    const matches = json?.data || [];
 
-        score1: match.score?.[0]
-          ? `${match.score[0].r}/${match.score[0].w}`
-          : "-",
+    if (!matches.length) {
+      return jsonResponse({ matches: [] }, 15);
+    }
 
-        score2: match.score?.[1]
-          ? `${match.score[1].r}/${match.score[1].w}`
-          : "-",
+    // 2️⃣ Prefer India / Pakistan match
+    let match =
+      matches.find(m =>
+        (m.teams || []).some(t =>
+          /india|pakistan/i.test(t)
+        )
+      ) || matches[0];
 
-        overs: match.score?.[0]?.o
-          ? `${match.score[0].o} ov`
-          : "",
+    const normalized = {
+      team1: match.teams?.[0] || "Team A",
+      team2: match.teams?.[1] || "Team B",
+      score1: match.score?.[0]
+        ? `${match.score[0].r}/${match.score[0].w}`
+        : "-",
+      score2: match.score?.[1]
+        ? `${match.score[1].r}/${match.score[1].w}`
+        : "-",
+      overs: match.score?.[0]?.o ? `${match.score[0].o} ov` : "",
+      status: match.status || "Live",
+    };
 
-        status: match.status || "LIVE",
-        commentary: match.status || "Match in progress"
-      }));
-
-    const response = new Response(JSON.stringify({ matches }), {
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=15"
-      }
-    });
-
+    const response = jsonResponse({ matches: [normalized] }, 20);
     ctx.waitUntil(cache.put(cacheKey, response.clone()));
     return response;
 
   } catch (err) {
-    return new Response(
-      JSON.stringify({
-        matches: [],
-        error: "Live data unavailable"
-      }),
-      { headers: { "Content-Type": "application/json" } }
-    );
+    return jsonResponse({ matches: [] }, 10);
   }
 }
 

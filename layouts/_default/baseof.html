@@ -27,87 +27,55 @@
        LIVE SCORE SCRIPT
        FINAL PRODUCTION VERSION
   ========================= -->
-  {{ if .IsHome }}
-  <script>
-  (function () {
-    const API_URL = "https://ballewale-rss-ai.yogesha9595.workers.dev/api/live.json";
-    const REFRESH_INTERVAL = 15000;
+{{ if .IsHome }}
+<script>
+(async function () {
+  const $ = id => document.getElementById(id);
 
-    function setText(id, value) {
-      const el = document.getElementById(id);
-      if (el) el.textContent = value;
-    }
+  const team1 = $("team1-name");
+  const team2 = $("team2-name");
+  const score1 = $("team1-score");
+  const score2 = $("team2-score");
+  const status = $("match-status");
+  const overs = $("match-overs");
+  const commentary = $("live-commentary");
 
-    function setFlag(id, code, alt) {
-      const img = document.getElementById(id);
-      if (!img || !code) return;
-      img.src = "https://flagcdn.com/w40/" + code + ".png";
-      img.alt = alt || "";
-    }
+  if (!team1 || !team2) return;
 
-    function showNoMatch() {
-      setText("live-commentary", "No live matches right now");
-    }
+  async function load() {
+    try {
+      const res = await fetch(
+        "https://ballewale-rss-ai.yogesha9595.workers.dev/api/live.json",
+        { cache: "no-store" }
+      );
+      const data = await res.json();
 
-    function showOffline() {
-      setText("live-commentary", "Live score temporarily unavailable");
-    }
-
-    async function loadLiveScore() {
-      // Exit safely if scoreboard not on page
-      const exists = document.getElementById("team1-name");
-      if (!exists) return;
-
-      try {
-        const res = await fetch(API_URL, { cache: "no-store" });
-        if (!res.ok) throw new Error("API error");
-
-        const data = await res.json();
-        if (!data.matches || data.matches.length === 0) {
-          showNoMatch();
-          return;
-        }
-
-        // Prefer India or Pakistan match
-        let match = data.matches.find(m => {
-          const teams = (m.team1 + " " + m.team2).toLowerCase();
-          return teams.includes("india") || teams.includes("pakistan");
-        });
-
-        if (!match) match = data.matches[0];
-
-        // Update scoreboard
-        setText("team1-name", match.team1 || "TEAM A");
-        setText("team1-score", match.score1 || "-");
-
-        setText("team2-name", match.team2 || "TEAM B");
-        setText("team2-score", match.score2 || "-");
-
-        setText("match-status", match.status || "LIVE");
-        setText("match-overs", match.overs || "");
-
-        setFlag("team1-flag", match.flag1, match.team1);
-        setFlag("team2-flag", match.flag2, match.team2);
-
-        setText(
-          "live-commentary",
-          match.commentary || match.status || "Live match in progress"
-        );
-
-      } catch (err) {
-        console.warn("Scoreboard fallback:", err);
-        showOffline();
+      if (!data.matches || !data.matches.length) {
+        commentary.textContent = "No live match at the moment";
+        return;
       }
+
+      const m = data.matches[0];
+
+      team1.textContent = m.team1;
+      team2.textContent = m.team2;
+      score1.textContent = m.score1 || "-";
+      score2.textContent = m.score2 || "-";
+      status.textContent = m.status || "Live";
+      overs.textContent = m.overs || "";
+      commentary.textContent = m.status || "Match in progress";
+
+    } catch {
+      commentary.textContent = "Live score temporarily unavailable";
     }
+  }
 
-    // Initial load
-    loadLiveScore();
+  load();
+  setInterval(load, 20000); // SAFE for free plan
+})();
+</script>
+{{ end }}
 
-    // Auto refresh
-    setInterval(loadLiveScore, REFRESH_INTERVAL);
-  })();
-  </script>
-  {{ end }}
 
 </body>
 </html>
