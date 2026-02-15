@@ -25,76 +25,87 @@
 
   <!-- =========================
        LIVE SCORE SCRIPT
-       (Production-safe version)
+       FINAL PRODUCTION VERSION
   ========================= -->
   {{ if .IsHome }}
   <script>
-  async function loadLiveScore() {
-    const team1Name = document.getElementById("team1-name");
-    const team1Score = document.getElementById("team1-score");
-    const team2Name = document.getElementById("team2-name");
-    const team2Score = document.getElementById("team2-score");
-    const matchStatus = document.getElementById("match-status");
-    const matchOvers = document.getElementById("match-overs");
-    const commentary = document.getElementById("live-commentary");
+  (function () {
+    const API_URL = "https://ballewale-rss-ai.yogesha9595.workers.dev/api/live.json";
+    const REFRESH_INTERVAL = 15000;
 
-    // Exit if scoreboard not on page
-    if (!team1Name || !team2Name) return;
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value;
+    }
 
-    try {
-      const res = await fetch(
-        "https://ballewale-rss-ai.yogesha9595.workers.dev/api/live.json",
-        { cache: "no-store" }
-      );
-      const data = await res.json();
+    function setFlag(id, code, alt) {
+      const img = document.getElementById(id);
+      if (!img || !code) return;
+      img.src = "https://flagcdn.com/w40/" + code + ".png";
+      img.alt = alt || "";
+    }
 
-      if (!data.matches || data.matches.length === 0) {
-        if (commentary) {
-          commentary.textContent = "No live matches right now";
+    function showNoMatch() {
+      setText("live-commentary", "No live matches right now");
+    }
+
+    function showOffline() {
+      setText("live-commentary", "Live score temporarily unavailable");
+    }
+
+    async function loadLiveScore() {
+      // Exit safely if scoreboard not on page
+      const exists = document.getElementById("team1-name");
+      if (!exists) return;
+
+      try {
+        const res = await fetch(API_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("API error");
+
+        const data = await res.json();
+        if (!data.matches || data.matches.length === 0) {
+          showNoMatch();
+          return;
         }
-        return;
-      }
 
-      // Prefer India or Pakistan match if present
-      let match = data.matches[0];
-      const preferred = data.matches.find(m =>
-        (m.team1 && m.team1.toLowerCase().includes("india")) ||
-        (m.team2 && m.team2.toLowerCase().includes("india")) ||
-        (m.team1 && m.team1.toLowerCase().includes("pakistan")) ||
-        (m.team2 && m.team2.toLowerCase().includes("pakistan"))
-      );
-      if (preferred) match = preferred;
+        // Prefer India or Pakistan match
+        let match = data.matches.find(m => {
+          const teams = (m.team1 + " " + m.team2).toLowerCase();
+          return teams.includes("india") || teams.includes("pakistan");
+        });
 
-      team1Name.textContent = match.team1 || "TEAM A";
-      team1Score.textContent = match.score1 || "-";
+        if (!match) match = data.matches[0];
 
-      team2Name.textContent = match.team2 || "TEAM B";
-      team2Score.textContent = match.score2 || "-";
+        // Update scoreboard
+        setText("team1-name", match.team1 || "TEAM A");
+        setText("team1-score", match.score1 || "-");
 
-      if (matchStatus) {
-        matchStatus.textContent = match.status || "LIVE";
-      }
+        setText("team2-name", match.team2 || "TEAM B");
+        setText("team2-score", match.score2 || "-");
 
-      if (matchOvers) {
-        matchOvers.textContent = match.overs || "";
-      }
+        setText("match-status", match.status || "LIVE");
+        setText("match-overs", match.overs || "");
 
-      if (commentary) {
-        commentary.textContent = match.status || "Live match in progress";
-      }
+        setFlag("team1-flag", match.flag1, match.team1);
+        setFlag("team2-flag", match.flag2, match.team2);
 
-    } catch (e) {
-      if (commentary) {
-        commentary.textContent = "Live score unavailable";
+        setText(
+          "live-commentary",
+          match.commentary || match.status || "Live match in progress"
+        );
+
+      } catch (err) {
+        console.warn("Scoreboard fallback:", err);
+        showOffline();
       }
     }
-  }
 
-  // Initial load
-  loadLiveScore();
+    // Initial load
+    loadLiveScore();
 
-  // Refresh every 15 seconds
-  setInterval(loadLiveScore, 15000);
+    // Auto refresh
+    setInterval(loadLiveScore, REFRESH_INTERVAL);
+  })();
   </script>
   {{ end }}
 
